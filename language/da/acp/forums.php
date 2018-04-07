@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 	'FORUM_EDIT_EXPLAIN'				=> 'Formularen herunder lader dig tilpasse dette forum. Bemærk venligst at indstillinger for redaktører og indlægstæller sættes via forumtilladelserne for hver bruger eller brugergruppe.',
 	'FORUM_IMAGE'						=> 'Forumbillede',
 	'FORUM_IMAGE_EXPLAIN'				=> 'Placering, relativt til phpBB-rodmappen, af et ekstra billede der skal tilknyttes dette forum.',
-	'FORUM_IMAGE_NO_EXIST'			=> 'Det indtastede forumbillede eksisterer ikke', 
+	'FORUM_IMAGE_NO_EXIST'			=> 'Det indtastede forumbillede eksisterer ikke',
 	'FORUM_LINK_EXPLAIN'				=> 'Fuld URL (inklusiv protokol, for eksempel <samp>http://</samp>) til det sted brugeren ledes hen ved klik på dette forum, for eksempel <samp>http://www.phpbb.com/</samp>.',
 	'FORUM_LINK_TRACK'					=> 'Registrer linkhenvisninger',
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Tæller antallet af gange der er blevet klikket på et forumlink.',
@@ -124,7 +124,7 @@ $lang = array_merge($lang, array(
 	'FORUM_TOPICS_PAGE'					=> 'Emner pr. side',
 	'FORUM_TOPICS_PAGE_EXPLAIN'			=> 'Hvis ikke nul vil denne værdi tilsidesætte standardindstillingen for antal emner pr. side.',
 	'FORUM_TYPE'						=> 'Forumtype',
-	'FORUM_UPDATED'						=> 'Foruminformation er korrekt opdateret',
+	'FORUM_UPDATED'						=> 'Foruminformation er korrekt opdateret.',
 
 	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'	=> 'Du forsøger at ændre et forum, der indeholder underfora, til et link. Flyt venligst alle underfora fra dette forum til et andet før du fortsætter, undlades dette vil du ikke længere være i stand til at se de tilknyttede underfora.',
 

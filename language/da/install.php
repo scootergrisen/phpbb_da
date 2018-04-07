@@ -1,22 +1,22 @@
 <?php
 /**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* @modified and translated by Olympus DK Team
-* @version $Id: install.php 592 2018-01-20 08:38:08Z jan_skovsgaard $
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-*
-*/
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * @modified and translated by Olympus DK Team
+ * @version $Id: install.php 592 2018-01-20 08:38:08Z jan_skovsgaard $
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -62,11 +62,11 @@ $lang = array_merge($lang, array(
 	'INSTALL_INTRO_BODY'	=> 'Med denne funktion er det muligt at installere phpBB3 på din server.</p><p>For at fortsætte skal du have dine databaseindstillinger klarlagt. Hvis du ikke kender dine databaseindstillinger, kontakt da venligst din vært. Uden disse kan du ikke fortsætte installationen. Du skal bruge følgende informationer:</p>
 	
 	<ul>
-	<li>Databasetype - databasen du vil bruge.</li>
-	<li>Databaseserverens værtsnavn eller DSN - adressen på serveren.</li>
-	<li>Databaseserverens port - den port hvorpå phpBB3 skal kommunikere med serveren (denne er som regel helt unødvendig).</li>
-	<li>Databasenavnet - databasens navn på ovennævnte server.</li>
-	<li>Brugernavnet og adgangskoden til databasen - loginoplysninger for at få adgang til databasen.</li>
+		<li>Databasetype - databasen du vil bruge.</li>
+		<li>Databaseserverens værtsnavn eller DSN - adressen på serveren.</li>
+		<li>Databaseserverens port - den port hvorpå phpBB3 skal kommunikere med serveren (denne er som regel helt unødvendig).</li>
+		<li>Databasenavnet - databasens navn på ovennævnte server.</li>
+		<li>Brugernavnet og adgangskoden til databasen - loginoplysninger for at få adgang til databasen.</li>
 	</ul>
 
 	<p><strong>Bemærk:</strong> Hvis du ønsker at anvend SQLite, skal du indtaste den fulde sti til din databasefil i DSN-feltet, og efterlade felterne for brugernavn og adgangskode tomme. Af hensyn til sikkerheden bør du sikre dig, at man ikke kan få direkte adgang til databasefilen fra Internettet.</p>
@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_USERNAME_EXPLAIN'	=> 'Vælg et brugernavn på mindst 3 og højst 20 tegn.',
 
 	// Errors
-	'INST_ERR_EMAIL_INVALID'		=> 'Den indtastede email-adresse er ugyldig.',
+	'INST_ERR_EMAIL_INVALID'		=> 'Den indtastede e-mailadresse er ugyldig.',
 	'INST_ERR_PASSWORD_MISMATCH'	=> 'De indtastede adgangskoder matchede ikke.',
 	'INST_ERR_PASSWORD_TOO_LONG'	=> 'Den indtastede adgangskode er for langt. Den maksimale længde er 30 tegn.',
 	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'Den indtastede adgangskode er for kort. Den minimale længde er 6 tegn.',
@@ -214,13 +214,14 @@ $lang = array_merge($lang, array(
 	//
 	// Email data
 	//
-	'EMAIL_CONFIG'	=> 'Emailkonfiguration',
+	'EMAIL_CONFIG'	=> 'E-mailkonfiguration',
 
 	// Package info
 	'PACKAGE_VERSION'				=> 'Pakke version installeret',
 	'UPDATE_INCOMPLETE'				=> 'Din phpBB-installation blev ikke korrekt opdateret.',
 	'UPDATE_INCOMPLETE_MORE'		=> 'Læs venligst nedenstående information, for at løse denne fejl.',
 	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Ukomplet opdatering</h1>
+
 		<p>Vi bemærkede at den seneste opdatering af din phpBB-installation ikke blev fuldført. Klik på <a href="%1$s" title="%1$s">databaseopdatering</a>, og kontroller at <em>Opdater kun database</em> er valgt, klik herefter på <strong>Indsend</strong>. Husk at slette "install"-mappen når databasen er korrekt opdateret.</p>',
 
 	//
@@ -307,7 +308,7 @@ $lang = array_merge($lang, array(
 
 	// Install finish tasks
 	'TASK_INSTALL_EXTENSIONS'	=> 'Installerer udvidelsepakker',
-	'TASK_NOTIFY_USER'			=> 'Send notifikation med email',
+	'TASK_NOTIFY_USER'			=> 'Send notifikation med e-mail',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Udfyld migrationer',
 
 	// Installer general progress messages
@@ -347,7 +348,7 @@ $lang = array_merge($lang, array(
 // Common updater messages
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'Opdater phpBB-installation',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Du har nu mulighed for at opdatere din phpBB-installation til den seneste version.<br />Alle dine filer bliver i processen kontrolleret for deres integritet. Du får forud for opdateringen af filerne mulighed for selv at kontrollere filforskelle i de filer opdateringsprocessen måtte foretage ændringer i.<br /><br />Selve filopdateringen kan foretages på to forskellige måder.</p><h2>Manuel opdatering</h2><p>Med denne metode downloader du dit personlige sæt af de ændrede filer for at sikre du ikke mister de filmodifikationer, du måtte have foretaget. Efter at du har downloadet denne pakke er det nødvendigt at du manuelt uploader filerne til deres korrekte placering under din phpBB-rodmappe. Når dette er gjort, er du i stand til at at gennemføre trinet for filkontrol igen for at se om du flyttede filerne til deres korrekte placering.</p><h2>Automatisk opdatering med FTP</h2><p>Denne metode ligner den første, men er uden behov for at du selv downloader de ændrede filer og uploader dem. Dette vil blive gjort for dig. For at anvende denne metode bliver du undervejs bedt om kontoinformation for FTP. Efter afslutning vil du blive viderestillet til filkontrollen igen for at sikre at alt blev opdateret korrekt.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Du har nu mulighed for at opdatere din phpBB-installation til den seneste version.<br />Alle dine filer bliver i processen kontrolleret for deres integritet. Du får forud for opdateringen af filerne mulighed for selv at kontrollere filforskelle i de filer opdateringsprocessen måtte foretage ændringer i.<br /><br />Selve filopdateringen kan foretages på to forskellige måder.</p><h2>Manuel opdatering</h2><p>Med denne metode downloader du dit personlige sæt af de ændrede filer for at sikre du ikke mister de filmodifikationer, du måtte have foretaget. Efter at du har downloadet denne pakke er det nødvendigt at du manuelt uploader filerne til deres korrekte placering under din phpBB-rodmappe. Når dette er gjort, er du i stand til at gennemføre trinet for filkontrol igen for at se om du flyttede filerne til deres korrekte placering.</p><h2>Automatisk opdatering med FTP</h2><p>Denne metode ligner den første, men er uden behov for at du selv downloader de ændrede filer og uploader dem. Dette vil blive gjort for dig. For at anvende denne metode bliver du undervejs bedt om kontoinformation for FTP. Efter afslutning vil du blive viderestillet til filkontrollen igen for at sikre at alt blev opdateret korrekt.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Udgivelsesbekendtgørelse</h1>
@@ -428,7 +429,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Download arkiv med ændrede filer',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Når du har downloadet og udpakket filen indeholdende alle de ændrede filer, uploades disse til deres rette placering i din phpBB-installation. Filerne bør herefter kontrolleres endnu gang med venstre knap nedenfor.',
 
-	'FILE_ALREADY_UP_TO_DATE'		=> 'Fil er allerede opdateret',
+	'FILE_ALREADY_UP_TO_DATE'		=> 'Fil er allerede opdateret.',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Visning af filforskelle tillades ikke.',
 	'FILE_USED'						=> 'Information brugt fra',			// Single file
 	'FILES_CONFLICT'				=> 'Konfliktende filer',
@@ -502,7 +503,7 @@ $lang = array_merge($lang, array(
 
 	// Settings
 	'STAGE_SETTINGS'			=> 'Indstillinger',
-	'TABLE_PREFIX_SAME'			=> 'Tabelpræfikset skal være det som bruges af softwaren du konverterer fra.<br />»  Indtastet tabelpræfiks var %s.',
+	'TABLE_PREFIX_SAME'			=> 'Tabelpræfikset skal være det som bruges af softwaren du konverterer fra.<br />» Indtastet tabelpræfiks var %s.',
 	'DEFAULT_PREFIX_IS'			=> 'Konverteren kunne ikke finde tabeller med det indtastede præfiks. Kontroller venligst at du indtastet de korrekte data for boardet du ønsker at konvertere. Standardtabelpræfiks for %1$s er <strong>%2$s</strong>.',
 	'SPECIFY_OPTIONS'			=> 'Verificerer konverteringsindstillinger',
 	'FORUM_PATH'				=> 'Sti til board',
@@ -542,7 +543,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Konvertering fuldført',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Du har nu konverteret dit board til phpBB 3.2. Du kan nu logge ind og <a href="../">tilgå dit board</a>. Kontroller venligst at alle indstillinger blev konverteret korrekt, inden du gør dit board tilgængeligt ved at slette install mappen.  Husk at hjælp til brugen af phpBB er tilgængelig online via <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">dokumentationen</a> og i <a href="https://www.phpbb.com/community/viewforum.php?f=466">support foraene</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Du har nu konverteret dit board til phpBB 3.2. Du kan nu logge ind og <a href="../">tilgå dit board</a>. Kontroller venligst at alle indstillinger blev konverteret korrekt, inden du gør dit board tilgængeligt ved at slette install mappen. Husk at hjælp til brugen af phpBB er tilgængelig online via <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">dokumentationen</a> og i <a href="https://www.phpbb.com/community/viewforum.php?f=466">support foraene</a>.',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'FTP-upload for vedhæftede filer er slået til på det oprindelige board. Slå muligheden for FTP-upload fra og sørg for at en gyldig uploadmappe er indtastet, kopier herefter venligst alle vedhæftede filer til denne nye mappe, der skal kunne tilgås fra serveren. Når du har du gjort dette, genstartes konverteren.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Der er ingen konfigurationsinformation tilgængelig for konverteringen.',

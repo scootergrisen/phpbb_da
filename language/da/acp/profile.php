@@ -133,7 +133,7 @@ $lang = array_merge($lang, array(
 	'MIN_FIELD_CHARS'		=> 'Minimum antal tegn',
 	'MIN_FIELD_NUMBER'		=> 'Lavest tilladte tal',
 
-	'NO_FIELD_ENTRIES'			=> 'Ingen valgmuligheder defineret.',
+	'NO_FIELD_ENTRIES'			=> 'Ingen valgmuligheder defineret',
 	'NO_FIELD_ID'				=> 'Intet felt-ID indtastet.',
 	'NO_FIELD_TYPE'				=> 'Ingen felttype indtastet.',
 	'NO_VALUE_OPTION'			=> 'Værdi svarende til intet foretaget valg',

@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'ADD_BBCODE'				=> 'Tilføj en ny BBkode',
 
 	'BBCODE_DANGER' => 'BBkoden ser ud til at gøre brug af et {TEXT}-token i en HTML-attribut. Det åbner en potentiel XSS-sikkerhedsrisiko. Forsøg i stedet at anvende de mere restriktive tokens {SIMPLETEXT} og {INTTEXT}. Fortsæt hvis du er bekendt med de involverede risici og anvendelsen af {TEXT} er nødvendig.',
-	'BBCODE_DANGER_PROCEED' => 'Fortsæt', //'I understand the risk', 
+	'BBCODE_DANGER_PROCEED' => 'Fortsæt', //'I understand the risk',
 
 	'BBCODE_ADDED'				=> 'BBkode korrekt tilføjet.',
 	'BBCODE_EDITED'				=> 'BBkode korrekt rettet.',
@@ -86,8 +86,8 @@ $lang = array_merge($lang, array(
 		'INTTEXT'		=> 'Alle unicodetegn (inkl. æ, ø og å), tal, mellemrum, komma, punktum, minus, plus, bindestreg, underscore og blanktegn.',
 		'IDENTIFIER'	=> 'Tegnene i det latinske alfabet (A-Z), tal, bindestreg og underscore.',
 		'NUMBER'		=> 'Enhver serie cifre.',
-		'EMAIL'			=> 'En gyldig email-adresse.',
-		'URL'			=> 'En gyldig URL via enhver protokol (bl.a. http og ftp kan ikke bruges til javascript exploits). Hvis intet indtastes, tilføjes "http://" automatisk URL\'en.',
+		'EMAIL'			=> 'En gyldig e-mailadresse.',
+		'URL'			=> 'En gyldig URL via enhver protokol (http, ftp, osv… kan ikke bruges til javascript exploits). Hvis intet indtastes, tilføjes "http://" automatisk URL\'en.',
 		'LOCAL_URL'		=> 'En lokal URL. URL\'en skal være relativ til emnesiden og kan ikke indeholde et servernavn eller protokol, da links er præfikset med "%s"',
 		'RELATIVE_URL'	=> 'En relativ URL. Du kan anvende denne til at matche dele af en URL, men vær forsigtig, en komplet URL er en gyldig relativ URL. Hvis du ønsker at anvende relative URL\'er indenfor dit board, bør du bruge LOCAL_URL-tokenet.',
 		'COLOR'			=> 'En HTML-farve, kan indtastes i heksadecimal værdi <samp>#FF1234</samp> eller med et <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS-farvenavn</a>, for eksempel <samp>fuchsia</samp> eller <samp>InactiveBorder</samp>.'
@@ -163,7 +163,7 @@ $lang = array_merge($lang, array(
 	'NO_SMILIES_EXPORT'	=> 'Du har ingen smileys hvormed du kan oprette en pakke.',
 	'NO_SMILIES_PAK'	=> 'Ingen smileys-pakker fundet.',
 
-	'PAK_FILE_NOT_READABLE'		=> 'Kunne ikke læse <samp>.pak</samp>-fil',
+	'PAK_FILE_NOT_READABLE'		=> 'Kunne ikke læse <samp>.pak</samp>-fil.',
 
 	'REPLACE_MATCHES'	=> 'Erstat matchende',
 
@@ -269,7 +269,7 @@ $lang = array_merge($lang, array(
 	'ADD_NEW_REASON'		=> 'Tilføj ny årsag',
 	'AVAILABLE_TITLES'		=> 'Oversatte årsager i valgt sprogpakke',
 
-	'IS_NOT_TRANSLATED'		=> 'Årsag er <strong>ikke</strong> blevet oversat',
+	'IS_NOT_TRANSLATED'		=> 'Årsag er <strong>ikke</strong> blevet oversat.',
 	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'Årsag er <strong>ikke</strong> oversat. Hvis du ønsker at tilføje en oversættelse af årsagen for de sprog der er installeret på boardet, tilføjes titel og årsag nederst i sprogfilen mcp.php for hver af de installerede sprogpakker.',
 	'IS_TRANSLATED'			=> 'Årsag er blevet oversat',
 	'IS_TRANSLATED_EXPLAIN'	=> 'Årsag er oversat, den indtastede titel er tilstede i sprogfilen mcp.php. Denne oversættelse overskriver eventuel titel og beskrivelse indtastet her.',

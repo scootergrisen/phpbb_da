@@ -107,8 +107,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_ADD'					=> 'Tilføj ny bruger.',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Ny brugers brugernavn',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Ny brugers adgangskode',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'Ny brugers email-adresse',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Send email med kontoaktivering til ny bruger(den afsendes ikke som standard)',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'Ny brugers e-mailadresse',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Send e-mail med kontoaktivering til ny bruger(den afsendes ikke som standard)',
 	'CLI_DESCRIPTION_USER_DELETE'				=> 'Slet en brugerkonto.',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Brugernavn på den bruger der skal slettes',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Slet alle brugers indlæg. Undlades denne mulighed, bevares brugers indlæg.',
@@ -133,8 +133,8 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Aktiveret',
 
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Reparation af fora og modulers træstruktur fuldført.',
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Genberegning af alle email-krypteringer gennemført.',
-	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Opdatering af forældet  kryptering af adgangskode til bcrypt.',
+	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Genberegning af alle e-mail-krypteringer gennemført.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Opdatering af forældet kryptering af adgangskode til bcrypt.',
 
 	'CLI_MIGRATION_NAME'					=> 'Migrationsnavn, inklusiv navnerum (anvend retvendt skråstreg i stedet for omvendt skråstreg for at undgå problemer).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Tilgængelige migrationer',
@@ -173,9 +173,9 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Alternativt kan du indtaste et navn, som kun skal afvikle den specifikke cron-opgave.',
 	'CLI_HELP_USER_ACTIVATE'	=> 'Aktiver eller deaktiver en brugerkonto ved at bruge funktionen <info>--deactivate</info>.
-	For, i samme forbindelse, at sende en aktiveringsemail til brugeren bruges funktionen <info>--send-email</info>.',
-	 	'CLI_HELP_USER_ADD'			=> 'Kommandoen <info>%command.name%</info> tilføjer en ny bruger:
-		Afvikles kommandoen uden funktioner, bliver du bedt om at indtaste disse.
-		For, i samme forbindelse, at sende en email til den nye bruger, bruges funktionen <info>--send-email</info>.',
-		'CLI_HELP_USER_RECLEAN'		=> 'Funktionen rens brugernavne gennemgår alle lagrede brugernavne sikrer at rensede udgaver også er gemt. I et renset brugernavn er det underordnet om man anvender store eller små bogstaver, teksten er normaliseret til NFC og konverteret til ASCII.',
+For, i samme forbindelse, at sende en aktiveringse-mail til brugeren bruges funktionen <info>--send-e-mail</info>.',
+	'CLI_HELP_USER_ADD'			=> 'Kommandoen <info>%command.name%</info> tilføjer en ny bruger:
+Afvikles kommandoen uden funktioner, bliver du bedt om at indtaste disse.
+For, i samme forbindelse, at sende en e-mail til den nye bruger, bruges funktionen <info>--send-e-mail</info>.',
+	'CLI_HELP_USER_RECLEAN'		=> 'Funktionen rens brugernavne gennemgår alle lagrede brugernavne sikrer at rensede udgaver også er gemt. I et renset brugernavn er det underordnet om man anvender store eller små bogstaver, teksten er normaliseret til NFC og konverteret til ASCII.',
 ));

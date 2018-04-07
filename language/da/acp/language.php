@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Administration af sprogfiler',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Her kan du installere og fjerne sprogpakker. Boardets standardsprog er mærket med en stjerne (*).',
 
-	'DELETE_LANGUAGE_CONFIRM'		=> 'Er du sikker at du vil slette "%s"?',
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Er du sikker på, at du vil slette "%s"?',
 
 	'INSTALLED_LANGUAGE_PACKS'		=> 'Installerede sprogpakker',
 
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_PACK_DELETED'				=> 'Sprogpakken "%s" er nu fjernet og alle brugere, der havde valgt dette sprog, er blevet sat til at bruge boardets standardsprog.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Sprogpakkeinformationer',
 	'LANGUAGE_PACK_INSTALLED'			=> 'Sprogpakken "%s" er blevet installeret.',
-	'LANGUAGE_PACK_CPF_UPDATE'      => 'De tilpassede profilfelters sprogspecifikke indstillinger blev kopieret fra standardsproget. Det er det muligt at oversætte feltet individuelt for hvert installeret sprog.',
+	'LANGUAGE_PACK_CPF_UPDATE'			=> 'De tilpassede profilfelters sprogstrenge blev kopieret fra standardsproget. Ændr dem venligst hvis det er nødvendigt.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Lokalt navn',
 	'LANGUAGE_PACK_NAME'				=> 'Navn',

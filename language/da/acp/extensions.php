@@ -39,10 +39,9 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'EXTENSION'					=> 'Udvidelse',
-	'EXTENSIONS'				=> 'udvidelser',
+	'EXTENSIONS'				=> 'Udvidelser',
 	'EXTENSIONS_ADMIN'			=> 'Udvidelsemanager',
-	'EXTENSIONS_EXPLAIN'		=> 'Udvidelsemanageren gør det muligt at se og administrere alle dit boards udvidelser, se status og informationer om disse. Deaktiveres en udvidelse, bevares data intakte, og den kan aktiveres med alle tidligere indstillinger. 
-	Slettes data, slettes alle indstillinger og data tilknyttet udvidelsen.',
+	'EXTENSIONS_EXPLAIN'		=> 'Udvidelsemanageren er et værktøj i dit phpBB-board som giver dig mulighed for at håndtere alle dine udvidelsers statusser og vise information om dem.',
 	'EXTENSION_INVALID_LIST'	=> 'Udvidelsen "%s" er ugyldig.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'	=> 'Den valgte udvidelse er ikke tilgængelig. Bekræft venligst at din phpBB- og PHP-version er tilladt (se siden med detailspecifikationerne).',
 	'EXTENSION_DIR_INVALID'    => 'Den valgte udvidelse har en ugyldig mappestruktur og kan ikke aktiveres.',
@@ -116,7 +115,7 @@ $lang = array_merge($lang, array(
 	'PHP_VERSION'			=> 'PHP-version',
 	'AUTHOR_INFORMATION'	=> 'Udviklerinformation',
 	'AUTHOR_NAME'			=> 'Navn',
-	'AUTHOR_EMAIL'			=> 'Email',
+	'AUTHOR_EMAIL'			=> 'E-mail',
 	'AUTHOR_HOMEPAGE'		=> 'Websted',
 	'AUTHOR_ROLE'			=> 'Rolle',
 

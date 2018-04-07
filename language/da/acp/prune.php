@@ -58,8 +58,8 @@ $lang = array_merge($lang, array(
 	'POSTS_ON_QUEUE'	=> 'Indlæg afventer godkendelse',
 	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Begræns til brugere medlem af valgte gruppe.',
 	'PRUNE_USERS_GROUP_NONE'	=> 'Alle grupper',
-	'PRUNE_USERS_LIST'				=> 'Brugere der beskæres', 
-	'PRUNE_USERS_LIST_DELETE'		=> 'Med det valgte kriterie for beskæring af brugere vil følgende brugerkonti blive slettet. Du kan fravælge individuelle brugere fra listen i feltet foran brugernavnet.', 
+	'PRUNE_USERS_LIST'				=> 'Brugere der beskæres',
+	'PRUNE_USERS_LIST_DELETE'		=> 'Med det valgte kriterie for beskæring af brugere vil følgende brugerkonti blive slettet. Du kan fravælge individuelle brugere fra listen i feltet foran brugernavnet.',
 	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Med det valgte kriterie for beskæring af brugere vil følgende brugerkonti blive deaktiveret. Du kan fravælge individuelle brugere fra listen i feltet foran brugernavnet.',
 
 	'SELECT_USERS_EXPLAIN'		=> 'Indtast brugere her, hvert brugernavn på en linje for sig. Anførte brugere bliver slettet uafhængigt af kriterierne ovenfor. Grundlæggere kan ikke beskæres.',
@@ -94,5 +94,5 @@ $lang = array_merge($lang, array(
 	'PRUNE_STICKY'					=> 'Beskær opslag',
 	'PRUNE_SUCCESS'					=> 'Beskæring af fora blev gennemført.',
 
-	'TOPICS_PRUNED'		=> 'emner beskåret',
+	'TOPICS_PRUNED'		=> 'Emner beskåret',
 ));

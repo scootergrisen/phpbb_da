@@ -45,26 +45,26 @@ $lang = array_merge($lang, array(
 	'30_MINS'		=> '30 minutter',
 	'6_HOURS'		=> '6 timer',
 
-	'ACP_BAN_EXPLAIN'	=> 'Her administreres udelukkelse af brugere ved navn, IP- eller email-adresse. Disse metoder forhindrer en bruger i at få adgang til boardet. Du kan indtaste en kort (maksimalt 3000 tegn) begrundelse for udelukkelsen som vises i administratorloggen. Udelukkelsens varighed vælges i dropdown-menuen. Skal den ophæves på en bestemt dato, vælges <span style="text-decoration: underline;">Indtil -&gt;</span> og slutdato indtastes i formatet <kbd>åååå-mm-dd</kbd>.',
+	'ACP_BAN_EXPLAIN'	=> 'Her administreres udelukkelse af brugere ved navn, IP- eller e-mailadresse. Disse metoder forhindrer en bruger i at få adgang til boardet. Du kan indtaste en kort (maksimalt 3000 tegn) begrundelse for udelukkelsen som vises i administratorloggen. Udelukkelsens varighed vælges i dropdown-menuen. Skal den ophæves på en bestemt dato, vælges <span style="text-decoration: underline;">Indtil -&gt;</span> og slutdato indtastes i formatet <kbd>ÅÅÅÅ-MM-DD</kbd>.',
 
 	'BAN_EXCLUDE'			=> 'Ekskluder fra udelukkelse',
 	'BAN_LENGTH'			=> 'Varighed af udelukkelse',
 	'BAN_REASON'			=> 'Udelukkelsesårsag',
 	'BAN_GIVE_REASON'		=> 'Vist udelukkelsesårsag',
-	'BAN_UPDATE_SUCCESSFUL'	=> 'Udelukkelseslisten er blevet opdateret',
+	'BAN_UPDATE_SUCCESSFUL'	=> 'Udelukkelseslisten er blevet opdateret.',
 	'BANNED_UNTIL_DATE'		=> 'indtil %s', // Example: "until Mon 13.Jul.2009, 14:44"
 	'BANNED_UNTIL_DURATION'	=> '%1$s (indtil %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
-	'EMAIL_BAN'					=> 'Udeluk email-adresser',
-	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Vælg "Ja" for at ekskludere indtastede email-adresser fra en bredere udelukkelse.',
-	'EMAIL_BAN_EXPLAIN'			=> 'Du kan udelukke flere email-adresser på en gang ved at indtaste hver adresse på en linje for sig. Brug * som ubekendt for at matche delvise adresser, for eksempel <samp>*@hotmail.com</samp>, <samp>*@*.domæne.tld</samp>, osv.',
-	'EMAIL_NO_BANNED'			=> 'Der er ingen udelukkede email-adresser på boardet',
+	'EMAIL_BAN'					=> 'Udeluk e-mailadresser',
+	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Vælg "Ja" for at ekskludere indtastede e-mailadresser fra en bredere udelukkelse.',
+	'EMAIL_BAN_EXPLAIN'			=> 'Du kan udelukke flere e-mailadresser på en gang ved at indtaste hver adresse på en linje for sig. Brug * som ubekendt for at matche delvise adresser, for eksempel <samp>*@hotmail.com</samp>, <samp>*@*.domæne.tld</samp>, osv.',
+	'EMAIL_NO_BANNED'			=> 'Der er ingen udelukkede e-mailadresser på boardet',
 	'EMAIL_UNBAN'				=> 'Ophæv udelukkelse eller ekskludering',
-	'EMAIL_UNBAN_EXPLAIN'		=> 'Du kan ophæve flere email-adressers udelukkelse i en arbejdsgang, ved at bruge den rette kombination af mus og tastatur (afhængig af computer og browser). Email-adresser ekskluderet fra udelukkelse er fremhævet.',
+	'EMAIL_UNBAN_EXPLAIN'		=> 'Du kan ophæve flere e-mailadressers udelukkelse i en arbejdsgang, ved at bruge den rette kombination af mus og tastatur (afhængig af computer og browser). E-mailadresser ekskluderet fra udelukkelse er fremhævet.',
 
 	'IP_BAN'					=> 'Udeluk IP-adresser',
 	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Vælg "Ja" for at ekskludere indtastede IP-adresser fra en bredere udelukkelse.',
-	'IP_BAN_EXPLAIN'			=> 'Du kan udelukke flere IP-adresser eller værtsnavne på en gang ved at indtaste hver adresse eller vært på linje for sig. For at specificere et interval af IP-adresser adskilles start og slut med med en bindestreg (-). Brug * for at specificere en ubekendt.',
+	'IP_BAN_EXPLAIN'			=> 'Du kan udelukke flere IP-adresser eller værtsnavne på en gang ved at indtaste hver adresse eller vært på linje for sig. For at specificere et interval af IP-adresser adskilles start og slut med en bindestreg (-). Brug * for at specificere en ubekendt.',
 	'IP_HOSTNAME'				=> 'IP-adresser eller værtsnavne',
 	'IP_NO_BANNED'				=> 'Der er ingen udelukkede IP-adresser på boardet',
 	'IP_UNBAN'					=> 'Ophæv udelukkelse eller ekskludering',

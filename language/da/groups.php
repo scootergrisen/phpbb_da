@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'ALREADY_IN_GROUP_PENDING'	=> 'Du har allerede indsendt en anmodning om at blive medlem af den valgte gruppe.',
 
 	'CANNOT_JOIN_GROUP'		=> 'Du kan ikke tilslutte dig denne gruppe. Du kan kun tilslutte dig åbne og frie åbne grupper.',
-	'CANNOT_RESIGN_GROUP'	=> 'Du kan ikke melde dig ud af denne gruppe. Du kan kun melde dig ud af åbne og frie åbne grupper.', 
+	'CANNOT_RESIGN_GROUP'	=> 'Du kan ikke melde dig ud af denne gruppe. Du kan kun melde dig ud af åbne og frie åbne grupper.',
 	'CHANGED_DEFAULT_GROUP'	=> 'Det lykkedes at skifte standardgruppe.',
 	
 	'GROUP_AVATAR'						=> 'Gruppeavatar',

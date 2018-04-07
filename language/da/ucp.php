@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	<br />
 	Vort board er baseret på phpBB (i det følgende "de", "dem", "deres", "phpBB software", "www.phpbb.com", "phpBB Limited", "phpBB Teams") hvilket er en bulletin board-løsning udgivet under "<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>" (i det følgende "GPL") og kan downloades fra <a href="https://www.phpbb.com/">www.phpbb.com</a>. phpBB softwaren giver mulighed for internetbaserede debatter, og GPL\'en afskærer dem fra indflydelse på, hvad vi tillader og/eller afviser som tilladeligt indhold og/eller tilladelig adfærd. For yderligere information om phpBB, se venligst: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
 	<br />
-	Du indvilliger i ikke at indsende nogen form for fornærmende, uanstændigt, vulgært, bagtalende, hadefuldt, truende eller sexuelt orienteret materiale eller indsende andet materiale, som er i strid med lovgivningen, det være sig i dit eget land, landet hvor "%1$s"  er hostet eller international lovgivning. Gør du dette, kan dette medføre, at du øjeblikkeligt og permanent bliver udelukket, med besked herom til din Internet-udbyder, hvis vi vurderer det nødvendigt. IP-adresserne for alle indlæg logges for at give mulighed for at håndhæve disse betingelser. Du indvilliger i at "%1$s" har ret til at fjerne, ændre, flytte eller låse ethvert emne til enhver tid, såfremt vi finder dette passende. Som bruger indvilliger du i at al information du har skrevet, bliver lagret i en database. Selvom denne information ikke vil blive videregivet til tredjemand uden dit samtykke, vil hverken "%1$s" eller phpBB blive holdt ansvarlig for ethvert hackingforsøg, som kan medføre at dataene bliver kompromitteret.
+	Du indvilliger i ikke at indsende nogen form for fornærmende, uanstændigt, vulgært, bagtalende, hadefuldt, truende eller sexuelt orienteret materiale eller indsende andet materiale, som er i strid med lovgivningen, det være sig i dit eget land, landet hvor "%1$s" er hostet eller international lovgivning. Gør du dette, kan dette medføre, at du øjeblikkeligt og permanent bliver udelukket, med besked herom til din Internet-udbyder, hvis vi vurderer det nødvendigt. IP-adresserne for alle indlæg logges for at give mulighed for at håndhæve disse betingelser. Du indvilliger i at "%1$s" har ret til at fjerne, ændre, flytte eller låse ethvert emne til enhver tid, såfremt vi finder dette passende. Som bruger indvilliger du i at al information du har skrevet, bliver lagret i en database. Selvom denne information ikke vil blive videregivet til tredjemand uden dit samtykke, vil hverken "%1$s" eller phpBB blive holdt ansvarlig for ethvert hackingforsøg, som kan medføre at dataene bliver kompromitteret.
 	',
 
 	'PRIVACY_POLICY'		=> 'Denne praksis forklarer detaljeret, hvordan "%1$s" (i det følgende "vi", "os", "vores", "%1$s", "%2$s") og phpBB (i det følgende "de", "dem", "deres", "phpBB software", "www.phpbb.com", "phpBB Limited", "phpBB Teams") bruger enhver information indsamlet under enhver session under din brug (i det følgende "din information").<br />
@@ -54,9 +54,9 @@ $lang = array_merge($lang, array(
 	<br />
 	Vi danner også cookies eksternt i forhold til phpBB-softwaren under browsing af "%1$s", skønt disse er udenfor rammerne af dette dokument, der alene har til hensigt at dække sider dannet med phpBB-softwaren. Den anden måde hvorpå vi indsamler din information er via hvad du indsender til os. Dette kan være, men er ikke begrænset til: at skrive indlæg som en anonym bruger (i det følgende "anonyme indlæg"), tilmelding på "%1$s" (i det følgende "din konto") og indlæg du har skrevet efter tilmeldingen og mens du er logget ind (i det følgende "dine indlæg").<br />
 	<br />
-	Din konto vil som minimum indeholde et unikt identificerbart navn (i det følgende "dit brugernavn"), en personlig adgangskode til brug for når du skal logge ind på din konto (i det følgende "din adgangskode") og en personlig, gyldig email-adresse (i det følgende "din email-adresse"). Din kontoinformation på "%1$s" er beskyttet af databeskyttelseslove i det land hvor vi er hostet. Enhver information udover dit brugernavn, din adgangskode og email-adresse krævet af "%1$s" under tilmeldingssproceduren, er - afhængig af "%1$s"\'s valg - enten obligatorisk eller valgfrit. Under alle omstændigheder kan du selv vælge, hvilke dele af din kontoinformation, der skal vises offentligt. Derudover har du muligheden for for din konto, at til- eller fravælge automatisk genererede emails fra phpBB-softwaren.<br />
+	Din konto vil som minimum indeholde et unikt identificerbart navn (i det følgende "dit brugernavn"), en personlig adgangskode til brug for når du skal logge ind på din konto (i det følgende "din adgangskode") og en personlig, gyldig e-mailadresse (i det følgende "din e-mailadresse"). Din kontoinformation på "%1$s" er beskyttet af databeskyttelseslove i det land hvor vi er hostet. Enhver information udover dit brugernavn, din adgangskode og e-mailadresse krævet af "%1$s" under tilmeldingssproceduren, er - afhængig af "%1$s"\'s valg - enten obligatorisk eller valgfrit. Under alle omstændigheder kan du selv vælge, hvilke dele af din kontoinformation, der skal vises offentligt. Derudover har du muligheden for din konto, at til- eller fravælge automatisk genererede e-mails fra phpBB-softwaren.<br />
 	<br />
-	Din adgangskode er krypteret (et envejs digitalt fingeraftryk), så det er sikret. Dog anbefales det, at du ikke genbruger den samme adgangskode på et antal forskellige websteder. Din adgangskode er dit værktøj for at få adgang til din konto på "%1$s", så pas venligst godt på det. Under ingen omstændigheder vil nogen tilknyttet "%1$s", phpBB eller anden tredjepart, legalt bede dig om din adgangskode. Skulle du have glemt adgangskoden til din konto, kan du bruge "Jeg har glemt min adgangskode"-funktionen, som er stillet til rådighed af phpBB-softwaren. Denne procedure vil bede dig om at indsende dit brugernavn og din email-adresse, hvorefter phpBB-softwaren vil generere en ny adgangskode til at få adgang til din konto.<br />
+	Din adgangskode er krypteret (et envejs digitalt fingeraftryk), så det er sikret. Dog anbefales det, at du ikke genbruger den samme adgangskode på et antal forskellige websteder. Din adgangskode er dit værktøj for at få adgang til din konto på "%1$s", så pas venligst godt på det. Under ingen omstændigheder vil nogen tilknyttet "%1$s", phpBB eller anden tredjepart, legalt bede dig om din adgangskode. Skulle du have glemt adgangskoden til din konto, kan du bruge "Jeg har glemt min adgangskode"-funktionen, som er stillet til rådighed af phpBB-softwaren. Denne procedure vil bede dig om at indsende dit brugernavn og din e-mailadresse, hvorefter phpBB-softwaren vil generere en ny adgangskode til at få adgang til din konto.<br />
 	',
 ));
 
@@ -66,13 +66,13 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE_ADMIN'			=> 'Kontoen er nu aktiveret.',
 	'ACCOUNT_ACTIVE_PROFILE'		=> 'Din konto er nu genaktiveret.',
 	'ACCOUNT_ADDED'					=> 'Tak for din tilmelding, din konto er oprettet. Du kan nu logge ind med dit brugernavn og din adgangskode.',
-	'ACCOUNT_COPPA'					=> 'Din konto er oprettet, men skal godkendes. Vær venlig at se din email for yderligere information.',
-	'ACCOUNT_EMAIL_CHANGED'			=> 'Din konto er blevet opdateret. Boardet kræver genaktivering af kontoen når du ændrer din email-adresse. Der er derfor fremsendt en aktiveringsnøgle til den email-adresse du ændrede til. Læs venligst denne email for yderligere information.',
-	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'Din konto er blevet opdateret. Boardet kræver at din konto genaktiveres af en administrator, når du ændrer din email-adresse. Der er derfor fremsendt en email til disse, og du vil blive informeret når din konto er aktiv igen.',
-	'ACCOUNT_INACTIVE'				=> 'Din konto er oprettet. Du skal selv aktivere kontoen med en aktiveringsnøgle. Nøglen er netop afsendt til den email-adresse, du angav ved tilmeldingen. Læs venligst denne email for yderligere information. Afhængig af serverbelastningen hos din emailudbyder, kan der være en vis forsinkelse inden du modtager denne. Kontroller også at emailen ikke er havnet i din spammailboks.',
-	'ACCOUNT_INACTIVE_ADMIN'		=> 'Din konto er oprettet. Kontoen skal aktiveres af boardadministrator, som nu er informeret via email. Når din konto er aktiveret, får du besked via email.',
-	'ACTIVATION_EMAIL_SENT'			=> 'Aktiveringsemailen er blevet sendt til din email-adresse.',
-	'ACTIVATION_EMAIL_SENT_ADMIN'	=> 'Aktiveringsemailen er blevet sendt til administratorernes email-adresser.',
+	'ACCOUNT_COPPA'					=> 'Din konto er oprettet, men skal godkendes. Vær venlig at se din e-mail for yderligere information.',
+	'ACCOUNT_EMAIL_CHANGED'			=> 'Din konto er blevet opdateret. Boardet kræver genaktivering af kontoen når du ændrer din e-mailadresse. Der er derfor fremsendt en aktiveringsnøgle til den e-mailadresse du ændrede til. Læs venligst denne e-mail for yderligere information.',
+	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'Din konto er blevet opdateret. Boardet kræver at din konto genaktiveres af en administrator, når du ændrer din e-mailadresse. Der er derfor fremsendt en e-mail til disse, og du vil blive informeret når din konto er aktiv igen.',
+	'ACCOUNT_INACTIVE'				=> 'Din konto er oprettet. Du skal selv aktivere kontoen med en aktiveringsnøgle. Nøglen er netop afsendt til den e-mailadresse, du angav ved tilmeldingen. Læs venligst denne e-mail for yderligere information. Afhængig af serverbelastningen hos din e-mailudbyder, kan der være en vis forsinkelse inden du modtager denne. Kontroller også at e-mailen ikke er havnet i din spammailboks.',
+	'ACCOUNT_INACTIVE_ADMIN'		=> 'Din konto er oprettet. Kontoen skal aktiveres af boardadministrator, som nu er informeret via e-mail. Når din konto er aktiveret, får du besked via e-mail.',
+	'ACTIVATION_EMAIL_SENT'			=> 'Aktiveringse-mailen er blevet sendt til din e-mailadresse.',
+	'ACTIVATION_EMAIL_SENT_ADMIN'	=> 'Aktiveringse-mailen er blevet sendt til administratorernes e-mailadresser.',
 	'ADD'							=> 'Tilføj',
 	'ADD_BCC'						=> 'Tilføj [BCC]',
 	'ADD_FOES'						=> 'Tilføj nye ignorerede brugere',
@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'ADD_RULE'						=> 'Tilføj regel',
 	'ADD_TO'						=> 'Tilføj [Til]',
 	'ADD_USERS_UCP_EXPLAIN'	=> 'Her kan du tilføje nye brugere til gruppen. Du har mulighed for at vælge om gruppen skal være brugeres fremtidige standardgruppe. Indtast venligst hvert brugernavn på en linje for sig.',
-	'ADMIN_EMAIL'					=> 'Jeg ønsker at modtage masse-emails afsendt fra administratorer',
+	'ADMIN_EMAIL'					=> 'Jeg ønsker at modtage masse-e-mails afsendt fra administratorer',
 	'AGREE'							=> 'Jeg er enig i disse betingelser',
 	'ALLOW_PM'						=> 'Brugere må sende mig private beskeder',
 	'ALLOW_PM_EXPLAIN'				=> 'Bemærk at administratorer og redaktører altid vil kunne sende dig beskeder.',
@@ -147,12 +147,12 @@ $lang = array_merge($lang, array(
 	'CONFIRM_PASSWORD_EXPLAIN'	=> 'Du behøver kun bekræfte din adgangskode, hvis du ændrede den ovenfor.',
 	'COPPA_BIRTHDAY'			=> 'For at fortsætte tilmeldingsproceduren bedes du venligst fortælle os hvornår du er født.',
 	'COPPA_COMPLIANCE'			=> 'COPPA overholdelse',
-	'COPPA_EXPLAIN'				=> 'Når du klikker på send oprettes din konto, den aktiveres imidlertid ikke før en forældre eller værge godkender din tilmelding. Du får pr. email tilsendt en kopi af den nødvendige formular, med information om hvor den skal sendes hen.',
+	'COPPA_EXPLAIN'				=> 'Når du klikker på send oprettes din konto, den aktiveres imidlertid ikke før en forældre eller værge godkender din tilmelding. Du får pr. e-mail tilsendt en kopi af den nødvendige formular, med information om hvor den skal sendes hen.',
 	'CREATE_FOLDER'				=> 'Tilføjer mappe…',
 	'CURRENT_IMAGE'				=> 'Nuværende avatar',
 	'CURRENT_PASSWORD'			=> 'Nuværende adgangskode',
-	'CURRENT_PASSWORD_EXPLAIN'	=> 'Du skal bekræfte din <strong>nuværende</strong> adgangskode, når du ændrer brugernavn, email-adresse eller adgangskode.',
-	'CURRENT_CHANGE_PASSWORD_EXPLAIN' => 'For at ændre adgangskode, email-adresse eller brugernavn, skal du indtaste din nuværende adgangskode.',
+	'CURRENT_PASSWORD_EXPLAIN'	=> 'Du skal bekræfte din <strong>nuværende</strong> adgangskode, når du ændrer brugernavn, e-mailadresse eller adgangskode.',
+	'CURRENT_CHANGE_PASSWORD_EXPLAIN' => 'For at ændre adgangskode, e-mailadresse eller brugernavn, skal du indtaste din nuværende adgangskode.',
 	'CUR_PASSWORD_EMPTY'		=> 'Du indtastede ikke din nuværende adgangskode.',
 	'CUR_PASSWORD_ERROR'		=> 'Den indtastede adgangskode var ikke korrekt.',
 	'CUSTOM_DATEFORMAT'			=> 'Valgfri…',
@@ -182,18 +182,18 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> 'Degrader valgte',
 	'DISABLE_CENSORS'			=> 'Slå ordcensur til',
 	'DISPLAY_GALLERY'			=> 'Vis galleri',
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Det indtastede emaildomæne har ingen gyldig MX-record.',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Det indtastede e-maildomæne har ingen gyldig MX-record.',
 	'DOWNLOADS'					=> 'Downloads',
 	'DRAFTS_DELETED'			=> 'Alle valgte kladder blev slettet.',
 	'DRAFTS_EXPLAIN'			=> 'Her kan du se, ændre og slette dine gemte kladder.',
 	'DRAFT_UPDATED'				=> 'Kladde opdateret.',
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Her er du i stand til at redigere din kladde. Kladder indeholder ikke informationer om vedhæftede filer og afstemninger.',
-	'EMAIL_BANNED_EMAIL'		=> 'Den indtastede email-adresse er det ikke tilladt at anvende.',
-	'EMAIL_REMIND'				=> 'Email-adressen tilknyttet din brugerkonto. Hvis du ikke har ændret denne i brugerkontrolpanelet, er det den samme email-adresse som den du tilmeldte dig med.',
-	'EMAIL_TAKEN_EMAIL'			=> 'Den indtastede email-adresse er allerede i brug.',
+	'EMAIL_BANNED_EMAIL'		=> 'Den indtastede e-mailadresse er det ikke tilladt at anvende.',
+	'EMAIL_REMIND'				=> 'E-mailadressen tilknyttet din brugerkonto. Hvis du ikke har ændret denne i brugerkontrolpanelet, er det den samme e-mailadresse som den du tilmeldte dig med.',
+	'EMAIL_TAKEN_EMAIL'			=> 'Den indtastede e-mailadresse er allerede i brug.',
 	'EMPTY_DRAFT'				=> 'Du skal indtaste en besked for at kunne sende dine ændringer.',
-	'EMPTY_DRAFT_TITLE'			=> 'Du skal indtaste en kladdetitel',
+	'EMPTY_DRAFT_TITLE'			=> 'Du skal indtaste en kladdetitel.',
 	'EXPORT_AS_XML'				=> 'Eksporter som XML',
 	'EXPORT_AS_CSV'				=> 'Eksporter som CSV',
 	'EXPORT_AS_CSV_EXCEL'		=> 'Eksporter som CSV (Excel)',
@@ -236,7 +236,7 @@ $lang = array_merge($lang, array(
 		1	=> '%2$d ud af %1$s gemt',
 		2	=> '%2$d ud af %1$s gemt',
 	),
-	'FOLDER_NAME_EMPTY'			=> 'Du skal indtaste et navn til denne mappe.', 
+	'FOLDER_NAME_EMPTY'			=> 'Du skal indtaste et navn til denne mappe.',
 	'FOLDER_NAME_EXIST'			=> 'Mappen <strong>%s</strong> eksisterer allerede.',
 	'FOLDER_OPTIONS'			=> 'Mappeindstillinger',
 	'FOLDER_RENAMED'			=> 'Mappe omdøbt.',
@@ -262,8 +262,8 @@ $lang = array_merge($lang, array(
 
 	'GLOBAL_ANNOUNCEMENT'		=> 'Global bekendtgørelse',
 
-	'GRAVATAR_AVATAR_EMAIL'		=> 'Gravatar-email',
-	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> 'Indtast den email-adresse du har registreret til din konto på <a href="http://www.gravatar.com/">Gravatar</a>.',
+	'GRAVATAR_AVATAR_EMAIL'		=> 'Gravatar-e-mail',
+	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> 'Indtast den e-mailadresse du har registreret til din konto på <a href="http://www.gravatar.com/">Gravatar</a>.',
 	'GRAVATAR_AVATAR_SIZE'			=> 'Avatar-dimensioner',
 	'GRAVATAR_AVATAR_SIZE_EXPLAIN'	=> 'Anfør bredde og højde på avataren. Udfyldes værdierne ikke, forsøges automatisk bestemmelse.',
 
@@ -333,7 +333,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_GROUP_ADMINISTRATION'          		=> 'Administrator',
 	'NOTIFICATION_GROUP_POSTING'						=> 'Indlæg',
 	'NOTIFICATION_METHOD_BOARD'							=> 'Notifikationer',
-	'NOTIFICATION_METHOD_EMAIL'							=> 'Email',
+	'NOTIFICATION_METHOD_EMAIL'							=> 'E-mail',
 	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
 	'NOTIFICATION_TYPE'									=> 'Beskedtype',
 	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Ved nyt indlæg i et emne du har bogmærket',
@@ -349,7 +349,7 @@ $lang = array_merge($lang, array(
 
 	'NOTIFY_METHOD'				=> 'Jeg ønsker at modtage information med',
 	'NOTIFY_METHOD_BOTH'		=> 'Begge',
-	'NOTIFY_METHOD_EMAIL'		=> 'Kun email',
+	'NOTIFY_METHOD_EMAIL'		=> 'Kun e-mail',
 	'NOTIFY_METHOD_EXPLAIN'		=> 'Metode for forsendelse af beskeder sendt via dette board.',
 	'NOTIFY_METHOD_IM'			=> 'Kun Jabber',
 	'NOTIFY_ON_PM'				=> 'Jeg ønsker at få information om nye private beskeder',
@@ -389,8 +389,8 @@ $lang = array_merge($lang, array(
 	'NO_BOOKMARKS'				=> 'Du har ingen bogmærker.',
 	'NO_BOOKMARKS_SELECTED'		=> 'Du har ingen bogmærker valgt.',
 	'NO_EDIT_READ_MESSAGE'		=> 'Den private besked er blevet læst, den kan derfor ikke redigeres.',
-	'NO_EMAIL_USER'				=> 'Indtastede email-adresse/brugernavn kunne ikke findes.',
-	'NO_FOES'					=> 'Du har ingen ignorerede brugere på din liste.',
+	'NO_EMAIL_USER'				=> 'Indtastede e-mailadresse/brugernavn kunne ikke findes.',
+	'NO_FOES'					=> 'Du har ingen ignorerede brugere på din liste',
 	'NO_FRIENDS'				=> 'Du har ingen venner på din liste.',
 	'NO_FRIENDS_OFFLINE'		=> 'Ingen venner offline',
 	'NO_FRIENDS_ONLINE'			=> 'Ingen venner online',
@@ -415,7 +415,7 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Adgangskoden skal være mellem %1$s og %2$s. Og det skal indeholde både tal, specialtegn og store og små bogstaver.',
 	'PASSWORD'					=> 'Adgangskode',
 	'PASSWORD_ACTIVATED'		=> 'Din nye adgangskode er blevet aktiveret.',
-	'PASSWORD_UPDATED'			=> 'Der er nu afsendt en ny adgangskode til den email-adresse du er tilmeldt med.',
+	'PASSWORD_UPDATED'			=> 'Der er nu afsendt en ny adgangskode til den e-mailadresse du er tilmeldt med.',
 	'PERMISSIONS_RESTORED'		=> 'Oprindelige tilladelser er genoprettet.',
 	'PERMISSIONS_TRANSFERRED'	=> 'Tilladelser overført fra <strong>%s</strong>, du er nu i stand til gennemse boardet med brugerens tilladelser.<br />Bemærk venligst at administratortilladelser ikke blev overført. Du kan vende tilbage til dit sæt af tilladelser på ethvert tidspunkt.',
 	'PM_DISABLED'				=> 'Private beskeder er slået fra på dette board.',
@@ -479,7 +479,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_YOUR_POSTS'			=> 'Dine indlæg',
 	'SEND_PASSWORD'				=> 'Send adgangskode',
 	'SENT_AT'					=> 'Sendt',	// Used before dates in private messages
-	'SHOW_EMAIL'				=> 'Brugere kan kontakte mig pr. email',
+	'SHOW_EMAIL'				=> 'Brugere kan kontakte mig pr. e-mail',
 	'SIGNATURE_EXPLAIN'			=> 'Her kan du skrive (og ændre i) din signatur, som ikke må være længere end %d tegn. Din signatur tilføjes automatisk som afslutning i alle de indlæg du skriver.',
 	'SIGNATURE_PREVIEW'			=> 'Din signatur vil vises således i indlæg',
 	'SIGNATURE_TOO_LONG'		=> 'Din signatur er for lang.',
@@ -506,7 +506,7 @@ $lang = array_merge($lang, array(
 
 	'UCP'						=> 'Brugerkontrolpanel',
 	'UCP_ACTIVATE'				=> 'Aktiver konto',
-	'UCP_ADMIN_ACTIVATE'		=> 'Bemærk venligst at du skal indtaste en gyldig email-adresse for at din konto kan aktiveres. Administratoren vil gennemgå din konto og hvis denne godkendes, vil du modtage en email på den adresse du har indtastet.',
+	'UCP_ADMIN_ACTIVATE'		=> 'Bemærk venligst at du skal indtaste en gyldig e-mailadresse for at din konto kan aktiveres. Administratoren vil gennemgå din konto og hvis denne godkendes, vil du modtage en e-mail på den adresse du har indtastet.',
 	'UCP_ATTACHMENTS'			=> 'Vedhæftede filer',
 	'UCP_AUTH_LINK'				=> 'Eksterne konti',
 	'UCP_AUTH_LINK_ASK'			=> 'Du har i øjeblikket ingen konto tilknyttet denne eksterne tjeneste. Klik på knappen herunder, for at linke din boardkonto til en konto tilknyttet denne tjeneste.',
@@ -518,7 +518,7 @@ $lang = array_merge($lang, array(
 	'UCP_AUTH_LINK_UNLINK'		=> 'Slet link',
 	'UCP_COPPA_BEFORE'			=> 'Før %s',
 	'UCP_COPPA_ON_AFTER'		=> 'På eller senere %s',
-	'UCP_EMAIL_ACTIVATE'		=> 'Bemærk venligst at du skal indtaste en gyldig email-adresse for at din konto kan aktiveres. Der afsendes et kontoaktiveringslink med email til den adresse du indtaster.',
+	'UCP_EMAIL_ACTIVATE'		=> 'Bemærk venligst at du skal indtaste en gyldig e-mailadresse for at din konto kan aktiveres. Der afsendes et kontoaktiveringslink med e-mail til den adresse du indtaster.',
 	'UCP_JABBER'				=> 'Jabberadresse',
 	'UCP_LOGIN_LINK'			=> 'Tilknyt en ekstern konto',
 
@@ -562,7 +562,7 @@ $lang = array_merge($lang, array(
 	'UCP_PASSWORD_RESET_DISABLED'	=> 'Muligheden for at nulstille adgangskode er deaktiveret. Kontakt venligst din %sboardadministrator%s, hvis du har brug for hjælp til at tilgå din konto.',
 	'UCP_REGISTER_DISABLE'			=> 'Oprettelse af ny konto er i øjeblikket ikke mulig.',
 	'UCP_REMIND'					=> 'Send adgangskode',
-	'UCP_RESEND'					=> 'Send aktiveringsemail',
+	'UCP_RESEND'					=> 'Send aktiveringse-mail',
 	'UCP_WELCOME'					=> 'Velkommen til brugerkontrolpanelet. Herfra kan du overvåge, se og opdatere din profil, indstillinger samt overvågede fora og emner. Du kan også sende private beskeder til andre brugere (hvis tilladt). Læs venligst enhver bekendtgørelse før du fortsætter.',
 	'UCP_ZEBRA'						=> 'Venner og ignorerede brugere',
 	'UCP_ZEBRA_FOES'				=> 'Ignorerede brugere',

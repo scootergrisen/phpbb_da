@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_BACKUP'				=> 'Backup',
 	'ACP_BAN'					=> 'Udelukkelse',
-	'ACP_BAN_EMAILS'			=> 'Udeluk email-adresser',
+	'ACP_BAN_EMAILS'			=> 'Udeluk e-mailadresser',
 	'ACP_BAN_IPS'				=> 'Udeluk IP-adresser',
 	'ACP_BAN_USERNAMES'			=> 'Udeluk brugere',
 	'ACP_BBCODES'				=> 'BBkoder',
@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_PERMISSIONS'		=> 'Tilladelser',
 	'ACP_CAT_POSTING'			=> 'Beskeder',
 	'ACP_CAT_STYLES'			=> 'Typografi',
-	'ACP_CAT_SYSTEM'			=> 'System', 
+	'ACP_CAT_SYSTEM'			=> 'System',
 	'ACP_CAT_USERGROUP'			=> 'Brugere & Grupper',
 	'ACP_CAT_USERS'				=> 'Brugere',
 	'ACP_CLIENT_COMMUNICATION'	=> 'Klientkonfiguration',
@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW'				=> 'Afvis',
 	'ACP_DISALLOW_USERNAMES'	=> 'Afvis brugernavne',
 
-	'ACP_EMAIL_SETTINGS'		=> 'Emails',
+	'ACP_EMAIL_SETTINGS'		=> 'E-mails',
 	'ACP_EXTENSION_GROUPS'		=> 'Vedhæftede filtypegrupper',
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Udvidelsemanager',
 	'ACP_EXTENSIONS'			=> 'Boardudvidelser',
@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 	'ACP_MANAGE_RANKS'			=> 'Rangadministration',
 	'ACP_MANAGE_REASONS'		=> 'Rapport- og afvisningsårsager',
 	'ACP_MANAGE_USERS'			=> 'Brugeradministration',
-	'ACP_MASS_EMAIL'			=> 'Masse-email',
+	'ACP_MASS_EMAIL'			=> 'Masse-e-mail',
 	'ACP_MESSAGES'				=> 'Beskeder',
 	'ACP_MESSAGE_SETTINGS'		=> 'Private beskeder',
 	'ACP_MODULE_MANAGEMENT'		=> 'Moduladministration',
@@ -215,7 +215,7 @@ $lang = array_merge($lang, array(
 	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'Se globale redaktørtilladelser',
 	'ACP_VIEW_USER_PERMISSIONS'			=> 'Se brugertilladelser',
 
-	'ACP_WORDS'					=> 'Ordcensur', 
+	'ACP_WORDS'					=> 'Ordcensur',
 
 	'ACTION'				=> 'Handling',
 	'ACTIONS'				=> 'Handlinger',
@@ -244,7 +244,7 @@ $lang = array_merge($lang, array(
 	'EXCEPTION'				=> 'Undtagelse',
 
 	'COLOUR_SWATCH'			=> 'Websikre farver',
-	'CONFIG_UPDATED'		=> 'Konfigurationen opdateret',
+	'CONFIG_UPDATED'		=> 'Konfigurationen opdateret.',
 	'CRON_LOCK_ERROR'		=> 'Kunne ikke få fat i cron-lås.',
 	'CRON_NO_SUCH_TASK'		=> 'Kunne ikke finde cron-opgaven "%s".',
 	'CRON_NO_TASK'			=> 'Ingen cron-opgaver behøver afvikling i øjeblikket.',
@@ -283,7 +283,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_ADMIN_CONFIRM'	=> 'Du skal indtaste din adgangskode igen for at få adgang til administratorkontrolpanelet.',
 	'LOGIN_ADMIN_SUCCESS'	=> 'Du har genautentificeret dig og viderestilles nu til administratorkontrolpanelet.',
 	'LOOK_UP_FORUM'			=> 'Vælg et forum',
-	'LOOK_UP_FORUMS_EXPLAIN'=> 'Du kan vælge mere end et forum.', 
+	'LOOK_UP_FORUMS_EXPLAIN'=> 'Du kan vælge mere end et forum.',
 
 	'MANAGE'				=> 'Administrer',
 	'MENU_TOGGLE'			=> 'Skjul eller vis sidemenuen',
@@ -294,7 +294,7 @@ $lang = array_merge($lang, array(
 
 	'NOTIFY'				=> 'Bekræftelse',	// Grøn "succes"-boks med en "kvittering" når en handling er udført
 	'NO_ADMIN'				=> 'Du er ikke bemyndiget til at administrere dette forum.',
-	'NO_EMAILS_DEFINED'		=> 'Kunne ikke finde gyldige email-adresser.',
+	'NO_EMAILS_DEFINED'		=> 'Kunne ikke finde gyldige e-mailadresser.',
 	'NO_FILES_TO_DELETE'	=> 'De valgte filer findes ikke.',
 	'NO_PASSWORD_SUPPLIED'	=> 'Du skal indtaste din adgangskode for at få adgang til administratorkontrolpanelet.',
 
@@ -341,15 +341,15 @@ $lang = array_merge($lang, array(
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> 'Denne side informerer om version og indstillinger for PHP (funktionen phpinfo()) installeret på denne server. PHP-indstillinger omfatter versionsinformation, information om indlæste moduler, tilgængelige variabler og standardindstillinger, som er egnet til at diagnosticere problemer.<br />Bemærk venligst, at nogle værter af sikkerhedshensyn har sat grænser for hvilken information, der bliver vist med PHP-indstillinger.<br />
-	Du rådes til aldrig at videregive information om serverens PHP-indstillinger til andre, med mindre du bliver spurgt af <a href="https://www.phpbb.com/about/team/">officielle teammedlemmer på www.phpbb.com</a> eller af teammedlemmer på andre supportboards. Overvej i denne forbindelse eventuelt også muligheden for videregivelse af sådanne oplysninger pr. email eller privat besked.',
+	'ACP_PHP_INFO_EXPLAIN'	=> 'Denne side informerer om den version af PHP som er installeret på denne server. Den omfatter information om indlæste moduler, tilgængelige variabler og standardindstillinger, som er egnet til at diagnosticere problemer. Bemærk venligst, at nogle værter af sikkerhedshensyn har sat grænser for hvilken information, der bliver vist. Du rådes til ikke at videregive information fra denne side til andre, med mindre du bliver spurgt af <a href="https://www.phpbb.com/about/team/">officielle teammedlemmer</a> på supportforaet.',
+
 	'NO_PHPINFO_AVAILABLE'	=> 'Informationerne om din PHP-konfiguration kan ikke hentes. Funktionen phpinfo() er deaktiveret af sikkerhedsgrunde.',
 ));
 
 // Logs
 $lang = array_merge($lang, array(
 	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Her listes alle handlinger udført af administratorer. Listen kan arrangeres efter brugernavn, dato, IP-adresse eller handlingen. Hvis du har passende tilladelser kan du også tømme listen for de enkelte operationer eller rydde hele log\'en.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Her listes alle handlinger udført af boardet selv. Listen giver information til at løse særlige problemer, for eksempel ikke-leverede emails.	Listen kan arrangeres efter brugernavn, dato, IP-adresse eller handling. Hvis du har passende tilladelser kan du også tømme listen for de enkelte operationer eller rydde hele log\'en.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Her listes alle handlinger udført af boardet selv. Listen giver information til at løse særlige problemer, for eksempel ikke-leverede e-mails. Listen kan arrangeres efter brugernavn, dato, IP-adresse eller handling. Hvis du har passende tilladelser kan du også tømme listen for de enkelte operationer eller rydde hele log\'en.',
 	'ACP_MOD_LOGS_EXPLAIN'		=> 'Her listes alle handlinger udført af redaktører i henholdsvis fora, emner og indlæg, samt handlinger overfor brugere, herunder udelukkelse af disse. Du kan sortere listen efter brugernavn, dato, IP-adresse eller handling. Hvis du har passende tilladelser kan du også tømme listen for de enkelte operationer eller rydde hele log\'en.',
 	'ACP_USERS_LOGS_EXPLAIN'	=> 'Her listes alle handlinger udført af brugere eller på brugere (rapporter, advarsler og notater).',
 	'ALL_ENTRIES'				=> 'Alle handlinger',
@@ -389,7 +389,7 @@ $lang = array_merge($lang, array(
 	'FILES_PER_DAY'		=> 'Antal vedhæftede filer pr. dag',
 	'FORUM_STATS'		=> 'Boardstatistikker',
 
-	'GZIP_COMPRESSION'	=> 'gzip-komprimering',
+	'GZIP_COMPRESSION'	=> 'GZip-komprimering',
 
 	'NO_SEARCH_INDEX'	=> 'Valgte søgemotor har intet søgeindeks.<br />Opret venligst et indeks til "%1$s" under %2$sSøgeindeks%3$s.',
 	'NOT_AVAILABLE'		=> 'Ikke tilgængeligt',
@@ -405,7 +405,7 @@ $lang = array_merge($lang, array(
 	'POSTS_PER_DAY'		=> 'Indlæg pr. dag',
 
 	'PURGE_CACHE'		=> 'Tøm mellemlager',
-	'PURGE_CACHE_CONFIRM'	=> 'Er du sikker på, at du vil tømme mellemlageret?', 
+	'PURGE_CACHE_CONFIRM'	=> 'Er du sikker på, at du vil tømme mellemlageret?',
 	'PURGE_CACHE_EXPLAIN'	=> 'Sletter alt i mellemlageret, dette inkluderer skabelonfiler og søgninger.',
 	'PURGE_CACHE_SUCCESS'	=> 'Mellemlager blev tømt.',
 
@@ -445,7 +445,7 @@ $lang = array_merge($lang, array(
 	'USERS_PER_DAY'		=> 'Brugere pr. dag',
 
 	'VALUE'							=> '',	//kollonneoverskrift i board- og søgeindeksstatistik, bevidst udeladt
-	'VERSIONCHECK_FAIL'				=> 'Versionskontrol fejlede',
+	'VERSIONCHECK_FAIL'				=> 'Versionskontrol fejlede.',
 	'VERSIONCHECK_FORCE_UPDATE'		=> 'Gentag versionskontrol',
 	'VERSION_CHECK'					=> 'Versionskontrol',
 	'VERSION_CHECK_EXPLAIN'			=> 'Kontrollerer om din phpBB-installation er opdateret.',
@@ -472,7 +472,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_REMIND'		=> 'Tvungen genaktivering af brugerkonto',
 	'INACTIVE_REASON_UNKNOWN'		=> 'Ukendt',
 	'INACTIVE_USERS'				=> 'Inaktive brugere',
-	'INACTIVE_USERS_EXPLAIN'		=> 'Dette er en liste over brugere som er tilmeldt, men hvis konti er inaktive. Du kan aktivere, slette eller påminde disse brugere pr. email.',
+	'INACTIVE_USERS_EXPLAIN'		=> 'Dette er en liste over brugere som er tilmeldt, men hvis konti er inaktive. Du kan aktivere, slette eller påminde disse brugere pr. e-mail.',
 	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'De seneste 10 tilmeldte brugere med inaktive konti. Konti kan være inaktive fordi aktivering ikke er gennemført af brugere, eller fordi konti er blevet deaktiveret. En fuldstændig liste er tilgængelig ved at følge linket nedenfor. Herfra får du også mulighed for at aktivere, slette eller sende påmindelser til disse brugere. Samme liste kan også ses via fanebladet "Brugere & Grupper".',
 
 	'NO_INACTIVE_USERS'	=> 'Ingen inaktive brugere',
@@ -543,15 +543,15 @@ $lang = array_merge($lang, array(
 	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Vedhæftet vildfaren fil til indlæg</strong><br />» ID %1$d - %2$s',
 	'LOG_ATTACH_ORPHAN_DEL'		=> '<strong>Slettet vildfarne filer</strong><br />» %s',
 
-	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Undtaget bruger fra udelukkelse</strong> på grund af "<em>%1$s</em>"<br />» %2$s ',
-	'LOG_BAN_EXCLUDE_IP'	=> '<strong>Undtaget IP-adresse fra udelukkelse</strong> på grund af "<em>%1$s</em>"<br />» %2$s ',
-	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>Undtaget email-adresse fra udelukkelse</strong> på grund af "<em>%1$s</em>"<br />» %2$s ',
-	'LOG_BAN_USER'			=> '<strong>Udelukket bruger</strong> på grund af "<em>%1$s</em>"<br />» %2$s ',
+	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Undtaget bruger fra udelukkelse</strong> på grund af "<em>%1$s</em>"<br />» %2$s',
+	'LOG_BAN_EXCLUDE_IP'	=> '<strong>Undtaget IP-adresse fra udelukkelse</strong> på grund af "<em>%1$s</em>"<br />» %2$s',
+	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>Undtaget e-mailadresse fra udelukkelse</strong> på grund af "<em>%1$s</em>"<br />» %2$s',
+	'LOG_BAN_USER'			=> '<strong>Udelukket bruger</strong> på grund af "<em>%1$s</em>"<br />» %2$s',
 	'LOG_BAN_IP'			=> '<strong>Udelukket IP-adresse</strong> på grund af "<em>%1$s</em>"<br />» %2$s',
-	'LOG_BAN_EMAIL'			=> '<strong>Udelukket email-adresse</strong> på grund af "<em>%1$s</em>"<br />» %2$s',
+	'LOG_BAN_EMAIL'			=> '<strong>Udelukket e-mailadresse</strong> på grund af "<em>%1$s</em>"<br />» %2$s',
 	'LOG_UNBAN_USER'		=> '<strong>Ophævet udelukkelse af bruger</strong><br />» %s',
 	'LOG_UNBAN_IP'			=> '<strong>Ophævet udelukkelse af IP-adresse</strong><br />» %s',
-	'LOG_UNBAN_EMAIL'		=> '<strong>Ophævet udelukkelse af email-adresse</strong><br />» %s',
+	'LOG_UNBAN_EMAIL'		=> '<strong>Ophævet udelukkelse af e-mailadresse</strong><br />» %s',
 
 	'LOG_BBCODE_ADD'		=> '<strong>Tilføjet BBkode</strong><br />» %s',
 	'LOG_BBCODE_EDIT'		=> '<strong>Ændret BBkode</strong><br />» %s',
@@ -571,7 +571,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_AUTH'			=> '<strong>Ændret indstillinger for godkendelse</strong>',
 	'LOG_CONFIG_AVATAR'			=> '<strong>Ændret indstillinger for avatarer</strong>',
 	'LOG_CONFIG_COOKIE'			=> '<strong>Ændret indstillinger for cookies</strong>',
-	'LOG_CONFIG_EMAIL'			=> '<strong>Ændret indstillinger for emails</strong>',
+	'LOG_CONFIG_EMAIL'			=> '<strong>Ændret indstillinger for e-mails</strong>',
 	'LOG_CONFIG_FEATURES'		=> '<strong>Ændret boardfinesser</strong>',
 	'LOG_CONFIG_LOAD'			=> '<strong>Ændret indstillinger for serverbelastning</strong>',
 	'LOG_CONFIG_MESSAGE'		=> '<strong>Ændret indstillinger for private beskeder</strong>',
@@ -601,7 +601,7 @@ $lang = array_merge($lang, array(
 	'LOG_POST_APPROVED'			=> '<strong>Godkendt indlægget</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Indlægget "%1$s", skrevet af "%3$s", blev afvist med begrundelsen</strong><br />» %2$s',
 	'LOG_POST_EDITED'			=> '<strong>Indlægget "%1$s", skrevet af "%2$s", blev redigeret med følgende begrundelse</strong><br />» %3$s',
-	'LOG_POST_RESTORED'			=> '<strong>Gendannet indlæg</strong><br />» %s', 
+	'LOG_POST_RESTORED'			=> '<strong>Gendannet indlæg</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Lukket rapporten</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Slettet rapporten</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>Gendannet indlæg "%1$s" skrevet af</strong><br />» %2$s',
@@ -630,7 +630,7 @@ $lang = array_merge($lang, array(
 	'LOG_DOWNLOAD_REMOVE_IP'	=> '<strong>Fjernet IP-adresse eller vært fra downloadlisten</strong><br />» %s',
 
 	'LOG_ERROR_JABBER'		=> '<strong>Jabber-fejl</strong><br />» %s',
-	'LOG_ERROR_EMAIL'		=> '<strong>Email-fejl</strong><br />» %s',
+	'LOG_ERROR_EMAIL'		=> '<strong>E-mail-fejl</strong><br />» %s',
 	'LOG_ERROR_CAPTCHA'		=> '<strong>CAPTCHA-fejl</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Oprettet nyt forum</strong><br />» %s',
@@ -667,7 +667,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Aktiveret inaktive brugere</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'		=> '<strong>Inaktive brugere slettet</strong><br />» %s',
-	'LOG_INACTIVE_REMIND'		=> '<strong>Sendt påmindelser pr. email til inaktive brugere</strong><br />» %s',
+	'LOG_INACTIVE_REMIND'		=> '<strong>Sendt påmindelser pr. e-mail til inaktive brugere</strong><br />» %s',
 	'LOG_INSTALL_CONVERTED'	=> '<strong>Konverteret fra %1$s til phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>Installeret phpBB %s</strong>',
 
@@ -780,7 +780,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_ACTIVE'		=> '<strong>Aktiveret bruger</strong><br />» %s',
 	'LOG_USER_BAN_USER'		=> '<strong>Udelukket bruger via Administrer brugere </strong> på grund af "<em>%1$s</em>"<br />» %2$s',
 	'LOG_USER_BAN_IP'		=> '<strong>Udelukket IP-adresse via Administrer brugere</strong> på grund af "<em>%1$s</em>"<br />» %2$s',
-	'LOG_USER_BAN_EMAIL'	=> '<strong>Udelukket email-adresse via Administrer brugere</strong> på grund af "<em>%1$s</em>"<br />» %2$s',
+	'LOG_USER_BAN_EMAIL'	=> '<strong>Udelukket e-mailadresse via Administrer brugere</strong> på grund af "<em>%1$s</em>"<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Slettet bruger</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Slettet brugers vedhæftede filer</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Slettet brugers avatar</strong><br />» %s',
@@ -793,7 +793,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_REACTIVATE'	=> '<strong>Gennemtvunget genaktivering af konto for</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>Slettet ny brugertilmelding for</strong><br />» %s',
 
-	'LOG_USER_UPDATE_EMAIL'	=> '<strong>Ændret email-adresse for "%1$s"</strong><br />» fra "%2$s" til "%3$s"',
+	'LOG_USER_UPDATE_EMAIL'	=> '<strong>Ændret e-mailadresse for "%1$s"</strong><br />» fra "%2$s" til "%3$s"',
 	'LOG_USER_UPDATE_NAME'	=> '<strong>Ændret brugernavn</strong><br />» fra "%1$s" til "%2$s"',
 	'LOG_USER_USER_UPDATE'	=> '<strong>Opdateret information om</strong><br />» %s',
 

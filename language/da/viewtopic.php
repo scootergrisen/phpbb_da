@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 		1	=> 'Senest rettet af %2$s %3$s, rettet i alt %1$d gang.',
 		2	=> 'Senest rettet af %2$s %3$s, rettet i alt %1$d gange.',
 	),
-	'EMAIL_TOPIC'			=> 'Email emne',
+	'EMAIL_TOPIC'			=> 'E-mail emne',
 	'ERROR_NO_ATTACHMENT'	=> 'Den valgte vedhæftede fil eksisterer ikke længere.',
 
 	'FILE_NOT_FOUND_404'	=> 'Filen <strong>%s</strong> eksisterer ikke.',
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 
 	'REPLY_TO_TOPIC'		=> 'Svar på emne',
 	'RESTORE'        => 'Gendan',
-	'RESTORE_TOPIC'      => 'Gendan emne', 
+	'RESTORE_TOPIC'      => 'Gendan emne',
 	'RETURN_POST'			=> '%sTilbage til indlægget%s',
 
 	'SUBMIT_VOTE'			=> 'Stem',

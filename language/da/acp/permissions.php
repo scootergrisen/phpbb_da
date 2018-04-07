@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 	'APPLY_ALL_PERMISSIONS'		=> 'Anvend alle tilladelser',
 	'APPLY_PERMISSIONS'			=> 'Anvend tilladelser',
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'Tilladelser og roller defineret for dette punkt vil kun blive anvendt for dette og andre valgte punkter.',
-	'AUTH_UPDATED'				=> 'Tilladelser er blevet opdateret',
+	'AUTH_UPDATED'				=> 'Tilladelser er blevet opdateret.',
 
 	'COPY_PERMISSIONS_CONFIRM'				=> 'Er du sikker på, at du vil udføre denne operation? Vær opmærksom på at denne handling overskriver valgte måls eksisterende tilladelser.',
 	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'Forummet du vil kopiere tilladelser fra.',
@@ -206,7 +206,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_MOD_SIMPLE'		=> 'Kan kun bruge de grundlæggende emnefunktioner. Kan ikke give advarsler eller bruge redigeringskøen.',
 	'ROLE_DESCRIPTION_MOD_STANDARD'		=> 'Kan bruge de fleste redaktørværktøjer, men kan ikke udelukke brugere eller ændre indlægsforfatter.',
 	'ROLE_DESCRIPTION_USER_FULL'		=> 'Kan bruge alle tilgængelige forumfunktioner for brugere, inklusiv ændring af brugernavn og ignorering af floodbegrænsning.<br />Anbefales ikke.',
-	'ROLE_DESCRIPTION_USER_LIMITED'		=> 'Kan tilgå visse af brugerfunktionerne. Vedhæftede filer, emails eller brug af messengere er ikke tilladt.',
+	'ROLE_DESCRIPTION_USER_LIMITED'		=> 'Kan tilgå visse af brugerfunktionerne. Vedhæftede filer, e-mails eller brug af messengere er ikke tilladt.',
 	'ROLE_DESCRIPTION_USER_NOAVATAR'	=> 'Har et begrænset funktionssæt og kan ikke bruge avatarfunktionen.',
 	'ROLE_DESCRIPTION_USER_NOPM'		=> 'Har et begrænset funktionssæt, og kan ikke bruge private beskeder.',
 	'ROLE_DESCRIPTION_USER_STANDARD'	=> 'Kan tilgå de fleste, men ikke alle brugerfunktioner. Kan for eksempel ikke ændre brugernavn eller ignorere floodbegrænsningen.',
@@ -285,6 +285,6 @@ $lang = array_merge($lang, array(
 	'VIEW_GLOBAL_PERMS'             => 'Globale tilladelser',
 	'VIEW_PERMISSIONS'		=> 'Vis tilladelser',
 
-	'WRONG_PERMISSION_TYPE'	=> 'Forkert tilladelsestype valgt',
+	'WRONG_PERMISSION_TYPE'	=> 'Forkert tilladelsestype valgt.',
 	'WRONG_PERMISSION_SETTING_FORMAT'	=> 'Tilladelseindstillingerne er indtastet i et forkert format, phpBB kan ikke udføre disse korrekt.',
 ));

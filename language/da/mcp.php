@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'APPROVE_POSTS'			=> 'Godkende indlæg',
 	'APPROVE_POSTS_CONFIRM'	=> 'Er du sikker på, at du vil godkende valgte indlæg?',
 	'APPROVE_TOPIC'      => 'Godkend emne',
-	'APPROVE_TOPIC_CONFIRM'  => 'Er du sikker at du vil godkende emnet?',
+	'APPROVE_TOPIC_CONFIRM'  => 'Er du sikker på, at du vil godkende emnet?',
 	'APPROVE_TOPICS'    => 'Godkend emner',
 	'APPROVE_TOPICS_CONFIRM'=> 'Er du sikker på, at du vil godkende valgte emner?', 	
 
@@ -150,7 +150,7 @@ $lang = array_merge($lang, array(
 	'MCP_ADD'						=> 'Tilføj en advarsel',
 
 	'MCP_BAN'					=> 'Udelukkelse',
-	'MCP_BAN_EMAILS'			=> 'Udeluk email-adresser',
+	'MCP_BAN_EMAILS'			=> 'Udeluk e-mailadresser',
 	'MCP_BAN_IPS'				=> 'Udeluk IP-adresser',
 	'MCP_BAN_USERNAMES'			=> 'Udeluk brugere',
 
@@ -283,7 +283,7 @@ $lang = array_merge($lang, array(
 	'POSTS_MERGED_SUCCESS'	=> 'De valgte indlæg er nu blevet sammenlagt.',
 	'POSTS_PER_PAGE'		=> 'Indlæg pr. side',
 	'POSTS_PER_PAGE_EXPLAIN'=> '(Sæt til 0 for at se alle indlæg).',
-	'POSTS_RESTORED_SUCCESS'  => 'De valgte indlæg er nu gendannet.', 
+	'POSTS_RESTORED_SUCCESS'  => 'De valgte indlæg er nu gendannet.',
 	'POSTS_UNLOCKED_SUCCESS'=> 'De valgte indlæg er nu blevet låst op.',
 	'POST_APPROVED_SUCCESS'	=> 'Det valgte indlæg er nu blevet godkendt.',
 	'POST_DELETED_SUCCESS'	=> 'De valgte indlæg er nu blevet slettet fra databasen.',
@@ -359,7 +359,7 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC_BEYOND_CONFIRM'	=> 'Er du sikker på, at du vil dele emnet ved valgte indlæg?',
 	'SPLIT_TOPIC_EXPLAIN'	=> 'Ved at bruge nedenstående kan du dele et emne i to, enten ved at vælge indlæggene individuelt eller ved at dele ved et valgt indlæg.',
 
-	'THIS_PM_IP'				=> 'Beskeden er afsendt fra IP-adressen', 
+	'THIS_PM_IP'				=> 'Beskeden er afsendt fra IP-adressen',
 	'THIS_POST_IP'			=> 'Indlægget er indsendt fra IP-adressen',
 	'TOPICS_APPROVED_SUCCESS'	=> 'De valgte emner er nu blevet godkendt.',
 	'TOPICS_DELETED_SUCCESS'=> 'De valgte emner er nu slettet fra databasen.',
@@ -367,7 +367,7 @@ $lang = array_merge($lang, array(
 	'TOPICS_FORKED_SUCCESS'	=> 'De valgte emner er nu blevet kopieret.',
 	'TOPICS_LOCKED_SUCCESS'	=> 'De valgte emner er nu blevet låst.',
 	'TOPICS_MOVED_SUCCESS'	=> 'De valgte emner er nu blevet flyttet.',
-	'TOPICS_RESTORED_SUCCESS'  => 'De valgte emner er nu gendannet.', 
+	'TOPICS_RESTORED_SUCCESS'  => 'De valgte emner er nu gendannet.',
 	'TOPICS_RESYNC_SUCCESS'	=> 'De valgte emner er nu blevet resynkroniseret.',
 	'TOPICS_TYPE_CHANGED'	=> 'Emnetype er blevet ændret.',
 	'TOPICS_UNLOCKED_SUCCESS'	=> 'De valgte emner er nu blevet låst op.',

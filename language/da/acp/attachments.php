@@ -125,7 +125,7 @@ $lang = array_merge($lang, array(
 	'MAX_THUMB_WIDTH'				=> 'Maksimal bredde/højde på miniature i pixels',
 	'MAX_THUMB_WIDTH_EXPLAIN'		=> 'Miniaturer vil ikke blive oprettet bredere end værdien defineret her.',
 	'MIN_THUMB_FILESIZE'			=> 'Grænse for oprettelse af miniature',
-	'MIN_THUMB_FILESIZE_EXPLAIN'	=> 'Opret ikke miniature for billeder der er mindre end',
+	'MIN_THUMB_FILESIZE_EXPLAIN'	=> 'Opret ikke miniature for billeder der er mindre end.',
 	'MODE_INLINE'					=> 'Inline',
 	'MODE_PHYSICAL'					=> 'Fysisk',
 

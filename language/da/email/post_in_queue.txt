@@ -4,10 +4,10 @@ Hej {USERNAME}
 
 Du modtager denne besked, fordi det indsendte indlæg "{POST_SUBJECT}" på "{SITENAME}" skal godkendes.
 
-Benyt følgende links hvis du vil se:
+Klik på følgende link, hvis du vil se indlægget:
+{U_VIEW_POST}
 
-Indlægget: {U_VIEW_POST}
-
-Emnet: {U_TOPIC}
+Klik på følgende link, hvis du vil se emnet:
+{U_TOPIC}
 
 {EMAIL_SIG}

@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'ACP_RESTORE_EXPLAIN'	=> 'Dette vil udføre en fuld gendannelse af alle phpBB-tabeller fra en gemt fil. Hvis din server understøtter det, kan du bruge en gzip eller bzip2-komprimeret tekstfil, den bliver automatisk udpakket. <strong>ADVARSEL</strong> Alle eksisterende data bliver overskrevet. Gendannelsen kan tage lang tid at gennemføre, forlad venligst ikke denne side før gendannelsen er fuldført. Backupfilerne gemmes i <samp>store/</samp>-mappen og forventes at være dannet med phpBB\'s indbyggede backupsystem. Ved forsøg på at gendanne databasen fra en backupfil der ikke er dannet med det interne backupsystem, kan du ikke være sikker på at gendannelsen bliver fuldført med succes.',
 
 	'BACKUP_DELETE'		=> 'Backupfilen blev slettet.',
-	'BACKUP_INVALID'	=> 'Den valgte fil for backup er ugyldig',
+	'BACKUP_INVALID'	=> 'Den valgte fil for backup er ugyldig.',
 	'BACKUP_OPTIONS'	=> 'Valgmuligheder for backup',
 	'BACKUP_SUCCESS'	=> 'Dannelsen af backupfilen lykkedes med den placering du angav.',
 	'BACKUP_TYPE'		=> 'Backuptype',

@@ -1,8 +1,10 @@
 Subject: phpBB installeret
 
-Tillykke, du har med succes installeret phpBB på din server.
+Tillykke.
 
-Denne email indeholder vigtig information om din installation og bør opbevares sikkert. Din adgangskode er gemt og krypteret sikkert i databasen, og kan derfor ikke genfindes. Glemmer du adgangskoden, kan den nulstilles ved brug af email-adressen knyttet til din konto.
+Du har med succes installeret phpBB på din server.
+
+Denne e-mail indeholder vigtig information om din installation og bør opbevares sikkert. Din adgangskode er gemt og krypteret sikkert i databasen, og kan derfor ikke genfindes. Glemmer du adgangskoden, kan den nulstilles ved brug af e-mailadressen knyttet til din konto.
 
 ----------------------------
 Brugernavn: {USERNAME}
@@ -12,6 +14,6 @@ Boardets URL: {U_BOARD}
 
 Nyttig information om phpBB-softwaren findes i docs-mappen i din installation og i supportforummet på phpbb.com - https://www.phpbb.com/support/
 
-For at holde dit boardet sikkert og sikret, anbefales det kraftigt, at du holder boardet opdateret med de seneste softwareudgivelser. Til orientering er en mailingliste tilgængelig på ovennævnte URL, ved at tilmelde sig den, vil du modtage en email når nye udgivelser er tilgængelige.
+For at holde dit boardet sikkert og sikret, anbefales det kraftigt, at du holder boardet opdateret med de seneste softwareudgivelser. Til orientering er en mailingliste tilgængelig på ovennævnte URL, ved at tilmelde sig den, vil du modtage en e-mail når nye udgivelser er tilgængelige.
 
 {EMAIL_SIG}

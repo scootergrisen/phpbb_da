@@ -1,12 +1,12 @@
 
-Nedenstående email er sendt til dig fra en administrator på "{SITENAME}". Finder du indholdet af emailen anstødende eller på anden måde upassende bedes du kontakte boardets webmaster på denne adresse:
+Nedenstående e-mail er sendt til dig fra en administrator på "{SITENAME}". Finder du indholdet af e-mailen anstødende eller på anden måde upassende bedes du kontakte boardets webmaster på denne adresse:
 
 {CONTACT_EMAIL}
 
-Inkluder hele emailen (specielt overskrifterne).
+Inkluder hele e-mailen (specielt overskrifterne).
 
-Emailens indhold
-~~~~~~~~~~~~~~~~
+E-mailens indhold
+~~~~~~~~~~~~~~~~~
 
 {MESSAGE}
 

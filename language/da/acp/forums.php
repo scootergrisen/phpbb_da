@@ -73,10 +73,10 @@ $lang = array_merge($lang, array(
 	'ENABLE_INDEXING_EXPLAIN'		=> 'Hvis sat til ja, vil indlæg i dette forum blive indekseret til søgning.',
 	'ENABLE_POST_REVIEW'			=> 'Aktiver indlægsgennemsyn',
 	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'Hvis sat til ja, vil brugerne få mulighed for at gennemgå deres indlæg igen, hvis der blev skrevet nye indlæg i emnet mens brugeren skrev sit indlæg. Dette bør deaktiveres for snik-snak-fora.',
-	'ENABLE_QUICK_REPLY'					=> 'Aktiver kommentarfelt',
+	'ENABLE_QUICK_REPLY'			=> 'Aktiver kommentarfelt',
 	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'Der vises en simpel tekstboks under indlægget, hvor der kan skrives en hurtig kommentar. Denne aktivering har ingen betydning, hvis kommentarfunktionen er deaktiveret overordnet. Feltet vises kun for brugere, der har tilladelse til at skrive i forummet.',
 	'ENABLE_RECENT'					=> 'Vis aktive emner',
-	'ENABLE_RECENT_EXPLAIN'	=> 'Hvis sat til ja bliver emner skrevet i dette forum vist i listen over aktive emner.',
+	'ENABLE_RECENT_EXPLAIN'			=> 'Hvis sat til ja bliver emner skrevet i dette forum vist i listen over aktive emner.',
 	'ENABLE_TOPIC_ICONS'			=> 'Aktiver emneikoner',
 
 	'FORUM_ADMIN'						=> 'Administrer fora',
@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 	'FORUM_EDIT_EXPLAIN'				=> 'Formularen herunder lader dig tilpasse dette forum. Bemærk venligst at indstillinger for redaktører og indlægstæller sættes via forumtilladelserne for hver bruger eller brugergruppe.',
 	'FORUM_IMAGE'						=> 'Forumbillede',
 	'FORUM_IMAGE_EXPLAIN'				=> 'Placering, relativt til phpBB-rodmappen, af et ekstra billede der skal tilknyttes dette forum.',
-	'FORUM_IMAGE_NO_EXIST'			=> 'Det indtastede forumbillede eksisterer ikke',
+	'FORUM_IMAGE_NO_EXIST'				=> 'Det indtastede forumbillede eksisterer ikke',
 	'FORUM_LINK_EXPLAIN'				=> 'Fuld URL (inklusiv protokol, for eksempel <samp>http://</samp>) til det sted brugeren ledes hen ved klik på dette forum, for eksempel <samp>http://www.phpbb.com/</samp>.',
 	'FORUM_LINK_TRACK'					=> 'Registrer linkhenvisninger',
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Tæller antallet af gange der er blevet klikket på et forumlink.',
@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_MISMATCH'			=> 'Adgangskoderne du indtastede matcher ikke.',
 	'FORUM_PRUNE_SETTINGS'				=> 'Indstillinger for forumbeskæring',
 	'FORUM_PRUNE_SHADOW'				=> 'Autobeskæring af skyggeemner',
-	'FORUM_PRUNE_SHADOW_EXPLAIN'		=> 'Fjerner forummets skyggeemner efter frekvens/alder defineret herunder.',
+	'FORUM_PRUNE_SHADOW_EXPLAIN'			=> 'Fjerner forummets skyggeemner efter frekvens/alder defineret herunder.',
 	'FORUM_RESYNCED'					=> 'Forummet "%s" korrekt resynkroniseret',
 	'FORUM_RULES_EXPLAIN'				=> 'Forumregler vises på alle sider i et givent forum.',
 	'FORUM_RULES_LINK'					=> 'Link til forumregler',
@@ -126,20 +126,20 @@ $lang = array_merge($lang, array(
 	'FORUM_TYPE'						=> 'Forumtype',
 	'FORUM_UPDATED'						=> 'Foruminformation er korrekt opdateret.',
 
-	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'	=> 'Du forsøger at ændre et forum, der indeholder underfora, til et link. Flyt venligst alle underfora fra dette forum til et andet før du fortsætter, undlades dette vil du ikke længere være i stand til at se de tilknyttede underfora.',
+	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'		=> 'Du forsøger at ændre et forum, der indeholder underfora, til et link. Flyt venligst alle underfora fra dette forum til et andet før du fortsætter, undlades dette vil du ikke længere være i stand til at se de tilknyttede underfora.',
 
 	'GENERAL_FORUM_SETTINGS'	=> 'Generelle forumindstillinger',
 
-	'LINK'					=> 'Link',
-	'LIST_INDEX'			=> 'Vis underforum i overforummets forklaring',
-	'LIST_INDEX_EXPLAIN'	=> 'Viser dette forum på boardindekset og i forklaringen for overforummet, hvis overforummet er indstillet til at vise underfora.',
-	'LIST_SUBFORUMS'	=> 'Vis underfora i forklaring',
+	'LINK'						=> 'Link',
+	'LIST_INDEX'				=> 'Vis underforum i overforummets forklaring',
+	'LIST_INDEX_EXPLAIN'		=> 'Viser dette forum på boardindekset og i forklaringen for overforummet, hvis overforummet er indstillet til at vise underfora.',
+	'LIST_SUBFORUMS'			=> 'Vis underfora i forklaring',
 	'LIST_SUBFORUMS_EXPLAIN'	=> 'Viser dette forums underfora på boardindekset og i forumforklaringen, hvis disse er indstillet til at vise underfora i overforummets forklaring.',
-	'LOCKED'				=> 'Låst',
+	'LOCKED'					=> 'Låst',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'Det valgte destinationsforum for indlæggene, der søges flyttet, modtager ikke indlæg. Vælg venligst et forum, der modtager indlæg.',
-	'MOVE_POSTS_TO'		=> 'Flyt indlæg til',
-	'MOVE_SUBFORUMS_TO'	=> 'Flyt underfora til',
+	'MOVE_POSTS_TO'					=> 'Flyt indlæg til',
+	'MOVE_SUBFORUMS_TO'				=> 'Flyt underfora til',
 
 	'NO_DESTINATION_FORUM'			=> 'Du har ikke indtastet et forum hvortil indholdet skal flyttes.',
 	'NO_FORUM_ACTION'				=> 'Ingen handling defineret for hvad der skal ske med forumindhold.',
@@ -158,7 +158,7 @@ $lang = array_merge($lang, array(
 	'REDIRECT_ACL'	=> 'Du kan nu %ssætte tilladelser%s for dette forum.',
 
 	'SYNC_IN_PROGRESS'			=> 'Forum synkroniseres',
-	'SYNC_IN_PROGRESS_EXPLAIN'      => 'Resynkroniserer i øjeblikket emner i intervallet ID %1$d - %2$d.',
+	'SYNC_IN_PROGRESS_EXPLAIN'	=> 'Resynkroniserer i øjeblikket emner i intervallet ID %1$d - %2$d.',
 
 	'TYPE_CAT'			=> 'Kategori',
 	'TYPE_FORUM'		=> 'Forum',

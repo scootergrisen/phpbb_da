@@ -1,5 +1,5 @@
 <?php
-/** 
+/**
 *
 * This file is part of the phpBB Forum Software package.
 *
@@ -29,7 +29,7 @@ if (empty($lang) || !is_array($lang))
 
 // DEVELOPERS PLEASE NOTE
 //
-// All language files should use UTF-8 as their encoding and the files must not contain a BOM
+// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
 //
 // Placeholders can now contain order information, e.g. instead of
 // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
@@ -42,14 +42,14 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_STYLES_EXPLAIN'	=> 'Her kan du vedligeholde de tilgængelige typografier på dit board. En typografi består af en skabelon og et tema. Du kan ændre, slette, deaktivere og genaktivere eksisterende typografier eller installere nye. Du kan også se hvordan en typografi vil se ud, ved at bruge muligheden "vis prøve". Der er også listet hvor mange brugere, der har valgt at bruge hver af de tilgængelige typografier. Hvis du har valgt at tilsidesætte brugerens valg af typografi, er det ikke afspejlet her.',
 
-	'CANNOT_BE_INSTALLED'		=> 'Kan ikke installeres',
-	'CONFIRM_UNINSTALL_STYLES'	=> 'Er du sikker på, at du vil afinstallere valgte typografier?',
-	'COPYRIGHT'					=> 'Copyright',
-	
+	'CANNOT_BE_INSTALLED'			=> 'Kan ikke installeres',
+	'CONFIRM_UNINSTALL_STYLES'		=> 'Er du sikker på, at du vil afinstallere valgte typografier?',
+	'COPYRIGHT'						=> 'Ophavsret',
+
 	'DEACTIVATE_DEFAULT'		=> 'Du kan ikke deaktivere standardindstillingens typografi.',
 	'DELETE_FROM_FS'			=> 'Slet fra filsystemet',
 	'DELETE_STYLE_FILES_FAILED'	=> 'Der opstod fejl under forsøget på at slette filer tilhørende typografien "%s".',
-	'DELETE_STYLE_FILES_SUCCESS' => 'Filer tilhørende typografien "%s" blev slettet.',
+	'DELETE_STYLE_FILES_SUCCESS'	=> 'Filer tilhørende typografien "%s" blev slettet.',
 	'DETAILS'					=> 'Oplysninger',
 
 	'INHERITING_FROM'			=> 'Nedarvet fra',

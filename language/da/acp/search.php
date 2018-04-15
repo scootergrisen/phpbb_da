@@ -1,5 +1,5 @@
 <?php
-/** 
+/**
 *
 * This file is part of the phpBB Forum Software package.
 *
@@ -57,37 +57,37 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Søgemotoren er ved at slette indeks. Det kan tage nogle minutter.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'MySQL\'s fuldtekstsøgemotor kan kun bruges fra MySQL4 og nyere.',
-	'FULLTEXT_MYSQL_NOT_SUPPORTED'				=> 'MySQL\'s fuldtekstindeksering kan kun anvendes sammen med MyISAM- eller InnoDB-tabeller. MySQL 5.6.8 eller nyere kræves for at understøtte fuldtekstindeksering med InnoDB-tabeller.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'MySQL\'s fuldtekstindeksering kan kun anvendes sammen med MyISAM- eller InnoDB-tabeller. MySQL 5.6.8 eller nyere kræves for at understøtte fuldtekstindeksering med InnoDB-tabeller.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Det totale antal indekserede indlæg',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Ord indeholdende mindst dette antal tegn indekseres til søgninger. Denne værdi kan kun ændres direkte i konfigurationen af mysql.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Ord indeholdende mindre end dette antal tegn indekseres til søgninger. Denne værdi kan kun ændres direkte i konfigurationen af mysql.',
 
 	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'PostgreSQL\'s fuldtekstsøgemotor kan kun anvendes sammen med PostgreSQL.',
-	'FULLTEXT_POSTGRES_TOTAL_POSTS'	=> 'Det totale antal indekserede indlæg',
-	'FULLTEXT_POSTGRES_VERSION_CHECK'	=> 'PostgreSQL-version',
-	'FULLTEXT_POSTGRES_TS_NAME'	=> 'Tekstsøgnings konfigurationprofil:',
-	'FULLTEXT_POSTGRES_MIN_WORD_LEN'	=> 'Mindste ordlængde for nøgleord',
-	'FULLTEXT_POSTGRES_MAX_WORD_LEN'	=> 'Største ordlængde for nøgleord',
-	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'	=> 'Denne søgemotor kræver PostgreSQL version 8.3 og nyere.',
-	'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'	=> 'Konfigurationprofilen anvendes til at bestemme parsning og ordliste.',
-	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'	=> 'Ord med mindst dette antal tegn inkluderes i databaseforespørgslen.',
-	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'	=> 'Ord med højst dette antal tegn inkluderes i databaseforespørgslen.',
+	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Det totale antal indekserede indlæg',
+	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'PostgreSQL-version',
+	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Tekstsøgnings konfigurationprofil:',
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN'			=> 'Mindste ordlængde for nøgleord',
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN'			=> 'Største ordlængde for nøgleord',
+	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'		=> 'Denne søgemotor kræver PostgreSQL version 8.3 og nyere.',
+	'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'				=> 'Konfigurationprofilen anvendes til at bestemme parsning og ordliste.',
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'			=> 'Ord med mindst dette antal tegn inkluderes i databaseforespørgslen.',
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'			=> 'Ord med højst dette antal tegn inkluderes i databaseforespørgslen.',
 
-	'FULLTEXT_SPHINX_CONFIGURE'        => 'Udfyld de følgende indstillinger for at danne sphinx-konfigurationsfilen',
-	'FULLTEXT_SPHINX_DATA_PATH'        => 'Sti til data-mappen',
-	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'    => 'Anvendes til lagring af indekseringer og logfiler. Mappen bør oprettes så der ikke er offentlig adgang til den (bør have en afsluttende skråstreg).',
-	'FULLTEXT_SPHINX_DELTA_POSTS'      => 'Antal dataposter i hyppigt opdateret deltaindeks',
-	'FULLTEXT_SPHINX_HOST'          => 'Sphinx søgedæmon-vært',
-	'FULLTEXT_SPHINX_HOST_EXPLAIN'      => 'Den vært Sphinx\'s søgedæmon (searchd) lytter på. Udfyldes intet, anvendes localhost som standard.',
-	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'    => 'Hukommelsesgrænse for indeksering',
-	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'  => 'Værdien bør altid valges lavere end den tilgængelige mængde RAM på din server. Oplever du periodiske problemer med serverens ydeevne, kan årsagen være at indekseringerne optager for mange ressourcer. Det kan afhjælpes ved at sænke den mængde RAM indekseringer har til rådighed.',
-	'FULLTEXT_SPHINX_MAIN_POSTS'      => 'Antal indlæg i hovedindeks',
-	'FULLTEXT_SPHINX_PORT'          => 'Port for Sphinx\'s søgedæmon',
-	'FULLTEXT_SPHINX_PORT_EXPLAIN'      => 'Den port Sphinx\'s søgedæmon (searchd) lytter på. Udfyldes ikke hvis Sphinx API port 9312, som er standard, ønskes benyttet.',
-	'FULLTEXT_SPHINX_WRONG_DATABASE'    => 'phpBB\'s sphinx-søgning understøtter kun MySQL og PostgreSQL.',
-	'FULLTEXT_SPHINX_CONFIG_FILE'      => 'Sphinx-konfigurationsfil',
-	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'  => 'Det dannede indhold til brug for Sphinx\'s konfigurationsfil. Data skal kopieres ind i sphinx.conf, som benyttes af Sphinx\'s søgedæmonen. Erstat værdierne [dbuser] og [dbpassword] med dine tilsvarende oplysninger for adgang til din database.',
-	'FULLTEXT_SPHINX_NO_CONFIG_DATA'    => 'Stien til sphinx-datamappen er ikke defineret. Indtast venligst denne for at danne konfigurationsfilen.',
+	'FULLTEXT_SPHINX_CONFIGURE'				=> 'Udfyld de følgende indstillinger for at danne sphinx-konfigurationsfilen',
+	'FULLTEXT_SPHINX_DATA_PATH'				=> 'Sti til data-mappen',
+	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'		=> 'Anvendes til lagring af indekseringer og logfiler. Mappen bør oprettes så der ikke er offentlig adgang til den (bør have en afsluttende skråstreg).',
+	'FULLTEXT_SPHINX_DELTA_POSTS'			=> 'Antal dataposter i hyppigt opdateret deltaindeks',
+	'FULLTEXT_SPHINX_HOST'					=> 'Sphinx søgedæmon-vært',
+	'FULLTEXT_SPHINX_HOST_EXPLAIN'			=> 'Den vært Sphinx\'s søgedæmon (searchd) lytter på. Udfyldes intet, anvendes localhost som standard',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'		=> 'Hukommelsesgrænse for indeksering',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'	=> 'Værdien bør altid valges lavere end den tilgængelige mængde RAM på din server. Oplever du periodiske problemer med serverens ydeevne, kan årsagen være at indekseringerne optager for mange ressourcer. Det kan afhjælpes ved at sænke den mængde RAM indekseringer har til rådighed.',
+	'FULLTEXT_SPHINX_MAIN_POSTS'			=> 'Antal indlæg i hovedindeks',
+	'FULLTEXT_SPHINX_PORT'					=> 'Port for Sphinx\'s søgedæmon',
+	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Den port Sphinx\'s søgedæmon (searchd) lytter på. Udfyldes ikke hvis Sphinx API port 9312, som er standard, ønskes benyttet',
+	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'phpBB\'s sphinx-søgning understøtter kun MySQL og PostgreSQL.',
+	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Sphinx-konfigurationsfil',
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'Det dannede indhold til brug for Sphinx\'s konfigurationsfil. Data skal kopieres ind i sphinx.conf, som benyttes af Sphinx\'s søgedæmonen. Erstat værdierne [dbuser] og [dbpassword] med dine tilsvarende oplysninger for adgang til din database.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'Stien til sphinx-datamappen er ikke defineret. Indtast venligst denne for at danne konfigurationsfilen.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Generelle søgeindstillinger',
 	'GO_TO_SEARCH_INDEX'					=> 'Gå til søgeindekssiden',
@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'MAX_SEARCH_CHARS'						=> 'Maksimalt antal tegn for indeksering til søgninger',
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Ord på højest dette antal tegn vil blive indekseret til brug for søgninger.',
 	'MAX_NUM_SEARCH_KEYWORDS'				=> 'Maksimalt antal tilladte ord',
-	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Det maksimalt antal tilladte ord i en søgning. Indtastes 0, tillades ubegrænset antal ord.',	
+	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Det maksimalt antal tilladte ord i en søgning. Indtastes 0, tillades ubegrænset antal ord.',
 	'MIN_SEARCH_CHARS'						=> 'Minimalt antal tegn for indeksering til søgninger',
 	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Ord på mindst dette antal tegn vil blive indekseret til brug for søgninger.',
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Mindste antal tegn for forfatternavn',
@@ -112,17 +112,17 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_GUEST_INTERVAL'					=> 'Gæsters søgeinterval',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Det antal sekunder gæster skal vente mellem søgninger. Hvis en gæst søger, må alle andre gæster vente indtil dette tidsinterval er overskredet.',
-	'SEARCH_INDEX_CREATE_REDIRECT'      => array(
-		1  => 'Alle indlæg til og med indlægs-ID %2$d er nu indekseret, af disse %1$d indlæg i dette trin.<br />',
-		2  => 'Alle indlæg til og med indlægs-ID %2$d er nu indekseret, af disse %1$d indlæg i dette trin.<br />',
+	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
+		1	=> 'Alle indlæg til og med indlægs-ID %2$d er nu indekseret, af disse %1$d indlæg i dette trin.<br />',
+		2	=> 'Alle indlæg til og med indlægs-ID %2$d er nu indekseret, af disse %1$d indlæg i dette trin.<br />',
 	),
-	'SEARCH_INDEX_CREATE_REDIRECT_RATE'    => array(
-		1  => 'I øjeblikket indekseres ca. %1$.1f indlæg i sekundet.<br />Igangværende indeksering…',
-		2  => 'I øjeblikket indekseres ca. %1$.1f indlæg i sekundet.<br />Igangværende indeksering…',
+	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
+		1	=> 'I øjeblikket indekseres ca. %1$.1f indlæg i sekundet.<br />Igangværende indeksering…',
+		2	=> 'I øjeblikket indekseres ca. %1$.1f indlæg i sekundet.<br />Igangværende indeksering…',
 	),
-	'SEARCH_INDEX_DELETE_REDIRECT'      => array(
-		1  => 'Alle indlæg til og med indlægs-ID %2$d er nu fjernet fra søgeindekset.<br />Igangværende fjernelse af indlæg…',
-		2  => 'Alle indlæg til og med indlægs-ID %2$d er nu fjernet fra søgeindekset.<br />Igangværende fjernelse af indlæg…',
+	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
+		1	=> 'Alle indlæg til og med indlægs-ID %2$d er nu fjernet fra søgeindekset.<br />Igangværende fjernelse af indlæg…',
+		2	=> 'Alle indlæg til og med indlægs-ID %2$d er nu fjernet fra søgeindekset.<br />Igangværende fjernelse af indlæg…',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Alle boardets indlæg er nu indekserede.',
 	'SEARCH_INDEX_REMOVED'					=> 'Søgemotorens søgeindeks er nu slettet.',

@@ -71,24 +71,24 @@ $lang = array_merge($lang, array(
 
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Tømmer den indtastede udvidelse.',
 
-	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Vis typer af tekst der kan genfortolkes.',
-	'CLI_DESCRIPTION_REPARSER_AVAILABLE'		=> 'Tilgængelige genfortolkere:',
-	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Genfortolker lagret tekst med den øjeblikkelige tekstformateringstjeneste.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Teksttype der kan genfortolkes. Undlades at udfylde, genfortolkes alt.',
+	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Vis typer af tekst der kan genfortolkes.',
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Tilgængelige genfortolkere:',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Genfortolker lagret tekst med den øjeblikkelige tekstformateringstjeneste.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Teksttype der kan genfortolkes. Undlades at udfylde, genfortolkes alt.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Gem ingen ændringer, vis kun hvad der vil blive foretaget',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Lavest record ID der skal udføres',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Højeste record ID der skal udføres',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Cirka antal records der skal udføres på en gang',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Start genfortolkning hvor den sidste udførsel stoppede',
 
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Genberegner kolonnen user_email_hash i tabellen users.',
+	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'Genberegner kolonnen user_email_hash i tabellen users.',
 
-	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Indstiller kun værdien på en konfigurationmulighed hvis den tidligere værdi svarer til den nuværende',
-	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Indstiller værdien på en konfigurationmulighed',
+	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'Indstiller kun værdien på en konfigurationmulighed hvis den tidligere værdi svarer til den nuværende',
+	'CLI_DESCRIPTION_SET_CONFIG'						=> 'Indstiller værdien på en konfigurationmulighed',
 
-	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Slet alle eksisterende miniaturer.',
-	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Dan alle manglende miniaturer.',
-	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Gendan alle miniaturer.',
+	'CLI_DESCRIPTION_THUMBNAIL_DELETE'					=> 'Slet alle eksisterende miniaturer.',
+	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'				=> 'Dan alle manglende miniaturer.',
+	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'				=> 'Gendan alle miniaturer.',
 
 	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Kontroller om boardet er opdateret.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Navnet på den udvidelse der skal kontrolleres (indtast all, hvis alle udvidelser skal kontrolleres)',
@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Brugernavn på den bruger der skal slettes',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Slet alle brugers indlæg. Undlades denne mulighed, bevares brugers indlæg.',
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Rens brugernavne.',
-	
+
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Udvidelsen %s kunne ikke deaktiveres',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Udvidelsen %s blev deaktiveret',
 	'CLI_EXTENSION_DISABLED'			=> 'Udvidelsen %s er ikke aktiv',
@@ -143,7 +143,7 @@ $lang = array_merge($lang, array(
 	'CLI_MIGRATIONS_EMPTY'                  => 'Ingen migrationer.',
 
 	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Genfortolker %1$s (område %2$d..%3$d)',
-	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Genfortolker %s…',
+	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Genfortolker %s...',
 	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Genfortolkning afsluttet med succes',
 
 	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem

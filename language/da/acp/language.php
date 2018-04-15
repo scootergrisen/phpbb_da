@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'MISSING_LANG_FILES'		=> 'Manglende sprogfiler',
 	'MISSING_LANG_VARIABLES'	=> 'Manglende sprogvariabler',
 
-	'NO_FILE_SELECTED'			=> 'Du har ikke indtastet en sprogfil.',
+	'NO_FILE_SELECTED'				=> 'Du har ikke indtastet en sprogfil.',
 	'NO_LANG_ID'					=> 'Du har ikke indtastet en sprogpakke.',
 	'NO_REMOVE_DEFAULT_LANG'		=> 'Du kan ikke fjerne standardsprogpakken.<br />Hvis du ønsker at fjerne denne sprogpakke, skal du ændre boardets standardsprog først.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Ingen afinstallerede sprogpakker',

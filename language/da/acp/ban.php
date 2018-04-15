@@ -71,9 +71,9 @@ $lang = array_merge($lang, array(
 	'IP_UNBAN_EXPLAIN'			=> 'Du kan ophæve flere IP-adressers udelukkelse i en arbejdsgang, ved at bruge den rette kombination af mus og tastatur (afhængig af computer og browser). IP-adresser ekskluderet fra udelukkelse er fremhævet.',
 
 	'LENGTH_BAN_INVALID'		=> 'Datoen skal have formatet <kbd>ÅÅÅÅ-MM-DD</kbd>.',
-	
-	'OPTIONS_BANNED'      => 'Udelukket',
-	'OPTIONS_EXCLUDED'      => 'Ekskluderet',
+
+	'OPTIONS_BANNED'			=> 'Udelukket',
+	'OPTIONS_EXCLUDED'			=> 'Ekskluderet',
 
 	'PERMANENT'		=> 'Permanent',
 

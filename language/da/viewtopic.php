@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 	'POLL_ENDED_AT'			=> 'Afstemning sluttede %s',
 	'POLL_RUN_TILL'			=> 'Afstemningen varer indtil %s',
 	'POLL_VOTED_OPTION'		=> 'Du stemte på denne afstemningsmulighed',
-	'POST_DELETED_RESTORE'  => 'Indlægget er skjult og kan gendannes.',
+	'POST_DELETED_RESTORE'	=> 'Indlægget er skjult og kan gendannes.',
 	'PRINT_TOPIC'			=> 'Udskriv emne',
 
 	'QUICK_MOD'				=> 'Redigeringsværktøjer',
@@ -104,8 +104,8 @@ $lang = array_merge($lang, array(
 	'QUOTE'					=> 'Citat',
 
 	'REPLY_TO_TOPIC'		=> 'Svar på emne',
-	'RESTORE'        => 'Gendan',
-	'RESTORE_TOPIC'      => 'Gendan emne',
+	'RESTORE'				=> 'Gendan',
+	'RESTORE_TOPIC'			=> 'Gendan emne',
 	'RETURN_POST'			=> '%sTilbage til indlægget%s',
 
 	'SUBMIT_VOTE'			=> 'Stem',

@@ -44,12 +44,12 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS_EXPLAIN'		=> 'Udvidelsemanageren er et værktøj i dit phpBB-board som giver dig mulighed for at håndtere alle dine udvidelsers statusser og vise information om dem.',
 	'EXTENSION_INVALID_LIST'	=> 'Udvidelsen "%s" er ugyldig.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'	=> 'Den valgte udvidelse er ikke tilgængelig. Bekræft venligst at din phpBB- og PHP-version er tilladt (se siden med detailspecifikationerne).',
-	'EXTENSION_DIR_INVALID'    => 'Den valgte udvidelse har en ugyldig mappestruktur og kan ikke aktiveres.',
-	'EXTENSION_NOT_ENABLEABLE' => 'Den valgte udvidelse kan ikke aktiveres. Undersøg venligst om udvidelsens krav opfyldes.',
+	'EXTENSION_DIR_INVALID'		=> 'Den valgte udvidelse har en ugyldig mappestruktur og kan ikke aktiveres.',
+	'EXTENSION_NOT_ENABLEABLE'	=> 'Den valgte udvidelse kan ikke aktiveres. Undersøg venligst om udvidelsens krav opfyldes.',
 	'EXTENSION_NOT_INSTALLED'	=> 'Udvidelsen %s er ikke tilgængelig. Kontroller venligst at du har installeret den korrekt.',
 
 	'DETAILS'				=> 'Detaljer',
-	
+
 	'EXTENSIONS_DISABLED'	=> 'Inaktive udvidelser',
 	'EXTENSIONS_ENABLED'	=> 'Aktive udvidelser',
 
@@ -64,14 +64,14 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DELETE_DATA_IN_PROGRESS'		=> 'Udvidelsens data er ved at blive slettet. Forlad venligst ikke denne side og undlad at genindlæse den, i mens processen er i gang.',
 	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'Udvidelsen er under deaktivering. Forlad venligst ikke denne side og undlad at genindlæse den, i mens processen er i gang.',
 	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'Udvidelsen er under aktivering. Forlad venligst ikke denne side og undlad at genindlæse den, i mens processen er i gang.',
-	
+
 	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Udvidelsens data blev slettet',
 	'EXTENSION_DISABLE_SUCCESS'		=> 'Udvidelsen blev deaktiveret',
 	'EXTENSION_ENABLE_SUCCESS'		=> 'Udvidelsen blev aktiveret',
 
-	'EXTENSION_NAME'		=> 'Udvidelsens navn',
-	'EXTENSION_ACTIONS'		=> 'Handlinger',
-	'EXTENSION_OPTIONS'		=> 'Vis',
+	'EXTENSION_NAME'			=> 'Udvidelsens navn',
+	'EXTENSION_ACTIONS'			=> 'Handlinger',
+	'EXTENSION_OPTIONS'			=> 'Vis',
 	'EXTENSION_INSTALL_HEADLINE'=> 'Installation af udvidelse',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
 			<li>Download udvidelse fra phpBB\'s udvidelsedatabase</li>
@@ -93,11 +93,11 @@ $lang = array_merge($lang, array(
 		</ol>',
 
 	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Er du sikker på, at du vil slette data tilknyttet udvidelsen "%s"?<br /><br />Herved fjernes alle data og indstillinger, og kan ikke fortrydes!',
-	'EXTENSION_DISABLE_CONFIRM'			=> 'Er du sikker på, at du vil deaktivere udvidelsen "%s"?',
-	'EXTENSION_ENABLE_CONFIRM'			=> 'Er du sikker på, at du vil aktivere udvidelsen "%s"?',
+	'EXTENSION_DISABLE_CONFIRM'		=> 'Er du sikker på, at du vil deaktivere udvidelsen "%s"?',
+	'EXTENSION_ENABLE_CONFIRM'		=> 'Er du sikker på, at du vil aktivere udvidelsen "%s"?',
 	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Er du sikker på, at du vil gøre brug af en ustabil version?',
-	
-	'RETURN_TO_EXTENSION_LIST'		=> 'Tilbage til listen over udvidelser',
+
+	'RETURN_TO_EXTENSION_LIST'	=> 'Tilbage til listen over udvidelser',
 
 	'EXT_DETAILS'			=> 'Detaljer for udvidelse',
 	'DISPLAY_NAME'			=> 'Navn',

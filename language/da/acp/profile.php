@@ -75,8 +75,8 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Mærk boksen for at vise feltet på tilmeldingssiden.',
 	'DISPLAY_ON_MEMBERLIST'			=> 'Vis på listen over tilmeldte brugere',
 	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'Feltet vises sammen med øvrige brugerdata på listen.',
-	'DISPLAY_ON_PM'          => 'Vis når privat besked læses',
-	'DISPLAY_ON_PM_EXPLAIN'      => 'Feltet vises i profilfeltet ved siden af beskeden.',
+	'DISPLAY_ON_PM'					=> 'Vis når privat besked læses',
+	'DISPLAY_ON_PM_EXPLAIN'			=> 'Feltet vises i profilfeltet ved siden af beskeden.',
 	'DISPLAY_ON_VT'					=> 'Vis når emne læses',
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'Feltet vises i profilfeltet ved siden af indlægget.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Vis profilfelt offentligt',
@@ -122,8 +122,8 @@ $lang = array_merge($lang, array(
 
 	'LANG_SPECIFIC_OPTIONS'		=> 'Sprogspecifikke indstillinger [<strong>%s</strong>]',
 
-	'LETTER_NUM_DOTS'	=> 'Alle bogstaver, tal og punktummer',
-	'LETTER_NUM_ONLY'	=> 'Alle bogstaver og tal',
+	'LETTER_NUM_DOTS'			=> 'Alle bogstaver, tal og punktummer',
+	'LETTER_NUM_ONLY'			=> 'Alle bogstaver og tal',
 	'LETTER_NUM_PUNCTUATION'	=> 'Alle bogstaver, tal, kommaer, punktummer, underscores og bindestreger, begyndende med et bogstav',
 	'LETTER_NUM_SPACERS'		=> 'Alle bogstaver, tal og mellemrum',
 	'LETTER_NUM_UNDERSCORE'		=> 'Alle bogstaver, tal og underscores',
@@ -142,7 +142,7 @@ $lang = array_merge($lang, array(
 
 	'PROFILE_BASIC_OPTIONS'		=> 'Grundindstillinger',
 	'PROFILE_FIELD_ACTIVATED'	=> 'Profilfelt aktiveret.',
-	'PROFILE_FIELD_DEACTIVATED'	=> 'Profilfelt deaktiveret',
+	'PROFILE_FIELD_DEACTIVATED'	=> 'Profilfelt deaktiveret.',
 	'PROFILE_LANG_OPTIONS'		=> 'Sproglige definitioner',
 	'PROFILE_TYPE_OPTIONS'		=> 'Indstillinger for felttype',
 

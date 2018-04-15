@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	// Install page
 	'INSTALL_INTRO'			=> 'Velkommen til installationen',
 	'INSTALL_INTRO_BODY'	=> 'Med denne funktion er det muligt at installere phpBB3 på din server.</p><p>For at fortsætte skal du have dine databaseindstillinger klarlagt. Hvis du ikke kender dine databaseindstillinger, kontakt da venligst din vært. Uden disse kan du ikke fortsætte installationen. Du skal bruge følgende informationer:</p>
-	
+
 	<ul>
 		<li>Databasetype - databasen du vil bruge.</li>
 		<li>Databaseserverens værtsnavn eller DSN - adressen på serveren.</li>
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 	</ul>
 
 	<p><strong>Bemærk:</strong> Hvis du ønsker at anvend SQLite, skal du indtaste den fulde sti til din databasefil i DSN-feltet, og efterlade felterne for brugernavn og adgangskode tomme. Af hensyn til sikkerheden bør du sikre dig, at man ikke kan få direkte adgang til databasefilen fra Internettet.</p>
-	
+
 	<p>phpBB3 understøtter følgende databasetyper:</p>
 	<ul>
 		<li>MySQL 3.23 eller nyere (MySQLi er understøttet)</li>
@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 		<li>MS SQL Server 2005 eller nyere (indbygget)</li>
 		<li>Oracle</li>
 	</ul>
-	
+
 	<p>På næste side vises kun de databasetyper der understøttes af din server.',
 
 	'ACP_LINK'	=> 'Gå til <a href="%1$s">ACP</a>',
@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'DIRECTORY_NOT_EXISTS'						=> 'Mappen findes ikke',
 	'DIRECTORY_NOT_EXISTS_EXPLAIN'				=> 'For at kunne installere phpBB skal mappen %1$s være til stede.',
 	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'For at give brugere af boardet den bedste oplevelse, anbefales det at mappen %1$s er til stede.',
-	'DIRECTORY_NOT_WRITABLE'					=> 'Der kan ikke skrives til mappen.',
+	'DIRECTORY_NOT_WRITABLE'					=> 'Der kan ikke skrives til mappen',
 	'DIRECTORY_NOT_WRITABLE_EXPLAIN'			=> 'For at kunne installere phpBB skal der kunne skrives til mappen %1$s.',
 	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'For at give brugere af boardet den bedste oplevelse, anbefales det at der skal kunne skrives til mappen %1$s.',
 
@@ -118,7 +118,7 @@ $lang = array_merge($lang, array(
 	'PHP_XML_SUPPORT'					=> 'Understøttelse af PHP XML/DOM',
 	'PHP_XML_SUPPORT_EXPLAIN'			=> 'For at få phpBB til at fungere korrekt, er det nødvendigt at udvidelsen PHP XML/DOM er tilgængelig.',
 	'PHP_SUPPORTED_DB'					=> 'Understøttede databaser',
-	'PHP_SUPPORTED_DB_EXPLAIN'			=>	'<strong>Krævet</strong> - Du skal have understøttelse for mindst en kompatibel database i PHP. Hvis der ikke er vist nogen moduler som værende tilgængelige, bør du kontakte din vært eller gennemgå dokumentationen for din PHP-installation for yderligere hjælp.',
+	'PHP_SUPPORTED_DB_EXPLAIN'			=> '<strong>Krævet</strong> - Du skal have understøttelse for mindst en kompatibel database i PHP. Hvis der ikke er vist nogen moduler som værende tilgængelige, bør du kontakte din vært eller gennemgå dokumentationen for din PHP-installation for yderligere hjælp.',
 
 	'RETEST_REQUIREMENTS'	=> 'Gentest om krav er opfyldt',
 
@@ -521,7 +521,7 @@ $lang = array_merge($lang, array(
 	'PREPROCESS_STEP'			=> 'Udfører forbehandlingsfunktioner og -forespørgsler',
 	'FILLING_TABLE'				=> 'Udfylder tabel <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'Udfylder tabeller',
-	'DB_ERR_INSERT'				=> 'Fejl under behandling af <code>INSERT</code>.',
+	'DB_ERR_INSERT'				=> 'Fejl under behandling af <code>INSERT</code>-forespørgsel.',
 	'DB_ERR_LAST'				=> 'Fejl under behandling af <var>query_last</var>.',
 	'DB_ERR_QUERY_FIRST'		=> 'Fejl under behandling af <var>query_first</var>.',
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Fejl under behandling af <var>query_first</var>, %s ("%s").',

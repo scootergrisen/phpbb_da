@@ -57,8 +57,8 @@ $lang = array_merge($lang, array(
 	'SEND_TO_USERS'			=> 'Send til brugere',
 	'SEND_TO_USERS_EXPLAIN'	=> 'Indtastning af navne her vil overskrive enhver gruppe valgt ovenfor. Indtast hvert brugernavn på en linje for sig.',
 
-	'MAIL_BANNED'      => 'Send også e-mail til udelukkede brugere',
-	'MAIL_BANNED_EXPLAIN'  => 'Når du sender en masse-e-mail til en gruppe, kan du her vælge at også udelukkede brugere i gruppen, skal modtage e-mailen.',
+	'MAIL_BANNED'			=> 'Send også e-mail til udelukkede brugere',
+	'MAIL_BANNED_EXPLAIN'	=> 'Når du sender en masse-e-mail til en gruppe, kan du her vælge at også udelukkede brugere i gruppen, skal modtage e-mailen.',
 	'MAIL_HIGH_PRIORITY'	=> 'Høj',
 	'MAIL_LOW_PRIORITY'		=> 'Lav',
 	'MAIL_NORMAL_PRIORITY'	=> 'Normal',

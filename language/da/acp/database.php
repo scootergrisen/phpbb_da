@@ -50,29 +50,29 @@ $lang = array_merge($lang, array(
 	'BACKUP_SUCCESS'	=> 'Dannelsen af backupfilen lykkedes med den placering du angav.',
 	'BACKUP_TYPE'		=> 'Backuptype',
 
-	'DATABASE' => 'Databaseværktøjer',
+	'DATABASE'			=> 'Databaseværktøjer',
 	'DATA_ONLY'			=> 'Data alene',
-	'DELETE_BACKUP'			=> 'Slet backup',
+	'DELETE_BACKUP'		=> 'Slet backup',
 	'DELETE_SELECTED_BACKUP'	=> 'Er du sikker på, at du vil slette den valgte backup?',
 	'DESELECT_ALL'		=> 'Fravælg alle',
-	'DOWNLOAD_BACKUP'		=> 'Download backup',
-	
+	'DOWNLOAD_BACKUP'	=> 'Download backup',
+
 	'FILE_TYPE'			=> 'Filtype',
 	'FILE_WRITE_FAIL'	=> 'Der kan ikke skrives til store-mappen.',
 	'FULL_BACKUP'		=> 'Fuld',
-	
-	'RESTORE_FAILURE'	=> 'Backupfilen kan være ødelagt.',
+
+	'RESTORE_FAILURE'		=> 'Backupfilen kan være ødelagt.',
 	'RESTORE_OPTIONS'		=> 'Valgmuligheder for gendannelse',
-	'RESTORE_SELECTED_BACKUP'  => 'Er du sikker på, at du vil gendanne den valgte backup?',
+	'RESTORE_SELECTED_BACKUP'	=> 'Er du sikker på, at du vil gendanne den valgte backup?',
 	'RESTORE_SUCCESS'		=> 'Gendannelsen af databasen lykkedes.<br /><br />Dit board skulle være tilbage i den stand det var i da backup\'en blev taget.',
 
-	'SELECT_ALL'	=> 'Vælg alle',
+	'SELECT_ALL'			=> 'Vælg alle',
 	'SELECT_FILE'			=> 'Vælg en fil',
-	'START_BACKUP'		=> 'Start backup',
+	'START_BACKUP'			=> 'Start backup',
 	'START_RESTORE'			=> 'Start gendannelse',
 	'STORE_AND_DOWNLOAD'	=> 'Gem og download',
-	'STORE_LOCAL'		=> 'Gem fil på server',
-	'STRUCTURE_ONLY'	=> 'Struktur alene',
+	'STORE_LOCAL'			=> 'Gem fil på server',
+	'STRUCTURE_ONLY'		=> 'Struktur alene',
 
 	'TABLE_SELECT'		=> 'Tabelvalg',
 	'TABLE_SELECT_ERROR'=> 'Du skal vælge mindst en tabel.',

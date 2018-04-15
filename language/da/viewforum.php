@@ -58,15 +58,15 @@ $lang = array_merge($lang, array(
 	'NO_NEW_POSTS_LOCKED'	=> 'Ingen nye indlæg [ Låst ]',	// Not used anymore
 	'NO_READ_ACCESS'		=> 'Du har ikke de nødvendige tilladelser til at se og læse emner i dette forum.',
 	'NO_FORUMS_IN_CATEGORY'	=> 'Denne kategori indeholder ingen fora.',
-	'NO_UNREAD_POSTS_HOT'    => 'Ingen ulæste indlæg [ Populær ]',
-	'NO_UNREAD_POSTS_LOCKED'  => 'Ingen ulæste indlæg [ Låst ]',
+	'NO_UNREAD_POSTS_HOT'		=> 'Ingen ulæste indlæg [ Populær ]',
+	'NO_UNREAD_POSTS_LOCKED'	=> 'Ingen ulæste indlæg [ Låst ]',
 
 	'POST_FORUM_LOCKED'		=> 'Forum er låst',
 
 	'TOPICS_MARKED'			=> 'Emnerne i dette forum er nu blevet markeret som læst.',
 
-	'UNREAD_POSTS_HOT'    => 'Ulæste indlæg [ Populær ]',
-	'UNREAD_POSTS_LOCKED'  => 'Ulæste indlæg [ Låst ]',
+	'UNREAD_POSTS_HOT'		=> 'Ulæste indlæg [ Populær ]',
+	'UNREAD_POSTS_LOCKED'	=> 'Ulæste indlæg [ Låst ]',
 
 	'VIEW_FORUM'			=> 'Vis forum',
 	'VIEW_FORUM_TOPICS' => array(

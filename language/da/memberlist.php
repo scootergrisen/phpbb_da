@@ -46,17 +46,17 @@ $lang = array_merge($lang, array(
 	'ADD_FOE'				=> 'Ignorer bruger',
 	'ADD_FRIEND'			=> 'Tilføj som ven',
 	'AFTER'					=> 'Efter',
-	
+
 	'ALL'					=> 'Alle',
 
 	'BEFORE'				=> 'Før',
 
-	'CC_SENDER'				=> 'Send en kopi af denne e-mail til dig selv',
+	'CC_SENDER'				=> 'Send en kopi af denne e-mail til dig selv.',
 	'CONTACT_ADMIN'			=> 'Kontakt en boardadministrator',
 
 	'DEST_LANG'				=> 'Sprog',
 	'DEST_LANG_EXPLAIN'		=> 'Vælg et passende sprog (hvis tilgængeligt) til modtageren af denne besked.',
-	
+
 	'EDIT_PROFILE'			=> 'Rediger profil',
 
 	'EMAIL_BODY_EXPLAIN'	=> 'Denne besked bliver sendt som ren tekst, undlad derfor HTML- og BBkode. Returadressen i denne besked bliver sat som din e-mailadresse.',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'IM_SEND_MESSAGE'		=> 'Send besked',
 	'IM_SENT_JABBER'		=> 'Din besked til %1$s er afsendt.',
 	'IM_USER'				=> 'Send en besked',
-	
+
 	'LAST_ACTIVE'				=> 'Senest aktiv',
 	'LESS_THAN'					=> 'Mindre end',
 	'LIST_USERS' => array(
@@ -152,6 +152,6 @@ $lang = array_merge($lang, array(
 	'VIEW_FACEBOOK_PROFILE'	=> 'Se Facebook-profil',
 	'VIEW_SKYPE_PROFILE'	=> 'Se Skype-profil',
 	'VIEW_TWITTER_PROFILE'	=> 'Se Twitter-profil',
-	'VIEW_YOUTUBE_CHANNEL'  => 'Se YouTube-kanal',
+	'VIEW_YOUTUBE_CHANNEL'	=> 'Se YouTube-kanal',
 	'VIEW_GOOGLEPLUS_PROFILE' => 'Se Google+-profil',
 ));

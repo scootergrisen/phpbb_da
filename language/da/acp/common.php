@@ -127,7 +127,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_MAIN'					=> 'ACP-indeks',
 
-	'ACP_MANAGE_ATTACHMENTS'	=> 'Vis vedhæftede filer',
+	'ACP_MANAGE_ATTACHMENTS'			=> 'Vis vedhæftede filer',
 	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Filer, vedhæftet til indlæg og private beskeder, kan listes og slettes her.',
 
 	'ACP_MANAGE_EXTENSIONS'		=> 'Filtyper',
@@ -164,8 +164,8 @@ $lang = array_merge($lang, array(
 
 	'ACP_RESTORE'				=> 'Gendan',
 
-	'ACP_FEED'	=> 'Feed-administration',
-	'ACP_FEED_SETTINGS'	=> 'Feeds',
+	'ACP_FEED'					=> 'Feed-administration',
+	'ACP_FEED_SETTINGS'			=> 'Feeds',
 
 	'ACP_SEARCH'				=> 'Opsætning af søgefunktion',
 	'ACP_SEARCH_INDEX'			=> 'Søgeindeks',
@@ -178,11 +178,10 @@ $lang = array_merge($lang, array(
 	'ACP_SMILIES'				=> 'Smileys',
 	'ACP_STYLE_MANAGEMENT'		=> 'Administration af typografi',
 	'ACP_STYLES'				=> 'Typografier',
-
 	'ACP_STYLES_CACHE'			=> 'Tøm mellemlager',
 	'ACP_STYLES_INSTALL'		=> 'Installer typografier',
 
-	'ACP_SUBMIT_CHANGES'	=> 'Udfør ændringer',
+	'ACP_SUBMIT_CHANGES'		=> 'Udfør ændringer',
 
 	'ACP_TEMPLATES'				=> 'Skabeloner',
 	'ACP_THEMES'				=> 'Temaer',
@@ -224,24 +223,24 @@ $lang = array_merge($lang, array(
 	'ADMIN'					=> 'Administration',
 	'ADMIN_INDEX'			=> 'Administratorindeks',
 	'ADMIN_PANEL'			=> 'Administratorkontrolpanel',
-	
+
 	'ADM_LOGOUT'			=> 'ACP&nbsp;log&nbsp;ud',
 	'ADM_LOGGED_OUT'		=> 'Du er logget af administratorkontrolpanelet',
 
 	'BACK'					=> 'Tilbage',
 
-	'CANNOT_CHANGE_FILE_GROUP'			=> 'Kan ikke ændre filgruppe',
+	'CANNOT_CHANGE_FILE_GROUP'	=> 'Kan ikke ændre filgruppe',
 	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Kan ikke ændre filtilladelser',
-	'CANNOT_COPY_FILES'					=> 'Kan ikke kopierer filer',
-	'CANNOT_CREATE_SYMLINK'				=> 'Kan ikke oprettet et symbolsk link',
-	'CANNOT_DELETE_FILES'				=> 'Kan ikke slette filer fra systemet',
-	'CANNOT_DUMP_FILE'					=> 'Kan ikke dumpe filen',
-	'CANNOT_MIRROR_DIRECTORY'			=> 'Kan ikke spejle mappen',
-	'CANNOT_RENAME_FILE'				=> 'Kan ikke omdøbe en fil på systemet',
-	'CANNOT_TOUCH_FILES'				=> 'Kan ikke bestemme om filen eksisterer',
-	
-	'CONTAINER_EXCEPTION'	=> 'På grund af en fejl i en installeret udvidelse, konstaterede phpBB en fejl under opbygning af containeren. Derfor er alle udvidelser midlertidigt deaktiverede. Prøv venligst at tømme boardets mellemlager. Alle udvidelser bliver automatisk genaktiverede når denne containerfejl er løst. Besøg venligst <a href="https://www.phpbb.com/support">phpBB.com</a> for at få hjælp.',
-	'EXCEPTION'				=> 'Undtagelse',
+	'CANNOT_COPY_FILES'		=> 'Kan ikke kopierer filer',
+	'CANNOT_CREATE_SYMLINK'	=> 'Kan ikke oprettet et symbolsk link',
+	'CANNOT_DELETE_FILES'	=> 'Kan ikke slette filer fra systemet',
+	'CANNOT_DUMP_FILE'		=> 'Kan ikke dumpe filen',
+	'CANNOT_MIRROR_DIRECTORY'	=> 'Kan ikke spejle mappen',
+	'CANNOT_RENAME_FILE'	=> 'Kan ikke omdøbe en fil på systemet',
+	'CANNOT_TOUCH_FILES'	=> 'Kan ikke bestemme om filen eksisterer',
+
+	'CONTAINER_EXCEPTION' => 'På grund af en fejl i en installeret udvidelse, konstaterede phpBB en fejl under opbygning af containeren. Derfor er alle udvidelser midlertidigt deaktiverede. Prøv venligst at tømme boardets mellemlager. Alle udvidelser bliver automatisk genaktiverede når denne containerfejl er løst. Besøg venligst <a href="https://www.phpbb.com/support">phpBB.com</a> for at få hjælp.',
+	'EXCEPTION' => 'Undtagelse',
 
 	'COLOUR_SWATCH'			=> 'Websikre farver',
 	'CONFIG_UPDATED'		=> 'Konfigurationen opdateret.',
@@ -301,30 +300,30 @@ $lang = array_merge($lang, array(
 	'OFF'					=> 'Deaktiveret',
 	'ON'					=> 'Aktiveret',
 
-	'PARSE_BBCODE'			=> 'Analyser BBkode',
-	'PARSE_SMILIES'			=> 'Analyser smileys',
-	'PARSE_URLS'			=> 'Analyser links',
-	'PERMISSIONS_TRANSFERRED'=> 'Tilladelser overført',
+	'PARSE_BBCODE'						=> 'Analyser BBkode',
+	'PARSE_SMILIES'						=> 'Analyser smileys',
+	'PARSE_URLS'						=> 'Analyser links',
+	'PERMISSIONS_TRANSFERRED'			=> 'Tilladelser overført',
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Du er nu tildelt tilladelserne fra %1$s, og kan gennemse boardet med dennes tilladelser, og du kan derfor ikke få adgang til administratorkontrolpanelet. Du kan når som helst <a href="%2$s"><strong>gå tilbage til dit eget sæt af tilladelser</strong></a>.',
-	'PROCEED_TO_ACP'		=> '%sFortsæt til ACP%s',
+	'PROCEED_TO_ACP'					=> '%sFortsæt til ACP%s',
 
-	'RELEASE_ANNOUNCEMENT'	=> 'Bekendtgørelse',
-	'REMIND'			=> 'Påmind',
-	'REPARSE_LOCK_ERROR'	=> 'Genfolkning er allerede startet af en anden process.',
-	'RESYNC'				=> 'Synkroniser',
+	'RELEASE_ANNOUNCEMENT'		=> 'Bekendtgørelse',
+	'REMIND'							=> 'Påmind',
+	'REPARSE_LOCK_ERROR'				=> 'Genfolkning er allerede startet af en anden process.',
+	'RESYNC'							=> 'Synkroniser',
 
 	'RUNNING_TASK'			=> 'Opgave under afvikling: %s.',
 	'SELECT_ANONYMOUS'		=> 'Vælg anonym bruger',
 	'SELECT_OPTION'			=> 'Valg',
 
-	'SETTING_TOO_LOW'	=> 'Den indtastede værdi for indstillingen "%1$s" er for lav. Lavest tilladte værdi er %2$d.',
-	'SETTING_TOO_BIG'	=> 'Den indtastede værdi for indstillingen "%1$s" er for høj. Højest tilladte værdi er %2$d.',	
-	'SETTING_TOO_LONG'	=> 'Den indtastede værdi for indstillingen "%1$s" er for lang. Højest tilladte værdi er %2$d.',
-	'SETTING_TOO_SHORT'	=> 'Den indtastede værdi for indstillingen "%1$s" er for kort. Lavest tilladte værdi er %2$d.',
+	'SETTING_TOO_LOW'		=> 'Den indtastede værdi for indstillingen "%1$s" er for lav. Lavest tilladte værdi er %2$d.',
+	'SETTING_TOO_BIG'		=> 'Den indtastede værdi for indstillingen "%1$s" er for høj. Højest tilladte værdi er %2$d.',
+	'SETTING_TOO_LONG'		=> 'Den indtastede værdi for indstillingen "%1$s" er for lang. Højest tilladte værdi er %2$d.',
+	'SETTING_TOO_SHORT'		=> 'Den indtastede værdi for indstillingen "%1$s" er for kort. Lavest tilladte værdi er %2$d.',
 
 	'SHOW_ALL_OPERATIONS'	=> 'Vis alle handlinger',
 
-	'TASKS_NOT_READY'		=> 'Ikke parate opgaver:',
+	'TASKS_NOT_READY'			=> 'Ikke parate opgaver:',
 	'TASKS_READY'			=> 'Parate opgaver:',
 	'TOTAL_SIZE'			=> 'Samlet pladsforbrug',
 
@@ -404,35 +403,35 @@ $lang = array_merge($lang, array(
 
 	'POSTS_PER_DAY'		=> 'Indlæg pr. dag',
 
-	'PURGE_CACHE'		=> 'Tøm mellemlager',
+	'PURGE_CACHE'			=> 'Tøm mellemlager',
 	'PURGE_CACHE_CONFIRM'	=> 'Er du sikker på, at du vil tømme mellemlageret?',
 	'PURGE_CACHE_EXPLAIN'	=> 'Sletter alt i mellemlageret, dette inkluderer skabelonfiler og søgninger.',
 	'PURGE_CACHE_SUCCESS'	=> 'Mellemlager blev tømt.',
 
-	'PURGE_SESSIONS'					=> 'Tøm alle åbne sessioner',
+	'PURGE_SESSIONS'			=> 'Tøm alle åbne sessioner',
 	'PURGE_SESSIONS_CONFIRM'	=> 'Er du sikker på, at du vil tømme alle sessioner, og dermed logge alle brugere af?',
-	'PURGE_SESSIONS_EXPLAIN'		=> 'Forbindelsen til sessionstabellen lukkes, alle brugere logges af med denne handling.',
+	'PURGE_SESSIONS_EXPLAIN'	=> 'Forbindelsen til sessionstabellen lukkes, alle brugere logges af med denne handling.',
 	'PURGE_SESSIONS_SUCCESS'	=> 'Alle åbne sessioner blev tømt.',
 
-	'RESET_DATE'			=> 'Nulstil boardets startdato',
-	'RESET_DATE_CONFIRM'	=> 'Er du sikker på, at du vil nulstille boardets startdato?',
-	'RESET_DATE_SUCCESS'	=> 'Boardets startdato nulstillet',
-	'RESET_ONLINE'			=> 'Nulstil flest brugere online',
-	'RESET_ONLINE_CONFIRM'	=> 'Er du sikker på, at du vil nulstille flest brugere online?',
-	'RESET_ONLINE_SUCCESS'	=> 'Flest brugere online nulstillet',
-	'RESYNC_POSTCOUNTS'		=> 'Resynkronisering af indlægstællere',
-	'RESYNC_POSTCOUNTS_EXPLAIN'	=> 'Genberegner brugeres eksisterende indlæg, herved udelades eventuelle beskårede og slettede indlæg.',
-	'RESYNC_POSTCOUNTS_CONFIRM'	=> 'Er du sikker på, at du vil resynkronisere indlægstællere?',
-	'RESYNC_POSTCOUNTS_SUCCESS'	=> 'Indlægstællere blev resynkroniseret',
-	'RESYNC_POST_MARKING'	=> 'Resynkronisering af prikkede emner',
+	'RESET_DATE'					=> 'Nulstil boardets startdato',
+	'RESET_DATE_CONFIRM'			=> 'Er du sikker på, at du vil nulstille boardets startdato?',
+	'RESET_DATE_SUCCESS'				=> 'Boardets startdato nulstillet',
+	'RESET_ONLINE'					=> 'Nulstil flest brugere online',
+	'RESET_ONLINE_CONFIRM'			=> 'Er du sikker på, at du vil nulstille flest brugere online?',
+	'RESET_ONLINE_SUCCESS'				=> 'Flest brugere online nulstillet',
+	'RESYNC_POSTCOUNTS'				=> 'Resynkronisering af indlægstællere',
+	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Genberegner brugeres eksisterende indlæg, herved udelades eventuelle beskårede og slettede indlæg.',
+	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Er du sikker på, at du vil resynkronisere indlægstællere?',
+	'RESYNC_POSTCOUNTS_SUCCESS'			=> 'Indlægstællere blev resynkroniseret',
+	'RESYNC_POST_MARKING'			=> 'Resynkronisering af prikkede emner',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Er du sikker på, at du vil resynkronisere prikkede emner?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Alle prikkede emner nulstilles og efterfølgende opdateres emner med brugeres aktivitet de seneste seks måneder igen med en prik.',
 	'RESYNC_POST_MARKING_SUCCESS'	=> 'Prikkede emner blev resynkroniseret',
-	'RESYNC_STATS'			=> 'Resynkronisering af statistikker',
-	'RESYNC_STATS_CONFIRM'	=> 'Er du sikker på, at du vil resynkronisere statistikkerne?',
-	'RESYNC_STATS_EXPLAIN'	=> 'Genberegner det samlede antal indlæg, emner, brugere og filer.',
-	'RESYNC_STATS_SUCCESS'	=> 'Statistikker blev resynkroniseret',
-	'RUN'					=> 'Udfør nu',
+	'RESYNC_STATS'					=> 'Resynkronisering af statistikker',
+	'RESYNC_STATS_CONFIRM'			=> 'Er du sikker på, at du vil resynkronisere statistikkerne?',
+	'RESYNC_STATS_EXPLAIN'			=> 'Genberegner det samlede antal indlæg, emner, brugere og filer.',
+	'RESYNC_STATS_SUCCESS'			=> 'Statistikker blev resynkroniseret',
+	'RUN'							=> 'Udfør nu',
 
 	'STATISTIC'					=> 'Statistik',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Resynkroniser eller nulstil statistikker',
@@ -459,7 +458,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'			=> 'Se inaktive brugere',
 
 	'WELCOME_PHPBB'			=> 'Velkommen til phpBB',
-	'WRITABLE_CONFIG'			=> 'Din konfigurationsfil (config.php) kan ændres af alle. Vi anbefaler derfor at du ændrer tilladelserne for denne fil til 640, eller i det mindste til 644 (for eksempel: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'Din konfigurationsfil (config.php) kan ændres af alle. Vi anbefaler derfor at du ændrer tilladelserne for denne fil til 640, eller i det mindste til 644 (for eksempel: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
@@ -481,7 +480,7 @@ $lang = array_merge($lang, array(
 	'SORT_LAST_VISIT'	=> 'Seneste besøg',
 	'SORT_REASON'		=> 'Begrundelse',
 	'SORT_REG_DATE'		=> 'Tilmeldingsdato',
-	'SORT_LAST_REMINDER'	=> 'Seneste påmindelse',
+	'SORT_LAST_REMINDER'=> 'Seneste påmindelse',
 	'SORT_REMINDER'		=> 'Påmindelse afsendt',
 
 	'USER_IS_INACTIVE'		=> 'Bruger er inaktiv',
@@ -611,7 +610,7 @@ $lang = array_merge($lang, array(
 	'LOG_SPLIT_SOURCE'			=> '<strong>Delt indlægget</strong><br />» fra %s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Godkendt emnet</strong><br />» %s',
-	'LOG_TOPIC_RESTORED'    => '<strong>Gendannet emne</strong><br />» %s',
+	'LOG_TOPIC_RESTORED'		=> '<strong>Gendannet emne</strong><br />» %s',
 	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Emnet "%1$s", skrevet af "%3$s", blev afvist med begrundelsen</strong><br />» %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Resynkroniseret emnetæller</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Ændret emnetype</strong><br />» %s',
@@ -623,7 +622,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_DB_BACKUP'			=> '<strong>Databasebackup udført</strong>',
 	'LOG_DB_DELETE'			=> '<strong>Databasebackup slettet</strong>',
-	'LOG_DB_RESTORE'		=> '<strong>Database gendannet</strong>',
+	'LOG_DB_RESTORE'		=> '<strong>Databasebackup gendannet</strong>',
 
 	'LOG_DOWNLOAD_EXCLUDE_IP'	=> '<strong>Udelukket IP-adresse eller vært i downloadlisten</strong><br />» %s',
 	'LOG_DOWNLOAD_IP'			=> '<strong>Tilføjet IP-adresse eller vært til downloadlisten</strong><br />» %s',
@@ -634,7 +633,7 @@ $lang = array_merge($lang, array(
 	'LOG_ERROR_CAPTCHA'		=> '<strong>CAPTCHA-fejl</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Oprettet nyt forum</strong><br />» %s',
-	'LOG_FORUM_COPIED_PERMISSIONS'		=> '<strong>Forumtilladelser kopieret</strong> fra %1$s<br />» %2$s',
+	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Forumtilladelser kopieret</strong> fra %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Slettet forum</strong><br />» %s',
 	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Slettet forum og dets underfora</strong><br />» %s',
 	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Slettet forum og flyttet underfora</strong> til %1$s<br />» %2$s',
@@ -661,13 +660,13 @@ $lang = array_merge($lang, array(
 	'LOG_MODS_ADDED'		=> '<strong>Tilføjet ledere af gruppen</strong> %1$s<br />» %2$s',
 	'LOG_USERS_ADDED'		=> '<strong>Tilføjet nye medlemmer i brugergruppen</strong> %1$s<br />» %2$s',
 	'LOG_USERS_APPROVED'	=> '<strong>Godkendt medlemmer i gruppen</strong> %1$s<br />» %2$s',
-	'LOG_USERS_PENDING'	=> '<strong>Brugere anmoder om medlemskab af gruppen "%1$s" og behøver godkendelse</strong><br />» %2$s',
+	'LOG_USERS_PENDING'		=> '<strong>Brugere anmoder om medlemskab af gruppen "%1$s" og behøver godkendelse</strong><br />» %2$s',
 
 	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>Fejl opstod under dannelse af billede</strong><br />» Fejl i %1$s i linje %2$s: %3$s',
 
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Aktiveret inaktive brugere</strong><br />» %s',
-	'LOG_INACTIVE_DELETE'		=> '<strong>Inaktive brugere slettet</strong><br />» %s',
-	'LOG_INACTIVE_REMIND'		=> '<strong>Sendt påmindelser pr. e-mail til inaktive brugere</strong><br />» %s',
+	'LOG_INACTIVE_DELETE'	=> '<strong>Inaktive brugere slettet</strong><br />» %s',
+	'LOG_INACTIVE_REMIND'	=> '<strong>Sendt påmindelser pr. e-mail til inaktive brugere</strong><br />» %s',
 	'LOG_INSTALL_CONVERTED'	=> '<strong>Konverteret fra %1$s til phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>Installeret phpBB %s</strong>',
 
@@ -709,7 +708,7 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_EDIT'		=> '<strong>Ændret brugerrollen</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'	=> '<strong>Fjernet brugerrollen</strong><br />» %s',
 
-	'LOG_PLUPLOAD_TIDY_FAILED'    => '<strong>Kunne ikke åbne %1$s for oprydning, kontroller tilladelser.</strong><br />Undtagelse: %2$s<br />Spore: %3$s',
+	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Kunne ikke åbne %1$s for oprydning, kontroller tilladelser.</strong><br />Undtagelse: %2$s<br />Spore: %3$s',
 
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Aktiveret profilfeltet</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Tilføjet profilfeltet</strong><br />» %s',
@@ -719,23 +718,23 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>Beskåret forummet</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>Autobeskåret forummet</strong><br />» %s',
-	'LOG_PRUNE_SHADOW'			=> '<strong>Autobeskåret skyggeemner</strong><br />» %s',
+	'LOG_PRUNE_SHADOW'		=> '<strong>Autobeskåret skyggeemner</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Deaktiveret brugere</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Beskåret brugere og slettet indlæg</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Beskåret brugere og bevaret indlæg</strong><br />» %s',
-	
+
 	'LOG_PURGE_CACHE'			=> '<strong>Mellemlager tømt</strong>',
 	'LOG_PURGE_SESSIONS'	=> '<strong>Åbne sessioner afsluttet</strong>',
 
-	'LOG_RANK_ADDED'			=> '<strong>Tilføjet rangen</strong><br />» %s',
-	'LOG_RANK_REMOVED'			=> '<strong>Slettet rangen</strong><br />» %s',
-	'LOG_RANK_UPDATED'			=> '<strong>Opdateret rangen</strong><br />» %s',
+	'LOG_RANK_ADDED'		=> '<strong>Tilføjet rangen</strong><br />» %s',
+	'LOG_RANK_REMOVED'		=> '<strong>Slettet rangen</strong><br />» %s',
+	'LOG_RANK_UPDATED'		=> '<strong>Opdateret rangen</strong><br />» %s',
 
 	'LOG_REASON_ADDED'		=> '<strong>Tilføjet begrundelse for afvisning</strong><br />» %s',
 	'LOG_REASON_REMOVED'	=> '<strong>Fjernet begrundelse for afvisning</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>Opdateret begrundelse for afvisning</strong><br />» %s',
 
-	'LOG_REFERER_INVALID'	=> '<strong>Validering af reference fejlede</strong><br />»Referencen var "<em>%1$s</em>". Forespørgsel blev afvist og sessionen afsluttet.',
+	'LOG_REFERER_INVALID'		=> '<strong>Validering af reference fejlede</strong><br />»Referencen var "<em>%1$s</em>". Forespørgsel blev afvist og sessionen afsluttet.',
 	'LOG_RESET_DATE'			=> '<strong>Boardets startdato nulstillet</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>"Flest brugere online" nulstillet</strong>',
 	'LOG_RESYNC_FILES_STATS'	=> '<strong>Filstatistikker resynkroniseret</strong>',
@@ -774,9 +773,9 @@ $lang = array_merge($lang, array(
 	// @deprecated 3.1
 	'LOG_THEME_REFRESHED'		=> '<strong>Genindlæst temaet</strong><br />» %s',
 
-	'LOG_UPDATE_DATABASE'		=> '<strong>Database opdateret fra version %1$s til version %2$s</strong>',
-	'LOG_UPDATE_PHPBB'			=> '<strong>phpBB opdateret fra version %1$s til version %2$s</strong>',
-	
+	'LOG_UPDATE_DATABASE'	=> '<strong>Database opdateret fra version %1$s til version %2$s</strong>',
+	'LOG_UPDATE_PHPBB'		=> '<strong>phpBB opdateret fra version %1$s til version %2$s</strong>',
+
 	'LOG_USER_ACTIVE'		=> '<strong>Aktiveret bruger</strong><br />» %s',
 	'LOG_USER_BAN_USER'		=> '<strong>Udelukket bruger via Administrer brugere </strong> på grund af "<em>%1$s</em>"<br />» %2$s',
 	'LOG_USER_BAN_IP'		=> '<strong>Udelukket IP-adresse via Administrer brugere</strong> på grund af "<em>%1$s</em>"<br />» %2$s',
@@ -822,7 +821,7 @@ $lang = array_merge($lang, array(
 		2 => '<strong>Slettet %2$d advarsler til</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
 	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Slettet samtlige advarsler til</strong><br />» %s',
-	
+
 	'LOG_WORD_ADD'			=> '<strong>Tilføjet ordcensur</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Slettet ordcensur</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Ændret ordcensur</strong><br />» %s',

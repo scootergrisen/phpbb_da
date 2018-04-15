@@ -76,7 +76,7 @@ $lang = array_merge($lang, array(
 	'AIM'							=> 'AIM',
 	'AJAX_ERROR_TITLE'				=> 'AJAX-fejl',
 	'AJAX_ERROR_TEXT'				=> 'Der opstod en fejl under udførsel af din forespørgsel.',
-	'AJAX_ERROR_TEXT_ABORT'      	=> 'Bruger afbrød forespørgsel.',
+	'AJAX_ERROR_TEXT_ABORT'			=> 'Bruger afbrød forespørgsel.',
 	'AJAX_ERROR_TEXT_TIMEOUT'		=> 'Din anmodning udløb, prøv venligst igen.',
 	'AJAX_ERROR_TEXT_PARSERERROR'	=> 'Noget fejlede under forespørgslen og serveren returnerede et ugyldigt svar.',
 	'ALLOWED'						=> 'Tilladt',
@@ -115,7 +115,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Den indtastede fil blev kun delvist uploadet.',
 	'AVATAR_PHP_SIZE_NA'			=> 'Avatarens filstørrelse er for stor.<br />Den maksimale filstørrelse defineret i php.ini kunne ikke afgøres.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Avatarens filstørrelse er for stor. Den maksimale uploadstørrelse er %1$d %2$s.<br />Bemærk at grænsen er defineret i php.ini-filen, og ikke kan tilsidesættes.',
-	'AVATAR_REMOTE_UPLOAD_TIMEOUT'	=> 'Den indtastede avatar kunne ikke uploades fordi forespørgslen udløb.',
+	'AVATAR_REMOTE_UPLOAD_TIMEOUT'		=> 'Den indtastede avatar kunne ikke uploades fordi forespørgslen udløb.',
 	'AVATAR_PHP_UPLOAD_STOPPED'		=> 'En PHP-udvidelse afbrød upload af filen.',
 	'AVATAR_URL_INVALID'			=> 'Den indtastede URL er ugyldig.',
 	'AVATAR_URL_NOT_FOUND'			=> 'Den indtastede fil kunne ikke findes.',
@@ -211,7 +211,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Downloadet %d gange',
 	),
 
-	'EDIT_POST'							=>	'Rediger indlæg',
+	'EDIT_POST'							=> 'Rediger indlæg',
 	'ELLIPSIS'							=>	'…',
 	'EMAIL'								=> 'E-mail',	// Short form for EMAIL_ADDRESS
 	'EMAIL_ADDRESS'						=> 'E-mailadresse',
@@ -294,7 +294,7 @@ $lang = array_merge($lang, array(
 
 	'GENERAL_ERROR'				=> 'Generel fejl',
 	'GB'						=> 'GB',
-	'GIB'						=> 'GiB',	
+	'GIB'						=> 'GiB',
 	'GO'						=> 'Udfør',
 	'GOOGLEPLUS'				=> 'Google+',
 	'GOTO_FIRST_POST'			=> 'Gå til første indlæg',
@@ -486,7 +486,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Emne afvist</strong>:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Emnegodkendelse</strong> afventes af %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Beskedtypen "%s" mangler i filsystemet.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'  => '<strong>Aktivering afventes</strong> af ny tilmeldt og deaktiveret bruger: "%1$s"',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Aktivering afventes</strong> af ny tilmeldt og deaktiveret bruger: "%1$s"',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'andre',
 	'NOTIFICATION_X_OTHERS'				=> array(
@@ -511,7 +511,7 @@ $lang = array_merge($lang, array(
 	'NO_FORUMS'					=> 'Dette board har ingen fora.',
 	'NO_GROUP'					=> 'Den indtastede brugergruppe findes ikke.',
 	'NO_GROUP_MEMBERS'			=> 'Denne gruppe har ingen medlemmer tilknyttet i øjeblikket.',
-	'NO_IPS_DEFINED'			=> 'Ingen IP-adresser eller værtsnavne defineret.',
+	'NO_IPS_DEFINED'			=> 'Ingen IP-adresser eller værtsnavne defineret',
 	'NO_MEMBERS'				=> 'Ingen medlemmer fundet med dette søgekriterie.',
 	'NO_MESSAGES'				=> 'Ingen beskeder',
 	'NO_MODE'					=> 'Ingen tilstand indtastet.',
@@ -524,7 +524,7 @@ $lang = array_merge($lang, array(
 	'NO_FEED_ENABLED'			=> 'Feeds er ikke tilgængelige på dette board.',
 	'NO_FEED'					=> 'Forlangte feed er ikke tilgængelig.',
 	'NO_STYLE_DATA'				=> 'Typografidata kunne ikke findes',
-	'NO_SUBJECT'				=> 'Intet emne indtastet.',	// Used for posts having no subject defined but displayed within management pages.
+	'NO_SUBJECT'				=> 'Intet emne indtastet',	// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'Det indtastede søgesystem findes ikke.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Ingen understøttede godkendelsesmetoder.',
 	'NO_TOPIC'					=> 'Det valgte emne findes ikke.',
@@ -534,7 +534,7 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'			=> 'Ingen ulæste indlæg',
 	'NO_UPLOAD_FORM_FOUND'		=> 'Upload påbegyndt, men ingen gyldig filuploadformular fundet.',
 	'NO_USER'					=> 'Den valgte bruger findes ikke.',
-	'NO_USERS'					=> 'De valgte brugere findes ikke',
+	'NO_USERS'					=> 'De valgte brugere findes ikke.',
 	'NO_USER_SPECIFIED'			=> 'Der var ikke indtastet et brugernavn.',
 
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
@@ -569,7 +569,7 @@ $lang = array_merge($lang, array(
 	'PAGE_TITLE_NUMBER'		=> 'Side %s',
 	'PASSWORD'				=> 'Adgangskode',
 	'PIXEL'					=> 'px',
-	'PIXELS'        		=> array(
+	'PIXELS'						=> array(
 		1	=> '%d pixel',
 		2	=> '%d pixels',
 	),
@@ -585,15 +585,15 @@ $lang = array_merge($lang, array(
 	'POSTED_IN_FORUM'		=> 'i',
 	'POSTED_ON_DATE'		=> 'skrevet',
 	'POSTS'					=> 'Indlæg',
-	'POSTS_UNAPPROVED'		=> 'Mindst et indlæg i emnet er ikke blevet godkendt',
+	'POSTS_UNAPPROVED'		=> 'Mindst et indlæg i emnet er ikke blevet godkendt.',
 	'POSTS_UNAPPROVED_FORUM'=> 'Mindst et indlæg i forummet er ikke blevet godkendt.',
 	'POST_BY_AUTHOR'		=> 'af',
 	'POST_BY_FOE'			=> 'Indlægget blev skrevet af <strong>%1$s</strong>, som i øjeblikket er på din ignorerliste.',
 	'POST_DISPLAY'			=> '%1$sVis indlægget%2$s.',
 	'POST_DAY'				=> '%.2f indlæg pr. dag',
 	'POST_DELETED_ACTION'	=> 'Slettet indlæg:',
-	'POST_DELETED'      	=> 'Indlægget er blevet slettet',
-	'POST_DELETED_BY'    	=> '<strong>%2$s</strong> slettede indlæg, skrevet af <strong>%1$s</strong> d. %3$s.',
+	'POST_DELETED'			=> 'Indlægget er blevet slettet',
+	'POST_DELETED_BY'		=> '<strong>%2$s</strong> slettede indlæg, skrevet af <strong>%1$s</strong> d. %3$s.',
 	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> slettede indlæg, skrevet af <strong>%1$s</strong> d. %3$s, med denne begrundelse: %4$s',
 	'POST_DETAILS'			=> 'Indlægsinformation',
 	'POST_NEW_TOPIC'		=> 'Skriv nyt emne',
@@ -708,7 +708,7 @@ $lang = array_merge($lang, array(
 	'SIGNATURE'					=> 'Signatur',
 	'SKIP'						=> 'Spring til indhold',
 	'SKYPE'						=> 'Skype',
-	'SMTP_NO_AUTH_SUPPORT'		=> 'SMTP-serveren understøtter ikke denne type godkendelse',
+	'SMTP_NO_AUTH_SUPPORT'		=> 'SMTP-serveren understøtter ikke denne type godkendelse.',
 	'SORRY_AUTH_READ'			=> 'Du har ikke tilladelse til at læse dette forum.',
 	'SORRY_AUTH_READ_TOPIC'		=> 'Du har ikke tilladelse til at læse dette emne.',
 	'SORRY_AUTH_VIEW_ATTACH'	=> 'Du har ikke tilladelse til at downloade den vedhæftede fil.',
@@ -789,17 +789,17 @@ $lang = array_merge($lang, array(
 		1	=> '%d log',
 		2	=> '%d logge',
 	),
-	'TOTAL_PMS'			=> array(
+	'TOTAL_PMS'		=> array(
 		1	=> '%d privat besked',
 		2	=> '%d private beskeder',
 	),
 	'TOPIC_POLL'		=> 'Emnet indeholder en afstemning.',
 	'TOTAL_POSTS'		=> 'Indlæg',
-	'TOTAL_POSTS_COUNT' => array(
+	'TOTAL_POSTS_COUNT'	=> array(
 		1	=> 'Indlæg <strong>%d</strong>',
 		2	=> 'Indlæg <strong>%d</strong>',
 	),
-	'TOPIC_REPORTED'	=> 'Dette emne er blevet rapporteret.',
+	'TOPIC_REPORTED'	=> 'Dette emne er blevet rapporteret',
 	'TOTAL_TOPICS'		=> array(
 		1	=> 'Emne <strong>%d</strong>',
 		2	=> 'Emner <strong>%d</strong>',
@@ -882,9 +882,9 @@ $lang = array_merge($lang, array(
 	'WARNINGS'			=> 'Advarsler',
 	'WARN_USER'			=> 'Advar bruger',
 	'WATCH_FORUM_CONFIRM'	=> 'Er du sikker på, at du vil overvåge dette forum?',
-	'WATCH_FORUM_DETAILED'  => 'Er du sikker på, at du vil overvåge forummet "%s"?',
+	'WATCH_FORUM_DETAILED'	=> 'Er du sikker på, at du vil overvåge forummet "%s"?',
 	'WATCH_TOPIC_CONFIRM'	=> 'Er du sikker på, at du vil overvåge dette emne?',
-	'WATCH_TOPIC_DETAILED'  => 'Er du sikker på, at du vil overvåge emnet "%s"?',
+	'WATCH_TOPIC_DETAILED'	=> 'Er du sikker på, at du vil overvåge emnet "%s"?',
 	'WELCOME_SUBJECT'	=> 'Velkommen til %s',
 	'WEBSITE'			=> 'Websted',
 	'WHOIS'				=> 'Whois',
@@ -904,7 +904,7 @@ $lang = array_merge($lang, array(
 	'YOUTUBE'			=> 'YouTube',
 	'YEAR'				=> 'År',
 	'YEAR_MONTH_DAY'	=> '(ÅÅÅÅ-MM-DD)',
-	'YES'				=> 'Ja',	
+	'YES'				=> 'Ja',
 	'YOU_LAST_VISIT'	=> 'Seneste besøg: %s',
 
 	'datetime'			=> array(
@@ -962,11 +962,11 @@ $lang = array_merge($lang, array(
 
 	// Timezones can be translated. We use this for the Etc/GMT timezones here,
 	// because they are named invers to their offset.
-	'timezones'    => array(
+	'timezones'		=> array(
 		'UTC'					=> 'UTC',
 		'UTC_OFFSET'			=> 'UTC%1$s',
 		'UTC_OFFSET_CURRENT'	=> 'UTC%1$s - %2$s',
-		
+
 		'Etc/GMT-12'	=> 'UTC+12',
 		'Etc/GMT-11'	=> 'UTC+11',
 		'Etc/GMT-10'	=> 'UTC+10',
@@ -991,7 +991,7 @@ $lang = array_merge($lang, array(
 		'Etc/GMT+10'	=> 'UTC-10',
 		'Etc/GMT+11'	=> 'UTC-11',
 		'Etc/GMT+12'	=> 'UTC-12',
-		
+
 		'Africa/Abidjan'	=> 'Afrika/Abidjan',
 		'Africa/Accra'		=> 'Afrika/Accra',
 		'Africa/Addis_Ababa'	=> 'Afrika/Addis Ababa',

@@ -1,9 +1,0 @@
-Subject: phpBB er opsat korrekt til at sende emails
-
-Hej {USERNAME}
-
-Tillykke, da du har modtaget denne email er phpBB korrekt konfigureret og kan sende emails.
-
-Har du brug for yderligere assistance, kan du søge hjælp i phpBB supportforaene - https://www.phpbb.com/community/
-
-{EMAIL_SIG}

@@ -1,0 +1,13 @@
+
+Hej {TO_USERNAME}
+
+Nedenstående besked er sendt til dig fra {FROM_USERNAME} via din konto på "{SITENAME}". Er beskeden spam, eller finder du den generende eller upassende, kan du rapportere den til boardets administratorer på følgende adresse:
+
+{BOARD_CONTACT}
+
+Inkluder den fulde besked. Bemærk venligst at afsender er boardets IM-konto.
+
+Beskedens indhold
+~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Her administrerer du alle dine brugergrupper. Du kan slette, oprette og redigere eksisterende grupper, herunder ændre disses navn, og status til at være åben, skjult eller lukket. Desuden kan du her udpege gruppeledere.',
-	'ADD_GROUP_CATEGORY'      => 'Tilføj kategori',
+	'ADD_GROUP_CATEGORY'			=> 'Tilføj kategori',
 	'ADD_USERS'						=> 'Tilføj brugere',
 	'ADD_USERS_EXPLAIN'				=> 'Her kan du tilføje nye brugere til gruppen. Du kan vælge om gruppen skal være ny standardgruppe for de valgte brugere. Du kan ydermere udpege dem som gruppeledere. Indtast venligst hvert brugernavn på en linje for sig.',
 
@@ -51,18 +51,18 @@ $lang = array_merge($lang, array(
 
 	'GROUPS_NO_MEMBERS'				=> 'Denne gruppe har ingen medlemmer',
 	'GROUPS_NO_MODS'				=> 'Ingen gruppeledere udpeget',
-	
+
 	'GROUP_APPROVE'					=> 'Godkend bruger',
 	'GROUP_APPROVED'				=> 'Gruppemedlemmer',
 	'GROUP_AVATAR'					=> 'Gruppeavatar',
 	'GROUP_AVATAR_EXPLAIN'			=> 'Billedet vises i gruppekontrolpanelet.',
-	'GROUP_CATEGORY_NAME'     		=> 'Kategorinavn',
+	'GROUP_CATEGORY_NAME'			=> 'Kategorinavn',
 	'GROUP_CLOSED'					=> 'Lukket',
 	'GROUP_COLOR'					=> 'Gruppefarve',
 	'GROUP_COLOR_EXPLAIN'			=> 'Definerer farven som gruppemedlemmers navne vises med, lad være tom for brugerstandard.',
 	'GROUP_CONFIRM_ADD_USERS'		=> array(
-		1  => 'Er du sikker på, at du vil tilføje brugeren %2$s til gruppen?',
-		2  => 'Er du sikker på, at du vil tilføje brugerne %2$s til gruppen?',
+		1	=> 'Er du sikker på, at du vil tilføje brugeren %2$s til gruppen?',
+		2	=> 'Er du sikker på, at du vil tilføje brugerne %2$s til gruppen?',
 	),
 	'GROUP_CREATED'					=> 'Gruppen er oprettet.',
 	'GROUP_DEFAULT'					=> 'Brugers standardgruppe',
@@ -94,19 +94,19 @@ $lang = array_merge($lang, array(
 	'GROUP_NAME_TAKEN'				=> 'Gruppenavnet bruges allerede, vælg venligst et andet.',
 	'GROUP_OPEN'					=> 'Åben',
 	'GROUP_PENDING'					=> 'Afventende brugere',
-	'GROUP_OPTIONS_SAVE'		=> 'Gruppes overordnede muligheder',
-	'GROUP_MAX_RECIPIENTS'		=> 'Maksimalt antal tilladte modtagere pr. private besked',
+	'GROUP_OPTIONS_SAVE'			=> 'Gruppes overordnede muligheder',
+	'GROUP_MAX_RECIPIENTS'			=> 'Maksimalt antal tilladte modtagere pr. private besked',
 	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'Det maksimale antal modtagere i private beskeder. Det maksimale antal defineret i alle de grupper brugeren er med i, bestemmer den aktuelle værdi.<br />En værdi på 0 betyder at alle medlemmer af denne gruppe ikke får overskrevet standardgrænsen.',
 	'GROUP_PROMOTE'					=> 'Forfrem til gruppeleder',
 	'GROUP_RANK'					=> 'Grupperang',
 	'GROUP_RECEIVE_PM'				=> 'Gruppe kan modtage private beskeder',
 	'GROUP_RECEIVE_PM_EXPLAIN'		=> 'Bemærk venligst at skjulte grupper ikke kan tilsendes beskeder, uanset denne indstilling.',
 	'GROUP_REQUEST'					=> 'Forespørgsel',
-	'GROUP_SETTINGS_SAVE'		=> 'Gruppes overordnede indstillinger',
+	'GROUP_SETTINGS_SAVE'			=> 'Gruppes overordnede indstillinger',
 	'GROUP_SKIP_AUTH'				=> 'Undtag gruppeleder fra denne gruppes tilladelser',
-	'GROUP_SKIP_AUTH_EXPLAIN'	=> 'Aktivering bestemmer at gruppeleder ikke tildeles gruppes tilladelser.',
-	'GROUP_SPECIAL'          => 'Prædefineret',
-	'GROUP_TEAMPAGE'        => 'Vis gruppe på holdsiden',
+	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'Aktivering bestemmer at gruppeleder ikke tildeles gruppes tilladelser.',
+	'GROUP_SPECIAL'					=> 'Prædefineret',
+	'GROUP_TEAMPAGE'				=> 'Vis gruppe på holdsiden',
 	'GROUP_TYPE'					=> 'Gruppetype',
 	'GROUP_TYPE_EXPLAIN'			=> 'Dette afgør hvorvidt brugere kan tilmelde sig eller se denne gruppe.',
 	'GROUP_UPDATED'					=> 'Gruppeindstillinger opdateret.',
@@ -115,39 +115,39 @@ $lang = array_merge($lang, array(
 	'GROUP_USERS_EXIST'				=> 'De valgte brugere er allerede medlemmer.',
 	'GROUP_USERS_REMOVE'			=> 'Brugere fjernet fra gruppe og nye standardindstillinger sat.',
 
-	'LEGEND_EXPLAIN'        => 'Disse grupper vises i gruppeoversigten:',	//These are the groups which are displayed in the group legend:
-	'LEGEND_SETTINGS'        => 'Gruppeoversigt',	//Legend settings
-	'LEGEND_SORT_GROUPNAME'      => 'Sorter oversigt efter gruppenavn',
-	'LEGEND_SORT_GROUPNAME_EXPLAIN'  => 'Sorteringen herunder ignoreres, hvis denne aktiveres.',
+	'LEGEND_EXPLAIN'				=> 'Disse grupper vises i gruppeoversigten:',	//These are the groups which are displayed in the group legend:
+	'LEGEND_SETTINGS'				=> 'Gruppeoversigt',	//Legend settings
+	'LEGEND_SORT_GROUPNAME'			=> 'Sorter oversigt efter gruppenavn',
+	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'Sorteringen herunder ignoreres, hvis denne aktiveres.',
 
-	'MANAGE_LEGEND'      => 'Gruppeoversigt',	//Manage group legend
-	'MANAGE_TEAMPAGE'    => 'Holdsiden',	//Manage teampage
+	'MANAGE_LEGEND'			=> 'Gruppeoversigt',	//Manage group legend
+	'MANAGE_TEAMPAGE'		=> 'Holdsiden',	//Manage teampage
 	'MAKE_DEFAULT_FOR_ALL'	=> 'Sæt gruppe som alle medlemmers standardgruppe',
 	'MEMBERS'				=> 'Medlemmer',
 
 	'NO_GROUP'					=> 'Ingen gruppe indtastet.',
-	'NO_GROUPS_ADDED'      => 'Ingen grupper er tilføjet.',
+	'NO_GROUPS_ADDED'			=> 'Ingen grupper er tilføjet.',
 	'NO_GROUPS_CREATED'			=> 'Endnu ingen gruppe oprettet.',
 	'NO_PERMISSIONS'			=> 'Kopier ikke tilladelser',
-	'NO_USERS' 					=> 'Du har ikke tilknyttet brugere.',
+	'NO_USERS'					=> 'Du har ikke tilknyttet brugere.',
 	'NO_USERS_ADDED'			=> 'Ingen brugere blev tilføjet gruppen.',
 	'NO_VALID_USERS'			=> 'Du har ikke indtastet nogle brugere der er berettiget til dette.',
 
 	'PENDING_MEMBERS'			=> 'Afventende',
 
-	'SELECT_GROUP'        => 'Vælg en gruppe',
+	'SELECT_GROUP'				=> 'Vælg en gruppe',
 	'SPECIAL_GROUPS'			=> 'Prædefinerede grupper',
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Prædefinerede grupper er specielle grupper, de kan ikke slettes eller rettes direkte. Du kan dog stadig tilføje brugere og tilpasse indstillinger.',
 
 	'TEAMPAGE'					=> 'Holdside',
-	'TEAMPAGE_DISP_ALL'      => 'Alle medlemskaber',
-	'TEAMPAGE_DISP_DEFAULT'    => 'Kun brugers standardgruppe',
-	'TEAMPAGE_DISP_FIRST'    => 'Kun første medlemskab',
-	'TEAMPAGE_EXPLAIN'      => 'Disse grupper vises på holdsiden:',
-	'TEAMPAGE_FORUMS'      => 'Vis redigerbare fora',
-	'TEAMPAGE_FORUMS_EXPLAIN'  => 'Vælges ja, vil de fora redaktører har redaktørstatus i, vises i deres række. Funktionen kan være databasetung for store boards.',
-	'TEAMPAGE_MEMBERSHIPS'    => 'Vis brugers gruppemedlemskaber',
-	'TEAMPAGE_SETTINGS'      => 'Indstillinger for holdside',	//Teampage settings
+	'TEAMPAGE_DISP_ALL'			=> 'Alle medlemskaber',
+	'TEAMPAGE_DISP_DEFAULT'		=> 'Kun brugers standardgruppe',
+	'TEAMPAGE_DISP_FIRST'		=> 'Kun første medlemskab',
+	'TEAMPAGE_EXPLAIN'			=> 'Disse grupper vises på holdsiden:',
+	'TEAMPAGE_FORUMS'			=> 'Vis redigerbare fora',
+	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'Vælges ja, vil de fora redaktører har redaktørstatus i, vises i deres række. Funktionen kan være databasetung for store boards.',
+	'TEAMPAGE_MEMBERSHIPS'		=> 'Vis brugers gruppemedlemskaber',
+	'TEAMPAGE_SETTINGS'			=> 'Indstillinger for holdside',	//Teampage settings
 	'TOTAL_MEMBERS'				=> 'Medlemmer',
 
 	'USERS_APPROVED'				=> 'Brugere godkendt.',

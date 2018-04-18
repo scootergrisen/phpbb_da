@@ -1,19 +1,19 @@
 <?php
 /**
-*
-* VigLink extension for the phpBB Forum Software package.
-*
-* @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* @modified and translated by Olympus DK Team
-* @version $Id: info_acp_viglink.php 568 2016-12-31 14:10:14Z jan_skovsgaard $
-*
-*/
+ *
+ * VigLink extension for the phpBB Forum Software package.
+ *
+ * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * @modified and translated by Olympus DK Team
+ * @version $Id: info_acp_viglink.php 568 2016-12-31 14:10:14Z jan_skovsgaard $
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;

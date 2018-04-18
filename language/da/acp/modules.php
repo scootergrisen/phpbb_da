@@ -40,12 +40,12 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Bemærk menustrukturen i ACP er opdelt i tre niveauer [Faneblad » Kategori » Modul], mens strukturen i MCP og UCP kun er i to niveauer [Faneblad » Modul]. Vær også opmærksom på at du lukker dig selv ude fra moduladministrationen, hvis du sletter eller slår det faneblad, den kategori eller det modul fra, der er ansvarlig for denne. I phpBB\'s standardopsætning er dette modul placeret under fanebladet system, med kategorinavnet moduladministration',
+	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Bemærk menustrukturen i ACP er opdelt i tre niveauer [Faneblad » Kategori » Modul], mens strukturen i MCP og UCP kun er i to niveauer [Faneblad » Modul]. Vær også opmærksom på at du lukker dig selv ude fra moduladministrationen, hvis du sletter eller slår det faneblad, den kategori eller det modul fra, der er ansvarlig for denne. I phpBB\'s standardopsætning er dette modul placeret under fanebladet system, med kategorinavnet moduladministration.',
 	'ADD_MODULE'					=> 'Tilføj modul',
 	'ADD_MODULE_CONFIRM'			=> 'Er du sikker på, at du vil tilføje det valgte modul med den valgte tilstand?',
 	'ADD_MODULE_TITLE'				=> 'Tilføj modul',
 
-	'CANNOT_REMOVE_MODULE'	=> 'Ude af stand til at slette modul, det er blevet tildelt undermoduler. Slet eller flyt venligst alle undermoduler før udførelse af denne handling',
+	'CANNOT_REMOVE_MODULE'	=> 'Ude af stand til at slette modul, det er blevet tildelt undermoduler. Slet eller flyt venligst alle undermoduler før udførelse af denne handling.',
 	'CATEGORY'				=> 'Faneblad/kategori',
 	'CHOOSE_MODE'			=> 'Modul',
 	'CHOOSE_MODE_EXPLAIN'	=> 'Vælg det element der repræsenterer modulet.',

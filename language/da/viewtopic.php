@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 		1	=> 'Senest rettet af %2$s %3$s, rettet i alt %1$d gang.',
 		2	=> 'Senest rettet af %2$s %3$s, rettet i alt %1$d gange.',
 	),
-	'EMAIL_TOPIC'			=> 'Email emne',
+	'EMAIL_TOPIC'			=> 'E-mail emne',
 	'ERROR_NO_ATTACHMENT'	=> 'Den valgte vedhæftede fil eksisterer ikke længere.',
 
 	'FILE_NOT_FOUND_404'	=> 'Filen <strong>%s</strong> eksisterer ikke.',
@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 	'POLL_ENDED_AT'			=> 'Afstemning sluttede %s',
 	'POLL_RUN_TILL'			=> 'Afstemningen varer indtil %s',
 	'POLL_VOTED_OPTION'		=> 'Du stemte på denne afstemningsmulighed',
-	'POST_DELETED_RESTORE'  => 'Indlægget er skjult og kan gendannes.',
+	'POST_DELETED_RESTORE'	=> 'Indlægget er skjult og kan gendannes.',
 	'PRINT_TOPIC'			=> 'Udskriv emne',
 
 	'QUICK_MOD'				=> 'Redigeringsværktøjer',
@@ -104,8 +104,8 @@ $lang = array_merge($lang, array(
 	'QUOTE'					=> 'Citat',
 
 	'REPLY_TO_TOPIC'		=> 'Svar på emne',
-	'RESTORE'        => 'Gendan',
-	'RESTORE_TOPIC'      => 'Gendan emne', 
+	'RESTORE'				=> 'Gendan',
+	'RESTORE_TOPIC'			=> 'Gendan emne',
 	'RETURN_POST'			=> '%sTilbage til indlægget%s',
 
 	'SUBMIT_VOTE'			=> 'Stem',

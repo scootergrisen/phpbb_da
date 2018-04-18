@@ -71,24 +71,24 @@ $lang = array_merge($lang, array(
 
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Tømmer den indtastede udvidelse.',
 
-	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Vis typer af tekst der kan genfortolkes.',
-	'CLI_DESCRIPTION_REPARSER_AVAILABLE'		=> 'Tilgængelige genfortolkere:',
-	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Genfortolker lagret tekst med den øjeblikkelige tekstformateringstjeneste.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Teksttype der kan genfortolkes. Undlades at udfylde, genfortolkes alt.',
+	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Vis typer af tekst der kan genfortolkes.',
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Tilgængelige genfortolkere:',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Genfortolker lagret tekst med den øjeblikkelige tekstformateringstjeneste.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Teksttype der kan genfortolkes. Undlades at udfylde, genfortolkes alt.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Gem ingen ændringer, vis kun hvad der vil blive foretaget',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Lavest record ID der skal udføres',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Højeste record ID der skal udføres',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Cirka antal records der skal udføres på en gang',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Start genfortolkning hvor den sidste udførsel stoppede',
 
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Genberegner kolonnen user_email_hash i tabellen users.',
+	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'Genberegner kolonnen user_email_hash i tabellen users.',
 
-	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Indstiller kun værdien på en konfigurationmulighed hvis den tidligere værdi svarer til den nuværende',
-	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Indstiller værdien på en konfigurationmulighed',
+	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'Indstiller kun værdien på en konfigurationmulighed hvis den tidligere værdi svarer til den nuværende',
+	'CLI_DESCRIPTION_SET_CONFIG'						=> 'Indstiller værdien på en konfigurationmulighed',
 
-	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Slet alle eksisterende miniaturer.',
-	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Dan alle manglende miniaturer.',
-	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Gendan alle miniaturer.',
+	'CLI_DESCRIPTION_THUMBNAIL_DELETE'					=> 'Slet alle eksisterende miniaturer.',
+	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'				=> 'Dan alle manglende miniaturer.',
+	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'				=> 'Gendan alle miniaturer.',
 
 	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Kontroller om boardet er opdateret.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Navnet på den udvidelse der skal kontrolleres (indtast all, hvis alle udvidelser skal kontrolleres)',
@@ -107,13 +107,13 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_ADD'					=> 'Tilføj ny bruger.',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Ny brugers brugernavn',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Ny brugers adgangskode',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'Ny brugers email-adresse',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Send email med kontoaktivering til ny bruger(den afsendes ikke som standard)',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'Ny brugers e-mailadresse',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Send e-mail med kontoaktivering til ny bruger(den afsendes ikke som standard)',
 	'CLI_DESCRIPTION_USER_DELETE'				=> 'Slet en brugerkonto.',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Brugernavn på den bruger der skal slettes',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Slet alle brugers indlæg. Undlades denne mulighed, bevares brugers indlæg.',
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Rens brugernavne.',
-	
+
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Udvidelsen %s kunne ikke deaktiveres',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Udvidelsen %s blev deaktiveret',
 	'CLI_EXTENSION_DISABLED'			=> 'Udvidelsen %s er ikke aktiv',
@@ -133,8 +133,8 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Aktiveret',
 
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Reparation af fora og modulers træstruktur fuldført.',
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Genberegning af alle email-krypteringer gennemført.',
-	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Opdatering af forældet  kryptering af adgangskode til bcrypt.',
+	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Genberegning af alle e-mail-krypteringer gennemført.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Opdatering af forældet kryptering af adgangskode til bcrypt.',
 
 	'CLI_MIGRATION_NAME'					=> 'Migrationsnavn, inklusiv navnerum (anvend retvendt skråstreg i stedet for omvendt skråstreg for at undgå problemer).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Tilgængelige migrationer',
@@ -143,7 +143,7 @@ $lang = array_merge($lang, array(
 	'CLI_MIGRATIONS_EMPTY'                  => 'Ingen migrationer.',
 
 	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Genfortolker %1$s (område %2$d..%3$d)',
-	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Genfortolker %s…',
+	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Genfortolker %s...',
 	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Genfortolkning afsluttet med succes',
 
 	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
@@ -173,9 +173,9 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Alternativt kan du indtaste et navn, som kun skal afvikle den specifikke cron-opgave.',
 	'CLI_HELP_USER_ACTIVATE'	=> 'Aktiver eller deaktiver en brugerkonto ved at bruge funktionen <info>--deactivate</info>.
-	For, i samme forbindelse, at sende en aktiveringsemail til brugeren bruges funktionen <info>--send-email</info>.',
-	 	'CLI_HELP_USER_ADD'			=> 'Kommandoen <info>%command.name%</info> tilføjer en ny bruger:
-		Afvikles kommandoen uden funktioner, bliver du bedt om at indtaste disse.
-		For, i samme forbindelse, at sende en email til den nye bruger, bruges funktionen <info>--send-email</info>.',
-		'CLI_HELP_USER_RECLEAN'		=> 'Funktionen rens brugernavne gennemgår alle lagrede brugernavne sikrer at rensede udgaver også er gemt. I et renset brugernavn er det underordnet om man anvender store eller små bogstaver, teksten er normaliseret til NFC og konverteret til ASCII.',
+For, i samme forbindelse, at sende en aktiveringse-mail til brugeren bruges funktionen <info>--send-e-mail</info>.',
+	'CLI_HELP_USER_ADD'			=> 'Kommandoen <info>%command.name%</info> tilføjer en ny bruger:
+Afvikles kommandoen uden funktioner, bliver du bedt om at indtaste disse.
+For, i samme forbindelse, at sende en e-mail til den nye bruger, bruges funktionen <info>--send-e-mail</info>.',
+	'CLI_HELP_USER_RECLEAN'		=> 'Funktionen rens brugernavne gennemgår alle lagrede brugernavne sikrer at rensede udgaver også er gemt. I et renset brugernavn er det underordnet om man anvender store eller små bogstaver, teksten er normaliseret til NFC og konverteret til ASCII.',
 ));

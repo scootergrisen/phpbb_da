@@ -7,7 +7,7 @@ Nedenstående besked er sendt til dig fra {FROM_USERNAME} via din konto på "{SI
 
 Inkluder den fulde besked. Bemærk venligst at afsender er boardets IM-konto.
 
-Beskedens indhold
+E-mailens indhold
 ~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

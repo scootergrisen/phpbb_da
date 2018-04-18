@@ -1,22 +1,22 @@
 <?php
 /**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* @modified and translated by Olympus DK Team
-* @version $Id: bbcode.php 586 2017-07-23 12:23:55Z jan_skovsgaard $
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-*
-*/
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * @modified and translated by Olympus DK Team
+ * @version $Id: bbcode.php 586 2017-07-23 12:23:55Z jan_skovsgaard $
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'HELP_BBCODE_INTRO_BBCODE_ANSWER'	=> 'BBkode er en speciel implementering af HTML. Hvorvidt du aktuelt har muligheden for at anvende BBkode i dine indlæg i dette forum, er defineret af administratoren. Du kan selv fravælge denne mulighed pr. emne når du skriver et indlæg. BBkode skrives på samme måde som HTML, hvor teksten omsluttes af en start- og en slutkode, koderne er omsluttet af hakparenteser [ og ] i stedet for &lt; og &gt; og de tilbyder større kontrol over hvor og hvordan teksten præsenteres. Afhængig af den skabelon der anvendes på forummet, er der direkte adgang til en kort vejledning, mens du skriver en besked. Selv med denne nyttige funktion, vil du sikkert finde nedenstående vejledning mere uddybende.',
 	'HELP_BBCODE_INTRO_BBCODE_QUESTION'	=> 'Hvad er BBkode?',
 
-	'HELP_BBCODE_LINKS_BASIC_ANSWER'	=> 'BBkode understøtter flere måder at oprette links på, eller Uniform Resource Locators, bedre kendt som URL\'er.<ul><li>Den første måde bruger <strong>[url=][/url]</strong> tag, uanset hvad du taster efter = (lighedstegnet), vil resultere i at indholdet vil opføre sig som et link. For at linke til eksempelvis www.phpBB.com, kan du bruge:<br /><br /><strong>[url=https://www.phpbb.com/]</strong>Besøg phpBB!<strong>[/url]</strong><br /><br />Resultatet giver dette link, <a href="https://www.phpbb.com/">Besøg phpBB!</a> Bemærk venligst at linket åbnes enten i samme, eller i et nyt browservindue, afhængig af brugerens browserindstillinger.</li><li>Hvis du ønsker selve URL\'en vist som et link, kan du gøre det bare ved at skrive:<br /><br /><strong>[url]</strong>https://www.phpbb.com/<strong>[/url]</strong><br /><br />Resultatet vil være dette link, <a href="https://www.phpbb.com/">https://www.phpbb.com/</a></li><li>Derudover indeholder phpBB en facilitet kaldet <i>Magiske links</i>, den omsætter enhver URL med korrekt syntaks til et link, uden du behøver at specificere tags, heller ikke det startende http://. Hvis du eksempelvis skriver www.phpbb.com i dit indlæg, vil der automatisk blive linket til <a href="http://www.phpbb.com/">www.phpbb.com</a> når indlægget vises.</li><li>Magiske links fungerer på samme måde overfor email-adresser, du kan enten specificere en adresse, f.eks:<br /><br /><strong>[email]</strong>no.one@domain.adr<strong>[/email]</strong><br /><br />som vil se sådan ud <a href="mailto:no.one@domain.adr">no.one@domain.adr</a> eller du kan nøjes med at skrive no.one@domain.adr i din besked og den vil automatisk blive omsat.</li></ul><br />Som i alle andre sammenhænge kan du vælge at omslutte dine URL\'er med BBkode, som for eksempel <strong>[img][/img]</strong> (se næste punkt), <strong>[b][/b]</strong>, osv. Ganske som med HTML-tags, er det op til dig selv at sikre korrekt åbning og lukning af kodetags. Som eksempel:<br /><br /><strong>[url=https://www.phpbb.com/][img]</strong>https://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/url][/img]</strong><br /><br />er <span style="text-decoration: underline">íkke</span> korrekt, og kan resultere i at dit indlæg slettes, så vær omhyggelig.',
+	'HELP_BBCODE_LINKS_BASIC_ANSWER'	=> 'BBkode understøtter flere måder at oprette links på, eller Uniform Resource Locators, bedre kendt som URL\'er.<ul><li>Den første måde bruger <strong>[url=][/url]</strong> tag, uanset hvad du taster efter = (lighedstegnet), vil resultere i at indholdet vil opføre sig som et link. For at linke til eksempelvis www.phpBB.com, kan du bruge:<br /><br /><strong>[url=https://www.phpbb.com/]</strong>Besøg phpBB!<strong>[/url]</strong><br /><br />Resultatet giver dette link, <a href="https://www.phpbb.com/">Besøg phpBB!</a> Bemærk venligst at linket åbnes enten i samme, eller i et nyt browservindue, afhængig af brugerens browserindstillinger.</li><li>Hvis du ønsker selve URL\'en vist som et link, kan du gøre det bare ved at skrive:<br /><br /><strong>[url]</strong>https://www.phpbb.com/<strong>[/url]</strong><br /><br />Resultatet vil være dette link, <a href="https://www.phpbb.com/">https://www.phpbb.com/</a></li><li>Derudover indeholder phpBB en facilitet kaldet <i>Magiske links</i>, den omsætter enhver URL med korrekt syntaks til et link, uden du behøver at specificere tags, heller ikke det startende http://. Hvis du eksempelvis skriver www.phpbb.com i dit indlæg, vil der automatisk blive linket til <a href="http://www.phpbb.com/">www.phpbb.com</a> når indlægget vises.</li><li>Magiske links fungerer på samme måde overfor e-mailadresser, du kan enten specificere en adresse, f.eks:<br /><br /><strong>[email]</strong>no.one@domain.adr<strong>[/email]</strong><br /><br />som vil se sådan ud <a href="mailto:no.one@domain.adr">no.one@domain.adr</a> eller du kan nøjes med at skrive no.one@domain.adr i din besked og den vil automatisk blive omsat.</li></ul><br />Som i alle andre sammenhænge kan du vælge at omslutte dine URL\'er med BBkode, som for eksempel <strong>[img][/img]</strong> (se næste punkt), <strong>[b][/b]</strong>, osv. Ganske som med HTML-tags, er det op til dig selv at sikre korrekt åbning og lukning af kodetags. Som eksempel:<br /><br /><strong>[url=https://www.phpbb.com/][img]</strong>https://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/url][/img]</strong><br /><br />er <span style="text-decoration: underline">ikke</span> korrekt, og kan resultere i at dit indlæg slettes, så vær omhyggelig.',
 	'HELP_BBCODE_LINKS_BASIC_QUESTION'	=> 'Linke til et andet site',
 
 	'HELP_BBCODE_LISTS_ORDERER_ANSWER'	=> 'Den anden type liste giver dig kontrol over hvad der indtastes for hver linje. For at oprette en nummereret liste du bruge <strong>[list=1][/list]</strong> og <strong>[list=a][/list]</strong> for en alfabetisk. Som med punkttegnslisten, defineres ny linje med <strong>[*]</strong>. For eksempel:<br /><br /><strong>[list=1]</strong><br /><strong>[*]</strong>Gå på indkøb<br /><strong>[*]</strong>Køb en ny computer<br /><strong>[*]</strong>Band over computeren når den strejker<br /><strong>[/list]</strong><br /><br />vil resultere i denne opstilling:<ol style="list-style-type: decimal;"><li>Gå på indkøb</li><li>Køb en ny computer</li><li>Band over computeren når den strejker</li></ol>For den alfabetiske liste bruger du:<br /><br /><strong>[list=a]</strong><br /><strong>[*]</strong>Den første mulighed<br /><strong>[*]</strong>Den anden mulighed<br /><strong>[*]</strong>Den tredje mulighed<br /><strong>[/list]</strong><br /><br />Bliver til<ol style="list-style-type: lower-alpha"><li>Den første mulighed</li><li>Den anden mulighed</li><li>Den tredje mulighed</li></ol><br /><strong>[list=A]</strong><br /><strong>[*]</strong>Den første mulighed<br /><strong>[*]</strong>Den anden mulighed<br /><strong>[*]</strong>Den tredje mulighed<br /><strong>[/list]</strong><br /><br />Bliver til<ol style="list-style-type: upper-alpha"><li>Den første mulighed</li><li>Den anden mulighed</li><li>Den tredje mulighed</li></ol><br /><strong>[list=i]</strong><br /><strong>[*]</strong>Den første mulighed<br /><strong>[*]</strong>Den anden mulighed<br /><strong>[*]</strong>Den tredje mulighed<br /><strong>[/list]</strong><br /><br />Bliver til<ol style="list-style-type: lower-roman"><li>Den første mulighed</li><li>Den anden mulighed</li><li>Den tredje mulighed</li></ol><br /><strong>[list=I]</strong><br /><strong>[*]</strong>Den første mulighed<br /><strong>[*]</strong>Den anden mulighed<br /><strong>[*]</strong>Den tredje mulighed<br /><strong>[/list]</strong><br /><br />Bliver til<ol style="list-style-type: upper-roman"><li>Den første mulighed</li><li>Den anden mulighed</li><li>Den tredje mulighed</li></ol>',

@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 		1	=> 'Søgningen gav %d resultat',
 		2	=> 'Søgningen gav %d resultater',
 	),
-	
+
 	'FOUND_MORE_SEARCH_MATCHES' => array(
 		1 => 'Søgningen gav mere end %d resultat',
 		2 => 'Søgningen gav mere end %d resultater',
@@ -65,10 +65,10 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Du skal være tilmeldt som bruger og logget ind for at få vist egne indlæg.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'	=> 'Du skal være tilmeldt som bruger og logget ind for at få vist dine ulæste indlæg.',
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Du skal være tilmeldt som bruger og logget ind for at få vist nye indlæg siden dit seneste log ind.',
-	
+
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
-		1  =>	'Du angav for mange søgeord, en søgning må maksimalt indeholde %1$d ord.',
-		2  =>	'Du angav for mange søgeord, en søgning må maksimalt indeholde %1$d ord.',
+		1	=> 'Du angav for mange søgeord, en søgning må maksimalt indeholde %1$d ord.',
+		2	=> 'Du angav for mange søgeord, en søgning må maksimalt indeholde %1$d ord.',
 	),
 
 	'NO_KEYWORDS'			=> 'Du skal indtaste mindst et søgeord. Hvert ord skal bestå af mindst %s og højst %s tegn (eksklusiv ubekendte).',
@@ -80,12 +80,12 @@ $lang = array_merge($lang, array(
 		1	=> 'Beklager, søgefunktionen kan ikke bruges lige nu. Prøv venligst igen om %d sekund.',
 		2	=> 'Beklager, søgefunktionen kan ikke bruges lige nu. Prøv venligst igen om %d sekunder.',
 	),
-	'NO_SEARCH_UNREADS'    => 'Beklager, søgning efter ulæste indlæg er deaktiveret på boardet.',
+	'NO_SEARCH_UNREADS'		=> 'Beklager, søgning efter ulæste indlæg er deaktiveret på boardet.',
 	'WORD_IN_NO_POST'		=> 'Ingen indlæg blev fundet, ordet <strong>%s</strong> forekommer ikke i noget indlæg.',
 	'WORDS_IN_NO_POST'		=> 'Ingen indlæg blev fundet, ordene <strong>%s</strong> forekommer ikke i noget indlæg.',
 
 	'POST_CHARACTERS'		=> 'tegn i indlæg',
-	'PHRASE_SEARCH_DISABLED'  => 'Søgning efter eksakt ordgruppe understøttes ikke på dette board.',
+	'PHRASE_SEARCH_DISABLED'	=> 'Søgning efter eksakt ordgruppe understøttes ikke på dette board.',
 
 	'RECENT_SEARCHES'		=> 'Nylige søgninger',
 	'RESULT_DAYS'			=> 'Afgræns resultater til forrige',
@@ -95,8 +95,8 @@ $lang = array_merge($lang, array(
 
 	'SEARCHED_FOR'			=> 'Anvendt søgeord',
 	'SEARCHED_TOPIC'		=> 'Det søgte emne',
-	'SEARCHED_QUERY'      	=> 'Søgningens forespørgsel',
-	'SEARCH_ALL_TERMS'		=> 'Søg efter alle udtryk eller brug indtastet søgeparameter ',
+	'SEARCHED_QUERY'				=> 'Søgningens forespørgsel',
+	'SEARCH_ALL_TERMS'		=> 'Søg efter alle udtryk eller brug indtastet søgeparameter',
 	'SEARCH_ANY_TERMS'		=> 'Søg efter alle udtryk',
 	'SEARCH_AUTHOR'			=> 'Søg efter en bestemt forfatter',
 	'SEARCH_AUTHOR_EXPLAIN'	=> 'Brug * som ubekendt for ukendte tegn.',
@@ -118,8 +118,8 @@ $lang = array_merge($lang, array(
 	'SORT_FORUM'			=> 'Forum',
 	'SORT_POST_SUBJECT'		=> 'Indlæggets overskrift',
 	'SORT_TIME'				=> 'Indlæggets dato',
-	'SPHINX_SEARCH_FAILED'    => 'Søgning fejlede. %s',
-	'SPHINX_SEARCH_FAILED_LOG'        => 'Beklager, søgning kunne ikke udføres. Mere information er skrevet til fejlloggen.',
+	'SPHINX_SEARCH_FAILED'		=> 'Søgning fejlede. %s',
+	'SPHINX_SEARCH_FAILED_LOG'				=> 'Beklager, søgning kunne ikke udføres. Mere information er skrevet til fejlloggen.',
 
 	'TOO_FEW_AUTHOR_CHARS' => array(
 		1	=> 'Du skal indtaste mindst %d tegn af forfatterens navn.',

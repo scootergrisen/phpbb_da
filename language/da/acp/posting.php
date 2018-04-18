@@ -45,8 +45,8 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BBkode er en speciel implementering af HTML som tilbyder bedre kontrol over hvad og hvordan noget vises. Fra denne side kan du tilføje, fjerne og redigere brugerdefinerede BBkoder.',
 	'ADD_BBCODE'				=> 'Tilføj en ny BBkode',
 
-	'BBCODE_DANGER' => 'BBkoden ser ud til at gøre brug af et {TEXT}-token i en HTML-attribut. Det åbner en potentiel XSS-sikkerhedsrisiko. Forsøg i stedet at anvende de mere restriktive tokens {SIMPLETEXT} og {INTTEXT}. Fortsæt hvis du er bekendt med de involverede risici og anvendelsen af {TEXT} er nødvendig.',
-	'BBCODE_DANGER_PROCEED' => 'Fortsæt', //'I understand the risk', 
+	'BBCODE_DANGER'				=> 'BBkoden ser ud til at gøre brug af et {TEXT}-token i en HTML-attribut. Det åbner en potentiel XSS-sikkerhedsrisiko. Forsøg i stedet at anvende de mere restriktive tokens {SIMPLETEXT} og {INTTEXT}. Fortsæt hvis du er bekendt med de involverede risici og anvendelsen af {TEXT} er nødvendig.',
+	'BBCODE_DANGER_PROCEED'		=> 'Fortsæt', //'I understand the risk',
 
 	'BBCODE_ADDED'				=> 'BBkode korrekt tilføjet.',
 	'BBCODE_EDITED'				=> 'BBkode korrekt rettet.',
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Dette felt indeholder teksten for BBkoden ved mouseover.',
 	'BBCODE_HELPLINE_TEXT'		=> 'Tekst i hjælpelinie',
 	'BBCODE_HELPLINE_TOO_LONG'	=> 'Den indtastede tekst til hjælpelinien er for lang.',
-	
+
 	'BBCODE_INVALID_TAG_NAME'	=> 'Det valgte navn til BBkode-tagget eksisterer allerede.',
 	'BBCODE_INVALID'			=> 'Din BBkode er ikke korrekt opbygget, og kan ikke anvendes.',
 	'BBCODE_OPEN_ENDED_TAG'		=> 'Din BBkode skal indholde både en åbnings- og en afslutningstag.',
@@ -86,11 +86,11 @@ $lang = array_merge($lang, array(
 		'INTTEXT'		=> 'Alle unicodetegn (inkl. æ, ø og å), tal, mellemrum, komma, punktum, minus, plus, bindestreg, underscore og blanktegn.',
 		'IDENTIFIER'	=> 'Tegnene i det latinske alfabet (A-Z), tal, bindestreg og underscore.',
 		'NUMBER'		=> 'Enhver serie cifre.',
-		'EMAIL'			=> 'En gyldig email-adresse.',
-		'URL'			=> 'En gyldig URL via enhver protokol (bl.a. http og ftp kan ikke bruges til javascript exploits). Hvis intet indtastes, tilføjes "http://" automatisk URL\'en.',
+		'EMAIL'			=> 'En gyldig e-mailadresse.',
+		'URL'			=> 'En gyldig URL via enhver protokol (http, ftp, osv… kan ikke bruges til javascript exploits). Hvis intet indtastes, tilføjes "http://" automatisk URL\'en.',
 		'LOCAL_URL'		=> 'En lokal URL. URL\'en skal være relativ til emnesiden og kan ikke indeholde et servernavn eller protokol, da links er præfikset med "%s"',
 		'RELATIVE_URL'	=> 'En relativ URL. Du kan anvende denne til at matche dele af en URL, men vær forsigtig, en komplet URL er en gyldig relativ URL. Hvis du ønsker at anvende relative URL\'er indenfor dit board, bør du bruge LOCAL_URL-tokenet.',
-		'COLOR'			=> 'En HTML-farve, kan indtastes i heksadecimal værdi <samp>#FF1234</samp> eller med et <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS-farvenavn</a>, for eksempel <samp>fuchsia</samp> eller <samp>InactiveBorder</samp>.'
+		'COLOR'			=> 'En HTML-farve, kan indtastes i heksadecimal værdi <samp>#FF1234</samp> eller med et <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS-farvenavn</a>, for eksempel <samp>fuchsia</samp> eller <samp>InactiveBorder</samp>.',
 	),
 ));
 
@@ -110,9 +110,9 @@ $lang = array_merge($lang, array(
 	'CURRENT_SMILIES'			=> 'Nuværende smileys',
 	'CURRENT_SMILIES_EXPLAIN'	=> 'Vælg hvad der skal gøres ved de i øjeblikket installerede smileys.',
 
-	'DISPLAY_ON_POSTING'	=> 'Vis på siden hvor indlæg skrives',
-	'DISPLAY_POSTING'	=> 'På siden hvor indlæg skrives',
-	'DISPLAY_POSTING_NO'	=> 'Ikke på siden hvor indlæg skrives',
+	'DISPLAY_ON_POSTING'		=> 'Vis på siden hvor indlæg skrives',
+	'DISPLAY_POSTING'			=> 'På siden hvor indlæg skrives',
+	'DISPLAY_POSTING_NO'		=> 'Ikke på siden hvor indlæg skrives',
 
 	'EDIT_ICONS'				=> 'Ret ikoner',
 	'EDIT_SMILIES'				=> 'Ret smileys',
@@ -125,18 +125,18 @@ $lang = array_merge($lang, array(
 	'FIRST'			=> 'Først',
 
 	'ICONS_ADD'				=> 'Tilføj et nyt ikon',
-	'ICONS_ADDED'      => array(
-		0  => 'Ingen ikoner blev tilføjet.',
-		1  => 'Ikonet er blevet korrekt tilføjet.',
-		2  => 'Ikonerne blev korrekt tilføjet.',
+	'ICONS_ADDED'			=> array(
+		0	=> 'Ingen ikoner blev tilføjet.',
+		1	=> 'Ikonet er blevet korrekt tilføjet.',
+		2	=> 'Ikonerne blev korrekt tilføjet.',
 	),
 	'ICONS_CONFIG'			=> 'Ikonkonfiguration',
 	'ICONS_DELETED'			=> 'Ikonet er blevet fjernet korrekt.',
 	'ICONS_EDIT'			=> 'Ret ikon',
-	'ICONS_EDITED'      => array(
-		0  => 'Ingen ikoner blev opdateret.',
-		1  => 'Ikonet er korrekt opdateret.',
-		2  => 'Ikonerne er korrekt opdateret.',
+	'ICONS_EDITED'			=> array(
+		0	=> 'Ingen ikoner blev opdateret.',
+		1	=> 'Ikonet er korrekt opdateret.',
+		2	=> 'Ikonerne er korrekt opdateret.',
 	),
 	'ICONS_HEIGHT'			=> 'Ikonhøjde',
 	'ICONS_IMAGE'			=> 'Ikonbillede',
@@ -163,29 +163,29 @@ $lang = array_merge($lang, array(
 	'NO_SMILIES_EXPORT'	=> 'Du har ingen smileys hvormed du kan oprette en pakke.',
 	'NO_SMILIES_PAK'	=> 'Ingen smileys-pakker fundet.',
 
-	'PAK_FILE_NOT_READABLE'		=> 'Kunne ikke læse <samp>.pak</samp>-fil',
+	'PAK_FILE_NOT_READABLE'		=> 'Kunne ikke læse <samp>.pak</samp>-fil.',
 
 	'REPLACE_MATCHES'	=> 'Erstat matchende',
 
 	'SELECT_PACKAGE'			=> 'Vælg en pakkefil',
 	'SMILIES_ADD'				=> 'Tilføj en ny smiley',
-	'SMILIES_ADDED'        => array(
-		0  => 'Ingen smileys blev tilføjet.',
-		1  => 'Smiley blev korrekt tilføjet.',
-		2  => 'Smileys blev korrekt tilføjet.',
+	'SMILIES_ADDED'				=> array(
+		0	=> 'Ingen smileys blev tilføjet.',
+		1	=> 'Smiley blev korrekt tilføjet.',
+		2	=> 'Smileys blev korrekt tilføjet.',
 	),
 	'SMILIES_CODE'				=> 'Smileykode',
 	'SMILIES_CONFIG'			=> 'Smileykonfiguration',
 	'SMILIES_DELETED'			=> 'Smiley er korrekt fjernet.',
 	'SMILIES_EDIT'				=> 'Ret smiley',
 	'SMILIE_NO_CODE'			=> 'Smiley "%s" blev ignoreret, da ingen kode blev indtastet.',
-	'SMILIE_NO_EMOTION'		=> 'Smiley "%s" blev ignoreret, da ingen følelse blev indtastet.',
+	'SMILIE_NO_EMOTION'			=> 'Smiley "%s" blev ignoreret, da ingen følelse blev indtastet.',
 	'SMILIE_NO_FILE'			=> 'Smiley "%s" blev ignoreret, da filen mangler.',
-	'SMILIES_EDITED'      => array(
-		0  => 'Ingen smileys blev opdateret.',
-		1  => 'Smiley blev korrekt opdateret.',
-		2  => 'Smileys blev korrekt opdateret.',
-		),
+	'SMILIES_EDITED'			=> array(
+		0	=> 'Ingen smileys blev opdateret.',
+		1	=> 'Smiley blev korrekt opdateret.',
+		2	=> 'Smileys blev korrekt opdateret.',
+	),
 	'SMILIES_EMOTION'			=> 'Følelse',
 	'SMILIES_HEIGHT'			=> 'Smileyhøjde',
 	'SMILIES_IMAGE'				=> 'Smileybillede',
@@ -239,7 +239,7 @@ $lang = array_merge($lang, array(
 	'RANK_ADDED'			=> 'Denne rang blev korrekt tilføjet.',
 	'RANK_IMAGE'			=> 'Rangbillede',
 	'RANK_IMAGE_EXPLAIN'	=> 'Brug dette til at definere et lille billede associeret med den pågældende rang. Stien er relativ til phpBB-rodmappen.',
-	'RANK_IMAGE_IN_USE' => '(i brug)',
+	'RANK_IMAGE_IN_USE'		=> '(i brug)',
 	'RANK_MINIMUM'			=> 'Minimum antal indlæg',
 	'RANK_REMOVED'			=> 'Denne rang blev korrekt slettet.',
 	'RANK_SPECIAL'			=> 'Sæt som speciel rang',
@@ -269,26 +269,26 @@ $lang = array_merge($lang, array(
 	'ADD_NEW_REASON'		=> 'Tilføj ny årsag',
 	'AVAILABLE_TITLES'		=> 'Oversatte årsager i valgt sprogpakke',
 
-	'IS_NOT_TRANSLATED'		=> 'Årsag er <strong>ikke</strong> blevet oversat',
+	'IS_NOT_TRANSLATED'			=> 'Årsag er <strong>ikke</strong> blevet oversat.',
 	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'Årsag er <strong>ikke</strong> oversat. Hvis du ønsker at tilføje en oversættelse af årsagen for de sprog der er installeret på boardet, tilføjes titel og årsag nederst i sprogfilen mcp.php for hver af de installerede sprogpakker.',
-	'IS_TRANSLATED'			=> 'Årsag er blevet oversat',
-	'IS_TRANSLATED_EXPLAIN'	=> 'Årsag er oversat, den indtastede titel er tilstede i sprogfilen mcp.php. Denne oversættelse overskriver eventuel titel og beskrivelse indtastet her.',
+	'IS_TRANSLATED'				=> 'Årsag er blevet oversat.',
+	'IS_TRANSLATED_EXPLAIN'		=> 'Årsag er oversat, den indtastede titel er tilstede i sprogfilen mcp.php. Denne oversættelse overskriver eventuel titel og beskrivelse indtastet her.',
 
 	'NO_REASON'					=> 'Årsag kunne ikke findes.',
 	'NO_REASON_INFO'			=> 'Du skal indtaste en titel og en beskrivelse for denne årsag.',
 	'NO_REMOVE_DEFAULT_REASON'	=> 'Du kan ikke fjerne årsagen "Andet", som er standard.',
 
-	'REASON_ADD'			=> 'Tilføj rapport- og afvisningsårsag',
-	'REASON_ADDED'			=> 'Rapport- og afvisningsårsag korrekt tilføjet.',
-	'REASON_ALREADY_EXIST'	=> 'En årsag med denne titel findes allerede, indtast venligst en anden titel for denne årsag.',
-	'REASON_DESCRIPTION'	=> 'Årsagsbeskrivelse',
+	'REASON_ADD'				=> 'Tilføj rapport- og afvisningsårsag',
+	'REASON_ADDED'				=> 'Rapport- og afvisningsårsag korrekt tilføjet.',
+	'REASON_ALREADY_EXIST'		=> 'En årsag med denne titel findes allerede, indtast venligst en anden titel for denne årsag.',
+	'REASON_DESCRIPTION'		=> 'Årsagsbeskrivelse',
 	'REASON_DESC_TRANSLATED'	=> 'Vist årsagsbeskrivelse',
-	'REASON_EDIT'			=> 'Rediger rapport- og afvisningsårsag',
-	'REASON_EDIT_EXPLAIN'	=> 'Her kan du tilføje eller rette en årsag. Hvis årsagen er oversat bruges den lokale version i stedet for den her indtastede beskrivelse.',
-	'REASON_REMOVED'		=> 'Rapport- og afvisningsårsag korrekt fjernet.',
-	'REASON_TITLE'			=> 'Årsagstitel',
+	'REASON_EDIT'				=> 'Rediger rapport- og afvisningsårsag',
+	'REASON_EDIT_EXPLAIN'		=> 'Her kan du tilføje eller rette en årsag. Hvis årsagen er oversat bruges den lokale version i stedet for den her indtastede beskrivelse.',
+	'REASON_REMOVED'			=> 'Rapport- og afvisningsårsag korrekt fjernet.',
+	'REASON_TITLE'				=> 'Årsagstitel',
 	'REASON_TITLE_TRANSLATED'	=> 'Vist årsagstitel',
-	'REASON_UPDATED'		=> 'Rapport- og afvisningsårsag korrekt opdateret',
+	'REASON_UPDATED'			=> 'Rapport- og afvisningsårsag korrekt opdateret.',
 
 	'USED_IN_REPORTS'		=> 'Brugt i rapporter',
 ));

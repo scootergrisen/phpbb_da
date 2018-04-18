@@ -2,13 +2,15 @@ Subject: Nyt indlæg i forummet - "{FORUM_NAME}"
 
 Hej {USERNAME}
 
-Du overvåger ovennævnte forum på "{SITENAME}", hvor <!-- IF AUTHOR_NAME != '' -->{AUTHOR_NAME}<!-- ENDIF --> har skrevet et indlæg i emnet "{TOPIC_TITLE}" siden dit seneste besøg. Der fremsendes ikke flere beskeder om forummet, før du har besøgt det. Benyt nedenstående link hvis du vil se:
+Du modtager denne besked, fordi du overvåger forummet "{FORUM_NAME}" på "{SITENAME}", hvor <!-- IF AUTHOR_NAME != '' -->{AUTHOR_NAME}<!-- ENDIF --> har skrevet et indlæg i emnet "{TOPIC_TITLE}" siden dit seneste besøg. Du kan bruge følgende link til se se seneste indlæg. Der fremsendes ikke flere beskeder om forummet, før du har besøgt det.
 
-Seneste indlæg i forummet: {U_NEWEST_POST}
+{U_NEWEST_POST}
 
-Emnet: {U_TOPIC}
+Klik på følgende link, hvis du vil se emnet:
+{U_TOPIC}
 
-Forummet: {U_FORUM}
+Klik på følgende link, hvis du vil se forummet:
+{U_FORUM}
 
 Ønsker du ikke længere at få besked om nye indlæg i forummet, stoppes overvågningen ved at klikke på følgende link:
 

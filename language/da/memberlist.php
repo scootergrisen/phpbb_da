@@ -46,34 +46,34 @@ $lang = array_merge($lang, array(
 	'ADD_FOE'				=> 'Ignorer bruger',
 	'ADD_FRIEND'			=> 'Tilføj som ven',
 	'AFTER'					=> 'Efter',
-	
+
 	'ALL'					=> 'Alle',
 
 	'BEFORE'				=> 'Før',
 
-	'CC_SENDER'				=> 'Send en kopi af denne email til dig selv',
+	'CC_SENDER'				=> 'Send en kopi af denne e-mail til dig selv.',
 	'CONTACT_ADMIN'			=> 'Kontakt en boardadministrator',
 
 	'DEST_LANG'				=> 'Sprog',
 	'DEST_LANG_EXPLAIN'		=> 'Vælg et passende sprog (hvis tilgængeligt) til modtageren af denne besked.',
-	
+
 	'EDIT_PROFILE'			=> 'Rediger profil',
 
-	'EMAIL_BODY_EXPLAIN'	=> 'Denne besked bliver sendt som ren tekst, undlad derfor HTML- og BBkode. Returadressen i denne besked bliver sat som din email-adresse.',
-	'EMAIL_DISABLED'		=> 'Desværre, alle email-relaterede funktioner er slået fra.',
-	'EMAIL_SENT'			=> 'Emailen er blevet sendt.',
-	'EMAIL_TOPIC_EXPLAIN'	=> 'Denne besked bliver sendt som ren tekst, undlad derfor HTML- og BBkoder. Bemærk at emneinformation er inkluderet i denne besked. Returadressen i denne besked bliver sat som din email-adresse.',
-	'EMPTY_ADDRESS_EMAIL'	=> 'Du skal indtaste en gyldig email-adresse på modtageren.',
-	'EMPTY_MESSAGE_EMAIL'	=> 'Du skal skrive den besked der skal sendes med email.',
+	'EMAIL_BODY_EXPLAIN'	=> 'Denne besked bliver sendt som ren tekst, undlad derfor HTML- og BBkode. Returadressen i denne besked bliver sat som din e-mailadresse.',
+	'EMAIL_DISABLED'		=> 'Desværre, alle e-mail-relaterede funktioner er slået fra.',
+	'EMAIL_SENT'			=> 'E-mailen er blevet sendt.',
+	'EMAIL_TOPIC_EXPLAIN'	=> 'Denne besked bliver sendt som ren tekst, undlad derfor HTML- og BBkoder. Bemærk at emneinformation er inkluderet i denne besked. Returadressen i denne besked bliver sat som din e-mailadresse.',
+	'EMPTY_ADDRESS_EMAIL'	=> 'Du skal indtaste en gyldig e-mailadresse på modtageren.',
+	'EMPTY_MESSAGE_EMAIL'	=> 'Du skal skrive den besked der skal sendes med e-mail.',
 	'EMPTY_MESSAGE_IM'		=> 'Du skal skrive den besked der skal sendes.',
 	'EMPTY_NAME_EMAIL'		=> 'Du skal indtaste modtagerens rigtige navn.',
-	'EMPTY_SENDER_EMAIL'	=> 'Du skal indtaste en gyldig email-adresse.',
+	'EMPTY_SENDER_EMAIL'	=> 'Du skal indtaste en gyldig e-mailadresse.',
 	'EMPTY_SENDER_NAME'		=> 'Du skal indtaste et navn.',
-	'EMPTY_SUBJECT_EMAIL'	=> 'Du skal indtaste et emne i emnefeltet til denne email.',
+	'EMPTY_SUBJECT_EMAIL'	=> 'Du skal indtaste et emne i emnefeltet til denne e-mail.',
 	'EQUAL_TO'				=> 'Svarer til',
 
-	'FIND_USERNAME_EXPLAIN'	=> 'Brug denne formular for at søge efter specifikke tilmeldte brugere. Du behøver ikke at udfylde alle felterne. Brug * som ubekendt for ukendte tegn. Hvis du bruger dato som søgeparameter, så brug formatet <kbd>åååå-mm-dd</kbd>, for eksempel <samp>2007-01-31</samp>. Brug markeringsboksene for at vælge et eller flere brugernavne (flere brugernavne kan accepteres afhængig af selve formatet) og klik på vælg markerede for at returnere til forrige side.',
-	'FLOOD_EMAIL_LIMIT'		=> 'Du kan ikke sende endnu en email lige nu, prøv venligst igen senere.',
+	'FIND_USERNAME_EXPLAIN'	=> 'Brug denne formular for at søge efter specifikke tilmeldte brugere. Du behøver ikke at udfylde alle felterne. Brug * som ubekendt for ukendte tegn. Hvis du bruger dato som søgeparameter, så brug formatet <kbd>ÅÅÅÅ-MM-DD</kbd>, for eksempel <samp>2007-01-31</samp>. Brug markeringsboksene for at vælge et eller flere brugernavne (flere brugernavne kan accepteres afhængig af selve formatet) og klik på vælg markerede for at returnere til forrige side.',
+	'FLOOD_EMAIL_LIMIT'		=> 'Du kan ikke sende endnu en e-mail lige nu, prøv venligst igen senere.',
 
 	'GROUP_LEADER'			=> 'Gruppeleder',
 
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'IM_SEND_MESSAGE'		=> 'Send besked',
 	'IM_SENT_JABBER'		=> 'Din besked til %1$s er afsendt.',
 	'IM_USER'				=> 'Send en besked',
-	
+
 	'LAST_ACTIVE'				=> 'Senest aktiv',
 	'LESS_THAN'					=> 'Mindre end',
 	'LIST_USERS' => array(
@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 
 	'NO_CONTACT_FORM'		=> 'Formularen til at kontakte boardadministrator, er blevet deaktiveret.',
 	'NO_CONTACT_PAGE'		=> 'Kontaktsiden til boardadministrator er blevet deaktiveret.',
-	'NO_EMAIL'				=> 'Du har ikke tilladelse til at sende email til denne bruger.',
+	'NO_EMAIL'				=> 'Du har ikke tilladelse til at sende e-mail til denne bruger.',
 	'NO_VIEW_USERS'			=> 'Du har ikke tilladelse til at se liste over tilmeldte brugere og deres profiler.',
 
 	'ORDER'					=> 'Rækkefølge',
@@ -124,14 +124,14 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Vælg markerede',
 	'SELECT_SORT_METHOD'	=> 'Vælg sorteringsmetode',
-	'SENDER_EMAIL_ADDRESS'	=> 'Din email-adresse',
+	'SENDER_EMAIL_ADDRESS'	=> 'Din e-mailadresse',
 	'SENDER_NAME'			=> 'Dit navn',
 	'SEND_ICQ_MESSAGE'		=> 'Send besked med ICQ',
 	'SEND_IM'				=> 'Send besked',
 	'SEND_JABBER_MESSAGE'	=> 'Send besked med Jabber',
 	'SEND_MESSAGE'			=> 'Besked',
 	'SEND_YIM_MESSAGE'		=> 'Send besked med YIM',
-	'SORT_EMAIL'			=> 'Email',
+	'SORT_EMAIL'			=> 'E-mail',
 	'SORT_LAST_ACTIVE'		=> 'Senest aktiv',
 	'SORT_POST_COUNT'		=> 'Antal indlæg',
 
@@ -152,6 +152,6 @@ $lang = array_merge($lang, array(
 	'VIEW_FACEBOOK_PROFILE'	=> 'Se Facebook-profil',
 	'VIEW_SKYPE_PROFILE'	=> 'Se Skype-profil',
 	'VIEW_TWITTER_PROFILE'	=> 'Se Twitter-profil',
-	'VIEW_YOUTUBE_CHANNEL'  => 'Se YouTube-kanal',
+	'VIEW_YOUTUBE_CHANNEL'	=> 'Se YouTube-kanal',
 	'VIEW_GOOGLEPLUS_PROFILE' => 'Se Google+-profil',
 ));

@@ -42,7 +42,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Her kan du ændre og vedligeholde indstillingerne for vedhæftede filer og tilknyttede specialkategorier.',
 	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Her kan du ændre, slette, deaktivere og tilføje filtypegrupper, og tilføje en specialkategori til disse. Desuden kan downloadmulighederne ændres, og du kan definere et uploadikon, som vil blive vist foran en vedhæftet fil, som tilhører gruppen.',
-	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Her kan du administrere og kontrollere dine tilladte filtyper. For at aktivere dine filtyper, referer venligst til kontrolpanelet for filtypegrupper. Der advares kraftigt imod at tillade filtyper, der kan indeholde scripts (som <code>php</code>, <code>php3</code>, <code>php4</code>, <code>phtml</code>, <code>pl</code>, <code>cgi</code>, <code>asp</code>, <code>aspx</code>…).',
+	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Her kan du administrere og kontrollere dine tilladte filtyper. For at aktivere dine filtyper, referer venligst til kontrolpanelet for filtypegrupper. Der advares kraftigt imod at tillade filtyper, der kan indeholde scripts (som <code>php</code>, <code>php3</code>, <code>php4</code>, <code>phtml</code>, <code>pl</code>, <code>cgi</code>, <code>py</code>, <code>rb</code>, <code>asp</code>, <code>aspx</code>…).',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'	=> 'Her vises vildfarne filer. Det sker oftest, når brugere vedhæfter filer, men ikke får klikket "Indsend" på det endelige indlæg. Du kan slette filerne, eller knytte dem til eksisterende indlæg. For at knytte filerne til indlæg kræves et gyldigt indlægs-ID, du skal selv indtaste dette ID. Den allerede uploadede fil vil herefter blive tilknyttet dette indlæg.',
 	'ADD_EXTENSION'						=> 'Tilføj filtype',
 	'ADD_EXTENSION_GROUP'				=> 'Tilføj filtypegruppe',
@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Maksimal størrelse pr. fil vedhæftet i private beskeder, 0 betyder ubegrænset.',
 	'ATTACH_ORPHAN_URL'					=> 'Vildfarne vedhæftede filer',
 	'ATTACH_POST_ID'					=> 'Indlæggets ID',
-	'ATTACH_POST_TYPE'          		=> 'Indlæggets type', //? - hmm
+	'ATTACH_POST_TYPE'					=> 'Indlæggets type', //? - hmm
 	'ATTACH_QUOTA'						=> 'Den totale kvote for vedhæftede filer',
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Maksimum drevplads tilgængelig for vedhæftede filer på hele boardet, 0 betyder ubegrænset.',
 	'ATTACH_TO_POST'					=> 'Vedhæft fil til indlæg',
@@ -125,7 +125,7 @@ $lang = array_merge($lang, array(
 	'MAX_THUMB_WIDTH'				=> 'Maksimal bredde/højde på miniature i pixels',
 	'MAX_THUMB_WIDTH_EXPLAIN'		=> 'Miniaturer vil ikke blive oprettet bredere end værdien defineret her.',
 	'MIN_THUMB_FILESIZE'			=> 'Grænse for oprettelse af miniature',
-	'MIN_THUMB_FILESIZE_EXPLAIN'	=> 'Opret ikke miniature for billeder der er mindre end',
+	'MIN_THUMB_FILESIZE_EXPLAIN'	=> 'Opret ikke miniature for billeder der er mindre end.',
 	'MODE_INLINE'					=> 'Inline',
 	'MODE_PHYSICAL'					=> 'Fysisk',
 
@@ -142,7 +142,7 @@ $lang = array_merge($lang, array(
 	'NO_UPLOAD_DIR'				=> 'Den indtastede modtagemappe eksisterer ikke.',
 	'NO_WRITE_UPLOAD'			=> 'Der kan ikke skrives til den specificerede modtagemappe. Korriger venligst tilladelser for mappen, så serveren kan skrive til den.',
 
-	'ONLY_ALLOWED_IN_PM'    => 'Kun tilladt i private beskeder',
+	'ONLY_ALLOWED_IN_PM'	=> 'Kun tilladt i private beskeder',
 	'ORDER_ALLOW_DENY'		=> 'Tillad',
 	'ORDER_DENY_ALLOW'		=> 'Afvis',
 

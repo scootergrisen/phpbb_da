@@ -41,14 +41,14 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Her kan du sende en email til enten alle dine brugere, eller til de brugere i en specifik gruppe som <strong>har muligheden for at modtage masse-emails aktiveret</strong>. Når en masse-email afsendes bliver administrator sat som afsender, og afsendes med modtagere som blind kopi, som derfor ikke kan se øvrige modtagere. Som standard afsendes emailen til 20 brugere ad gangen. Vær tålmodig, når du sender email til en stor gruppe af personer og stop ikke siden halvvejs. Afsendelsen af en masse-email kan tage lang tid, men du bliver informeret når scriptet er fuldført.',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Her kan du sende en e-mail til enten alle dine brugere, eller til de brugere i en specifik gruppe som <strong>har muligheden for at modtage masse-e-mails aktiveret</strong>. Når en masse-e-mail afsendes bliver administrator sat som afsender, og afsendes med modtagere som blind kopi, som derfor ikke kan se øvrige modtagere. Som standard afsendes e-mailen til 20 brugere ad gangen. Vær tålmodig, når du sender e-mail til en stor gruppe af personer og stop ikke siden halvvejs. Afsendelsen af en masse-e-mail kan tage lang tid, men du bliver informeret når scriptet er fuldført.',
 	'ALL_USERS'						=> 'Alle brugere',
 
-	'COMPOSE'				=> 'Skriv email',
+	'COMPOSE'				=> 'Skriv e-mail',
 
-	'EMAIL_SEND_ERROR'		=> 'Der opstod en eller flere fejl under afsendelsen af emailen. Kontroller venligst %sfejlloggen%s for oplysninger om fejlårsagen.',
-	'EMAIL_SENT'			=> 'Denne email er blevet sendt.',
-	'EMAIL_SENT_QUEUE'		=> 'Denne email er nu placeret i afsendelseskøen.',
+	'EMAIL_SEND_ERROR'		=> 'Der opstod en eller flere fejl under afsendelsen af e-mailen. Kontroller venligst %sfejlloggen%s for oplysninger om fejlårsagen.',
+	'EMAIL_SENT'			=> 'Denne e-mail er blevet sendt.',
+	'EMAIL_SENT_QUEUE'		=> 'Denne e-mail er nu placeret i afsendelseskøen.',
 
 	'LOG_SESSION'			=> 'Log mailsession til kritisk log',
 
@@ -57,15 +57,15 @@ $lang = array_merge($lang, array(
 	'SEND_TO_USERS'			=> 'Send til brugere',
 	'SEND_TO_USERS_EXPLAIN'	=> 'Indtastning af navne her vil overskrive enhver gruppe valgt ovenfor. Indtast hvert brugernavn på en linje for sig.',
 
-	'MAIL_BANNED'      => 'Send også email til udelukkede brugere',
-	'MAIL_BANNED_EXPLAIN'  => 'Når du sender en masse-email til en gruppe, kan du her vælge at også udelukkede brugere i gruppen, skal modtage emailen.',
+	'MAIL_BANNED'			=> 'Send også e-mail til udelukkede brugere',
+	'MAIL_BANNED_EXPLAIN'	=> 'Når du sender en masse-e-mail til en gruppe, kan du her vælge at også udelukkede brugere i gruppen, skal modtage e-mailen.',
 	'MAIL_HIGH_PRIORITY'	=> 'Høj',
 	'MAIL_LOW_PRIORITY'		=> 'Lav',
 	'MAIL_NORMAL_PRIORITY'	=> 'Normal',
-	'MAIL_PRIORITY'			=> 'Prioritet for email',
-	'MASS_MESSAGE'			=> 'Emailens tekst',
+	'MAIL_PRIORITY'			=> 'Prioritet for e-mail',
+	'MASS_MESSAGE'			=> 'E-mailens tekst',
 	'MASS_MESSAGE_EXPLAIN'	=> 'Bemærk venligst at du kun bør skrive ren tekst. Al opmærkning vil blive fjernet inden afsendelse.',
 
 	'NO_EMAIL_MESSAGE'		=> 'Du skal skrive en besked.',
-	'NO_EMAIL_SUBJECT'		=> 'Du skal skrive en overskrift i din email.',
+	'NO_EMAIL_SUBJECT'		=> 'Du skal skrive en overskrift i din e-mail.',
 ));

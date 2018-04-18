@@ -1,5 +1,5 @@
 <?php
-/** 
+/**
 *
 * This file is part of the phpBB Forum Software package.
 *
@@ -43,7 +43,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_PRUNE_USERS_EXPLAIN'	=> 'I denne sektion har du mulighed for at slette eller deaktivere brugere på dit board. Brugerkonti kan filtreres på flere måder: efter antal indlæg, senest aktiv, osv. Kriterierne kan kombineres for at indkredse brugerkonti. For eksempel kan du beskære brugere der ikke har været aktive siden 2002-01-01 med mindre end 10 indlæg. * kan anvendes som joker i tekstfelter. Alternativt kan du indtaste en liste over brugere direkte i tekstboksen, hver bruger på en linje for sig - ethvert andet indtastet kriterium bliver her ignoreret. Vær varsom med denne funktion, sletning af en bruger kan ikke fortrydes!',
 
-	'CRITERIA'	=> 'Kriterier',
+	'CRITERIA'				=> 'Kriterier',
 
 	'DEACTIVATE_DELETE'			=> 'Deaktiver eller slet',
 	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Vælg om brugere skal deaktiveres eller slettes. Bemærk at sletning ikke kan fortrydes!',
@@ -54,12 +54,12 @@ $lang = array_merge($lang, array(
 	'JOINED_EXPLAIN'			=> 'Indtast en dato i <kbd>ÅÅÅÅ-MM-DD</kbd> format. Du kan anvende begge felter til specificere et interval, eller nøjes med udfylde et, hvis du ønsker et åbent interval.',
 
 	'LAST_ACTIVE_EXPLAIN'		=> 'Indtast en dato i <kbd>ÅÅÅÅ-MM-DD</kbd> format. For at beskære brugere der aldrig har været logget ind indtastes <kbd>0000-00-00</kbd>, <em>Før</em> og <em>Efter</em> parametrene vil blive ignoreret.',
-	
-	'POSTS_ON_QUEUE'	=> 'Indlæg afventer godkendelse',
+
+	'POSTS_ON_QUEUE'			=> 'Indlæg afventer godkendelse',
 	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Begræns til brugere medlem af valgte gruppe.',
 	'PRUNE_USERS_GROUP_NONE'	=> 'Alle grupper',
-	'PRUNE_USERS_LIST'				=> 'Brugere der beskæres', 
-	'PRUNE_USERS_LIST_DELETE'		=> 'Med det valgte kriterie for beskæring af brugere vil følgende brugerkonti blive slettet. Du kan fravælge individuelle brugere fra listen i feltet foran brugernavnet.', 
+	'PRUNE_USERS_LIST'				=> 'Brugere der beskæres',
+	'PRUNE_USERS_LIST_DELETE'		=> 'Med det valgte kriterie for beskæring af brugere vil følgende brugerkonti blive slettet. Du kan fravælge individuelle brugere fra listen i feltet foran brugernavnet.',
 	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Med det valgte kriterie for beskæring af brugere vil følgende brugerkonti blive deaktiveret. Du kan fravælge individuelle brugere fra listen i feltet foran brugernavnet.',
 
 	'SELECT_USERS_EXPLAIN'		=> 'Indtast brugere her, hvert brugernavn på en linje for sig. Anførte brugere bliver slettet uafhængigt af kriterierne ovenfor. Grundlæggere kan ikke beskæres.',
@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'USER_DEACTIVATE_SUCCESS'	=> 'De valgte brugere er blevet deaktiveret.',
 	'USER_DELETE_SUCCESS'		=> 'De valgte brugere er blevet slettet.',
 	'USER_PRUNE_FAILURE'		=> 'Ingen brugere matcher valgte kriterier.',
-	
+
 	'WRONG_ACTIVE_JOINED_DATE'	=> 'Dato er indtastet forkert, den skal indtastes i formatet <kbd>ÅÅÅÅ-MM-DD</kbd>.',
 ));
 
@@ -94,5 +94,5 @@ $lang = array_merge($lang, array(
 	'PRUNE_STICKY'					=> 'Beskær opslag',
 	'PRUNE_SUCCESS'					=> 'Beskæring af fora blev gennemført.',
 
-	'TOPICS_PRUNED'		=> 'emner beskåret',
+	'TOPICS_PRUNED'		=> 'Emner beskåret',
 ));

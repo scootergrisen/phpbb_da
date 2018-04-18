@@ -67,9 +67,9 @@ $lang = array_merge($lang, array(
 	'BOT_UPDATED'		=> 'Eksisterende bot opdateret.',
 
 	'ERR_BOT_AGENT_MATCHES_UA'	=> 'Den anførte botagent svarer til den du i øjeblikket anvender. Juster venligst agenten for denne bot.',
-	'ERR_BOT_NO_IP'			=> 'IP-adressen du angav var ugyldig eller værtsnavnet kunne ikke findes.',
-	'ERR_BOT_NO_MATCHES'	=> 'Du skal indtaste mindst en agent eller IP-adresse for dette botmatch.',
+	'ERR_BOT_NO_IP'				=> 'IP-adressen du angav var ugyldig eller værtsnavnet kunne ikke findes.',
+	'ERR_BOT_NO_MATCHES'		=> 'Du skal indtaste mindst en agent eller IP-adresse for dette botmatch.',
 
-	'NO_BOT'	=> 'Fandt ingen bot med det specificerede ID',
+	'NO_BOT'		=> 'Fandt ingen bot med det specificerede ID.',
 	'NO_BOT_GROUP'	=> 'Ude af stand til at finde speciel botgruppe.',
 ));

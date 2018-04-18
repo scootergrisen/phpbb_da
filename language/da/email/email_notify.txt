@@ -1,12 +1,16 @@
-Subject: "{SITENAME}" - Email en ven
+Subject: "{SITENAME}" - e-mail en ven
 
 Hej {TO_USERNAME}
 
-Denne email er blevet sendt fra "{SITENAME}" af {FROM_USERNAME}, som tænkte du kunne være interesseret i emnet: {TOPIC_NAME}
+Denne e-mail er blevet sendt fra "{SITENAME}" af {FROM_USERNAME}, som tænkte du kunne være interesseret i emnet:
 
-Emnet findes via dette link: {U_TOPIC}
+{TOPIC_NAME}
 
-En besked fra {FROM_USERNAME} kan også være medtaget nedenfor. Bemærk venligst at denne email ikke er blevet set eller godkendt af boardets administratorer. Ønsker du at klage over denne email, bedes du kontakte boardets administratorer på {BOARD_CONTACT}. Citer venligst emailens overskrift i forbindelse med indsendelse af klagen.
+Emnet findes via dette link:
+
+{U_TOPIC}
+
+En besked fra {FROM_USERNAME} kan også være medtaget nedenfor. Bemærk venligst at denne e-mail ikke er blevet set eller godkendt af boardets administratorer. Ønsker du at klage over denne e-mail, bedes du kontakte boardets administratorer på {BOARD_CONTACT}. Citer venligst e-mailens overskrift i forbindelse med indsendelse af klagen.
 
 ----------
 

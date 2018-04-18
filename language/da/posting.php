@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Oprettelse af afstemning',
 	'ADD_POLL_EXPLAIN'			=> 'Hvis du ikke ønsker at tilføje en afstemning til dit emne, lad felterne være tomme.',
 	'ALREADY_DELETED'			=> 'Beklager, men dette indlæg er allerede slettet.',
-	'ATTACH_DISK_FULL'      	=> 'Der er desværre ikke tilstrækkelig diskplads til dette indlæg.',
+	'ATTACH_DISK_FULL'				=> 'Der er desværre ikke tilstrækkelig diskplads til dette indlæg.',
 	'ATTACH_QUOTA_REACHED'		=> 'Beklager, boardets kvote for vedhæftede filer er overskredet.',
 	'ATTACH_SIG'				=> 'Tilføj signatur (signaturen kan rettes i brugerkontrolpanelet)',
 
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	),
 	'CHARS_SIG_CONTAINS'		=> array(
 		1	=> 'Din signatur indeholder %1$d tegn.',
-		1	=> 'Din signatur indeholder %1$d tegn.',
+		2	=> 'Din signatur indeholder %1$d tegn.',
 	),
 	'CLOSE_TAGS'				=> 'Luk tags',
 	'CURRENT_TOPIC'				=> 'Nuværende emne',
@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	),
 	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Er du sikker på, at du vil slette emnet <strong>permanent</strong>?',
 	'DELETE_TOPICS_CONFIRM'		=> 'Er du sikker på, at du vil slette disse emner?',
-	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Er du sikker på, at du vil slette disse emner <strong>permanent</strong>?',	
+	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Er du sikker på, at du vil slette disse emner <strong>permanent</strong>?',
 	'DISABLE_BBCODE'			=> 'Anvend ikke BBkode',
 	'DISABLE_MAGIC_URL'			=> 'Behandl ikke URL\'er automatisk',
 	'DISABLE_SMILIES'			=> 'Anvend ikke smileys',
@@ -146,34 +146,34 @@ $lang = array_merge($lang, array(
 	'LOAD'						=> 'Indlæs',
 	'LOAD_DRAFT'				=> 'Indlæs kladde',
 	'LOAD_DRAFT_EXPLAIN'		=> 'Her kan du vælge den kladde du vil skrive videre på. Dit nuværende indlæg vil blive annulleret, alt nuværende indlægsindhold vil blive slettet. Vælg "Gemte kladder" i brugerkontrolpanelet.',
-	'LOGIN_EXPLAIN_BUMP'		=> 'Du skal logge ind for at kunne placere emner øverst i dette forum',
-	'LOGIN_EXPLAIN_DELETE'		=> 'Du skal logge ind for at kunne slette indlæg i dette forum',
+	'LOGIN_EXPLAIN_BUMP'		=> 'Du skal logge ind for at kunne placere emner øverst i dette forum.',
+	'LOGIN_EXPLAIN_DELETE'		=> 'Du skal logge ind for at kunne slette indlæg i dette forum.',
 	'LOGIN_EXPLAIN_POST'		=> 'Du skal logge ind for at kunne skrive indlæg i dette forum.',
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Du skal logge ind for at kunne citere indlæg i dette forum.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Du skal logge ind for at kunne besvare emner i dette forum.',
 
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Du kan kun anvende skriftstørrelser op til størrelse %d.',
-	'MAX_FLASH_HEIGHT_EXCEEDED'  => array(
+	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
 		1	=> 'Dine flash-filer må kun være op til %d pixel høj.',
 		2	=> 'Dine flash-filer må kun være op til %d pixels høje.',
 	),
-	'MAX_FLASH_WIDTH_EXCEEDED'  => array(
+	'MAX_FLASH_WIDTH_EXCEEDED'	=> array(
 		1	=> 'Dine flash-filer må kun være op til %d pixel bred.',
 		2	=> 'Dine flash-filer må kun være op til %d pixels bredde.',
 	),
-	'MAX_IMG_HEIGHT_EXCEEDED'  => array(
-		1  => 'Dine billeder må kun være op til %1$d pixel høj.',
-		2  => 'Dine billeder må kun være op til %1$d pixels høje.',
+	'MAX_IMG_HEIGHT_EXCEEDED'	=> array(
+		1	=> 'Dine billeder må kun være op til %1$d pixel høj.',
+		2	=> 'Dine billeder må kun være op til %1$d pixels høje.',
 	),
-	'MAX_IMG_WIDTH_EXCEEDED'  => array(
-		1  => 'Dine billeder må kun være op til %d pixel bred.',
-		2  => 'Dine billeder må kun være op til %d pixels bredde.',
+	'MAX_IMG_WIDTH_EXCEEDED'	=> array(
+		1	=> 'Dine billeder må kun være op til %d pixel bred.',
+		2	=> 'Dine billeder må kun være op til %d pixels bredde.',
 	),
 
-	'MESSAGE_BODY_EXPLAIN'    => array(
-		0  => '', // zero means no limit, so we don't view a message here.
-		1  => 'Indtast dit indlæg her, det må ikke indeholde mere end <strong>%d</strong> tegn.',
-		2  => 'Indtast dit indlæg her, det må ikke indeholde mere end <strong>%d</strong> tegn.',
+	'MESSAGE_BODY_EXPLAIN'		=> array(
+		0	=> '', // zero means no limit, so we don't view a message here.
+		1	=> 'Indtast dit indlæg her, det må ikke indeholde mere end <strong>%d</strong> tegn.',
+		2	=> 'Indtast dit indlæg her, det må ikke indeholde mere end <strong>%d</strong> tegn.',
 	),
 	'MESSAGE_DELETED'			=> 'Indlægget er blevet slettet.',
 	'MORE_SMILIES'				=> 'Vis flere smileys',
@@ -200,10 +200,10 @@ $lang = array_merge($lang, array(
 	'POLL_OPTIONS'				=> 'Afstemningsmuligheder',
 	'POLL_OPTIONS_EXPLAIN' => array(
 		1	=> 'Placer hver mulighed på en linje for sig. Du kan kun indtaste <strong>%d</strong> valgmulighed.',
-		2	=> 'Placer hver mulighed på en linje for sig. Du kan indtaste op til <strong>%d</strong> valgmuligheder',
+		2	=> 'Placer hver mulighed på en linje for sig. Du kan indtaste op til <strong>%d</strong> valgmuligheder.',
 	),
 	'POLL_OPTIONS_EDIT_EXPLAIN' => array(
-		1	=> 'Placer hver mulighed en ny linje for sig. Du kan kun indtaste <strong>%d</strong> valgmulighed. Hvis du sletter eller tilføjer muligheder, nulstilles alle afgivne stemmer.',
+		1	=> 'Placer hver mulighed på en linje for sig. Du kan kun indtaste <strong>%d</strong> valgmulighed. Hvis du sletter eller tilføjer muligheder, nulstilles alle afgivne stemmer.',
 		2	=> 'Placer hver mulighed på en linje for sig. Du kan indtaste op til <strong>%d</strong> valgmuligheder. Hvis du sletter eller tilføjer muligheder, nulstilles alle afgivne stemmer.',
 	),
 	'POLL_QUESTION'				=> 'Afstemningsspørgsmål',
@@ -250,16 +250,16 @@ $lang = array_merge($lang, array(
 	'STYLES_TIP'				=> 'Tip: Du kan lynhurtigt tilføje effekter på markeret tekst.',
 
 	'TOO_FEW_CHARS'				=> 'Dit indlæg indeholder for få tegn.',
-	'TOO_FEW_CHARS_LIMIT'    => array(
-		1  => 'Dit indlæg skal indeholde mindst %1$d tegn.',
-		2  => 'Dit indlæg skal indeholde mindst %1$d tegn.',
+	'TOO_FEW_CHARS_LIMIT'		=> array(
+		1	=> 'Dit indlæg skal indeholde mindst %1$d tegn.',
+		2	=> 'Dit indlæg skal indeholde mindst %1$d tegn.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Du skal indtaste mindst to afstemningsmuligheder.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Kan ikke tilføje endnu en vedhæftet fil, %d er det maksimale antal.',
 	'TOO_MANY_CHARS'			=> 'Dit indlæg indeholder for mange tegn.',
-	'TOO_MANY_CHARS_LIMIT'    => array(
-		1  => 'Det er højst tilladt at anvende %1$d tegn.',
-		2  => 'Det er højst tilladt at anvende %1$d tegn.',
+	'TOO_MANY_CHARS_LIMIT'		=> array(
+		1	=> 'Det er højst tilladt at anvende %1$d tegn.',
+		2	=> 'Det er højst tilladt at anvende %1$d tegn.',
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Du har forsøgt at indtaste for mange afstemningsmuligheder.',
 	'TOO_MANY_SMILIES'			=> 'Dit indlæg indeholder for mange smileys. Der er sat et maksimum på %d smileys.',

@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 
 	'MIGRATION_APPLY_DEPENDENCIES'		=> 'Tilføj afhængigheder af %s.',
 	'MIGRATION_DATA_DONE'				=> 'Installeret data: %1$s; tid: %2$.2f sekunder',
-	'MIGRATION_DATA_IN_PROGRESS'    	=> 'Installerer data: %1$s; tid: %2$.2f sekunder',
+	'MIGRATION_DATA_IN_PROGRESS'			=> 'Installerer data: %1$s; tid: %2$.2f sekunder',
 	'MIGRATION_DATA_RUNNING'			=> 'Installerer data: %s.',
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migrering er allerede installeret: %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Noget gik galt under forespørgslen og der blev foretaget en undtagelse. Ændringer udført før fejlen blev tilbageført efter vore bedste evner, men du bør kontrollere om der er fejl på boardet.',

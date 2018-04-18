@@ -8,7 +8,7 @@ Udskriv venligst denne besked og få dine forældre eller værge til at underskr
 
 {FAX_INFO}
 
-ELLER send den med email til:
+ELLER send den med e-mail til:
 
 {MAIL_INFO}
 
@@ -16,7 +16,7 @@ ELLER send den med email til:
 Tilladelse til at deltage på "{SITENAME}" - {U_BOARD}
 
 Brugernavn: {USERNAME}
-Email: {EMAIL_ADDRESS}
+E-mail: {EMAIL_ADDRESS}
 
 JEG HAR LÆST INFORMATIONERNE MODTAGET FRA MIT BARN, OG GIVER HERMED "{SITENAME}" TILLADELSE TIL AT OPBEVARE DISSE INFORMATIONER. 
 JEG FORSTÅR, AT DISSE INFORMATIONER KAN ÆNDRES NÅR SOM HELST VED INDTASTNING AF EN ADGANGSKODE.
@@ -35,7 +35,7 @@ Dato: _______________
 
 Din konto vil blive aktiveret, så snart administratoren har modtaget den ovenstående formular via fax eller traditionel post.
 
-Din adgangskode er gemt krypteret og sikkert i vores database, og kan derfor ikke genfindes. Glemmer du adgangskoden, kan du nulstille den ved brug af email-adressen knyttet til din konto.
+Din adgangskode er gemt krypteret og sikkert i vores database, og kan derfor ikke genfindes. Glemmer du adgangskoden, kan du nulstille den ved brug af e-mailadressen knyttet til din konto.
 
 Tak fordi du tilmelding.
 
